@@ -1,0 +1,240 @@
+{
+  "json":[
+    {
+      "name": "text",
+      "url": "text.json"
+    }
+  ],
+  "font":[
+  ],
+  "atlas":[
+    {
+      "name": "ingame",
+      "urlData": "ingame.json",
+      "urlImg": "ingame.png"
+    },
+    {
+      "name": "ui",
+      "urlData": "ui.json",
+      "urlImg": "ui.png"
+    }
+  ],
+  "image":[
+  ],
+  "sound":[
+    {
+        "name": "chop1",
+        "file": "1",
+        "credits":{
+            "author": "yadronoff",
+            "name": "axe-chop",
+            "url": "https://freesound.org/people/yadronoff/sounds/320377/"
+        }
+    },
+    {
+        "name": "chop2",
+        "file": "2"
+    },
+    {
+        "name": "chop3",
+        "file": "3"
+    },
+    {
+        "name": "chop4",
+        "file": "4"
+    },
+    {
+        "name": "chop5",
+        "file": "5"
+    },
+    {
+        "name": "chop6",
+        "file": "6"
+    },
+    {
+        "name": "chop7",
+        "file": "7"
+    },
+    {
+        "name": "chop8",
+        "file": "8"
+    },
+    {
+        "name": "chop9",
+        "file": "9"
+    },
+    {
+        "name": "chop10",
+        "file": "10"
+    },
+    {
+        "name": "chop11",
+        "file": "11"
+    },
+    {
+        "name": "chop12",
+        "file": "12"
+    },
+    {
+        "name": "chop13",
+        "file": "13"
+    },
+    {
+        "name": "button",
+        "file": "button",
+        "credits":{
+            "author": "bubaproducer",
+            "name": "button 17",
+            "url": "https://freesound.org/people/bubaproducer/sounds/107135/"
+        }
+    },
+    {
+        "name": "fall",
+        "file": "fall"
+    },
+    {
+        "name": "get",
+        "file": "get",
+        "credits":{
+          "author": "masgame",
+          "name": "swoosh sound 1",
+          "url": "https://freesound.org/people/Masgame/sounds/347546/"
+        }
+    },
+    {
+        "name": "step",
+        "file": "step",
+      "credits":{
+        "author": "amszala",
+        "name": "step slide concrete",
+        "url": "https://freesound.org/people/amszala/sounds/84961/"
+      }
+    },
+    {
+        "name": "success",
+        "file": "success",
+      "credits":{
+        "author": "grunz",
+        "name": "success low",
+        "url": "https://freesound.org/people/grunz/sounds/109663/"
+      }
+    },
+    {
+        "name": "wind",
+        "file": "wind",
+      "credits":{
+        "author": "InspectorJ",
+        "name": "wind realistic, a",
+        "url": "https://freesound.org/people/InspectorJ/sounds/405561/"
+      }
+    },
+    {
+        "name": "bird1",
+        "file": "bird1",
+      "credits":{
+        "author": "InspectorJ",
+        "name": "bird whistling, a",
+        "url": "https://freesound.org/people/InspectorJ/sounds/339326/"
+      }
+    },
+    {
+        "name": "bird2",
+        "file": "bird2",
+      "credits":{
+        "author": "InspectorJ",
+        "name": "bird whistling single robin, a",
+        "url": "https://freesound.org/people/InspectorJ/sounds/416529/"
+      }
+    },
+    {
+        "name": "crow1",
+        "file": "crow1",
+      "credits":{
+        "author": "UncleSigmund",
+        "name": "crow",
+        "url": "https://freesound.org/people/UncleSigmund/sounds/138344/"
+      }
+    },
+    {
+        "name": "crow2",
+        "file": "crow2",
+      "credits":{
+        "author": "InspectorJ",
+        "name": "Crow call single, a",
+        "url": "https://freesound.org/people/InspectorJ/sounds/418262/"
+      }
+    },
+    {
+        "name": "monkey1",
+        "file": "monkey1",
+      "credits":{
+        "author": "bmccoy2",
+        "name": "Howler Monkey call on the Yucatan Peninsula",
+        "url": "https://freesound.org/people/bmccoy2/sounds/260788/"
+      }
+    },
+    {
+        "name": "monkey2",
+        "file": "monkey2",
+      "credits":{
+        "author": "TRAVELcandies",
+        "name": "Howler Monkey - Single, Close, Costa Rica",
+        "url": "https://freesound.org/people/TRAVELcandies/sounds/423396/"
+      }
+    },
+    {
+        "name": "insects",
+        "file": "insects",
+      "credits":{
+        "author": "harryScary",
+        "name": "Cicada Insects 8_25_13 10_06 PM 2",
+        "url": "https://freesound.org/people/harryScary/sounds/268955/"
+      }
+    },
+    {
+        "name": "insects2",
+        "file": "insects2",
+      "credits":{
+        "author": "InspectorJ",
+        "name": "Ambience, Day Wildlife, A",
+        "url": "https://freesound.org/people/InspectorJ/sounds/398980/"
+      }
+    },
+    {
+        "name": "levelup",
+        "file": "levelup",
+      "credits":{
+        "author": "Sirkoto51",
+        "name": "RPG SFX #1 - Item Jingle",
+        "url": "https://freesound.org/people/Sirkoto51/sounds/346265/"
+      }
+    },
+    {
+        "name": "desertwind",
+        "file": "desertwind",
+      "credits":{
+        "author": "Imjeax",
+        "name": "Desert Ambient LOOP",
+        "url": "https://freesound.org/people/Imjeax/sounds/427401/"
+      }
+    },
+    {
+        "name": "snake",
+        "file": "snake",
+      "credits":{
+        "author": "7h3_lark",
+        "name": "Rattle_Snake",
+        "url": "https://freesound.org/people/7h3_lark/sounds/268580/"
+      }
+    },
+    {
+        "name": "eagle",
+        "file": "eagle",
+      "credits":{
+        "author": "kabit",
+        "name": "eagle",
+        "url": "https://freesound.org/people/kabit/sounds/104911/"
+      }
+    }
+  ]
+}
