@@ -1,4 +1,4 @@
-var cacheName = Luts.Name;
+var cacheName = 'Idle-Chopper';
 var appShellFiles = [
     './',
     './index.html',
