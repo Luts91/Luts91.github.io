@@ -1,4 +1,5 @@
 var cacheName = 'Idle-Chopper';
+var version = "1.3.21";
 var appShellFiles = [
     './',
     './index.html',
@@ -11,7 +12,7 @@ var appShellFiles = [
 
 self.addEventListener('install', function(e) {
     e.waitUntil(
-        caches.open(cacheName).then(function(cache) {
+        caches.open(cacheName + version).then(function(cache) {
             return cache.addAll(appShellFiles);
         })
     );
@@ -21,7 +22,7 @@ self.addEventListener('fetch', function(e) {
     e.respondWith(
         caches.match(e.request).then(function(r) {
             return r || fetch(e.request).then(function(response) {
-                return caches.open(cacheName).then(function(cache) {
+                return caches.open(cacheName + version).then(function(cache) {
                     cache.put(e.request, response.clone());
                     return response;
                 });
