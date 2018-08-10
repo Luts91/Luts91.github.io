@@ -1,5 +1,5 @@
 var cacheName = 'Idle-Chopper';
-var version = "1.3.22";
+var version = "1.3.23";
 var appShellFiles = [
     './',
     './index.html',
@@ -29,4 +29,19 @@ self.addEventListener('fetch', function(e) {
             });
         })
     );
+});
+
+self.addEventListener('activate', function(e) {
+    console.log('[ServiceWorker] Activate');
+    e.waitUntil(
+        caches.keys().then(function(keyList) {
+            return Promise.all(keyList.map(function(key) {
+                if (key !== (cacheName + version)) {
+                    console.log('[ServiceWorker] Removing old cache', key);
+                    return caches.delete(key);
+                }
+            }));
+        })
+    );
+    return self.clients.claim();
 });
