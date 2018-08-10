@@ -1,5 +1,5 @@
 var cacheName = 'Idle-Chopper';
-var version = "1.3.21";
+var version = "1.3.22";
 var appShellFiles = [
     './',
     './index.html',
