@@ -1,20 +1,12 @@
 var cacheName = 'Idle-Chopper';
 var appShellFiles = [
     './',
-    '../index.html',
-    '../assets/img/icon/icon32.png',
-    '../assets/img/icon/icon64.png',
-    '../assets/img/icon/icon96.png',
-    '../assets/img/icon/icon128.png',
-    '../assets/img/icon/icon168.png',
-    '../assets/img/icon/icon192.png',
-    '../assets/img/icon/icon256.png',
-    '../assets/img/icon/icon512.png',
-    '../assets/img/ingame.png',
-    '../assets/img/ingame.json',
-    '../assets/img/ui.png',
-    '../assets/img/ui.json',
-    './app.js'
+    './index.html',
+    './assets/img/ingame.png',
+    './assets/img/ingame.json',
+    './assets/img/ui.png',
+    './assets/img/ui.json',
+    './js/app.js'
 ];
 
 self.addEventListener('install', function(e) {
