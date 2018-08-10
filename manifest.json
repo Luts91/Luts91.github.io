@@ -2,6 +2,7 @@
   "name": "Idle Chopper",
   "short_name": "Idle Chopper",
   "description": "",
+  "orientation": "landscape",
   "icons": [
     {
       "src": "assets/img/icon/icon32.png",
