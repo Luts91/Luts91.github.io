@@ -4542,7 +4542,7 @@ Better rank ordering method by Stefan Gustavson in 2012.
  * Created by Lutz on 13.02.2017.
  */
 Luts = {
-    version     :   "1.3.56",
+    version     :   "1.3.57",
     release:true,
     fullscreen  :   false,
     Settings    :   {
@@ -4585,7 +4585,7 @@ init = function () {
     Luts.Upgrades.init();
     Luts.Util.Shop.init();
 
-    var game = new Phaser.Game(Luts.GAME_WIDTH, Luts.GAME_HEIGHT, Phaser.CANVAS);
+    var game = new Phaser.Game(Luts.GAME_WIDTH, Luts.GAME_HEIGHT, Phaser.AUTO);
 
     game.state.add('Boot', Luts.State.Boot);
     game.state.add('Preloader', Luts.State.Preloader);
