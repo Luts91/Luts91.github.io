@@ -4542,7 +4542,7 @@ Better rank ordering method by Stefan Gustavson in 2012.
  * Created by Lutz on 13.02.2017.
  */
 Luts = {
-    version     :   "1.3.54",
+    version     :   "1.3.55",
     release:true,
     fullscreen  :   false,
     Settings    :   {
@@ -5660,9 +5660,9 @@ Luts.State.Game.prototype.save = function(){
     Luts.Store.setItem('currentChopped',this.currentChopped);
     Luts.Store.setItem('baseDefence',this.baseDefence);
 
-    Luts.Util.Value.saveAll();
+   // Luts.Util.Value.saveAll();
 
-    Luts.Upgrades.saveAll();
+   // Luts.Upgrades.saveAll();
 
     Luts.Store.setItem('nextLevelAvailable', this.nextLevelButton.active);
 
@@ -6322,6 +6322,7 @@ Luts.Upgrades.upgrade = function (upgrade,noPriceCheck,noSignal) {
             Luts.Events.onUpgrade.dispatch(u,1);
             u.onUpgrade.dispatch(1);
         }
+        this.saveUpgrade(u);
         return true;
     }
     return false;
@@ -6846,6 +6847,7 @@ Luts.Util.Value = function(name,value,displayName){
             this.multipliers.push(multi);
         }.bind(this))
     }
+    this.save();
 };
 
 Luts.Util.Value.values = [];
