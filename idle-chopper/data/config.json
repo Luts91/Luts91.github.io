@@ -1,5 +1,5 @@
 {
-    "version": "1.3.63",
+    "version": "1.3.65",
     "colors": {
         "purple": "0x8b628a",
         "brown": "0x89734f",
@@ -181,6 +181,30 @@
             "xp": 10,
             "neededLevel": 80,
             "neededId": 4
+        },
+        {
+            "name": "Space",
+            "ambient": "tundra",
+            "prefix": "space",
+            "earth": "lavaGround",
+            "grass": "waterEarth",
+            "grasshalms": "spacehalms",
+            "def": 625,
+            "xp": 16,
+            "neededLevel": 80,
+            "neededId": 5
+        },
+        {
+            "name": "Cave",
+            "ambient": "tundra",
+            "prefix": "cave",
+            "earth": "lava",
+            "grass": "earth",
+            "grasshalms": "cavehalms",
+            "def": 1250,
+            "xp": 20,
+            "neededLevel": 80,
+            "neededId": 6
         }
     ]
 }
