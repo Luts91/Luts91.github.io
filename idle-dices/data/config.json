@@ -1,0 +1,47 @@
+{
+    "version": "0.0.1",
+    "colors": {
+        "purple": "0x8b628a",
+        "brown": "0x8c867a"
+    },
+    "dices": {
+        "main": [
+            {
+                "startD": 6,
+                "cost": 10,
+                "value": 0,
+                "costIncrease": 1.08,
+                "valueIncrease": 1,
+                "initialLevel": 1
+            },
+            {
+                "startD": 6,
+                "cost": 100,
+                "value": 0,
+                "costIncrease": 1.08,
+                "valueIncrease": 2
+            },
+            {
+                "startD": 6,
+                "cost": 1000,
+                "value": 0,
+                "costIncrease": 1.08,
+                "valueIncrease": 3
+            },
+            {
+                "startD": 6,
+                "cost": 10000,
+                "value": 0,
+                "costIncrease": 1.08,
+                "valueIncrease": 4
+            },
+            {
+                "startD": 6,
+                "cost": 100000,
+                "value": 0,
+                "costIncrease": 1.08,
+                "valueIncrease": 5
+            }
+        ]
+    }
+}
