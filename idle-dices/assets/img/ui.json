@@ -1,6 +1,14 @@
 {"frames": [
 
 {
+	"filename": "arrowButton",
+	"frame": {"x":836,"y":134,"w":55,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":88},
+	"sourceSize": {"w":55,"h":88}
+},
+{
 	"filename": "button_active",
 	"frame": {"x":1,"y":134,"w":237,"h":74},
 	"rotated": false,
@@ -18,7 +26,7 @@
 },
 {
 	"filename": "buttonHuge_active",
-	"frame": {"x":288,"y":512,"w":237,"h":111},
+	"frame": {"x":288,"y":519,"w":237,"h":111},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":111},
@@ -26,7 +34,7 @@
 },
 {
 	"filename": "buttonHuge_inactive",
-	"frame": {"x":49,"y":512,"w":237,"h":111},
+	"frame": {"x":49,"y":519,"w":237,"h":111},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":111},
@@ -34,7 +42,7 @@
 },
 {
 	"filename": "buttonMiddle_active",
-	"frame": {"x":457,"y":134,"w":132,"h":74},
+	"frame": {"x":324,"y":134,"w":132,"h":74},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":74},
@@ -42,7 +50,7 @@
 },
 {
 	"filename": "buttonMiddle_inactive",
-	"frame": {"x":324,"y":134,"w":131,"h":74},
+	"frame": {"x":458,"y":134,"w":131,"h":74},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":74},
@@ -50,7 +58,7 @@
 },
 {
 	"filename": "buttonMinus_active",
-	"frame": {"x":1,"y":1,"w":63,"h":42},
+	"frame": {"x":67,"y":1,"w":63,"h":42},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":42},
@@ -58,7 +66,7 @@
 },
 {
 	"filename": "buttonMinus_inactive",
-	"frame": {"x":66,"y":1,"w":64,"h":42},
+	"frame": {"x":1,"y":1,"w":64,"h":42},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":42},
@@ -82,7 +90,7 @@
 },
 {
 	"filename": "buttonQuad_active",
-	"frame": {"x":101,"y":311,"w":98,"h":97},
+	"frame": {"x":1,"y":318,"w":98,"h":97},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":97},
@@ -90,7 +98,7 @@
 },
 {
 	"filename": "buttonQuad_inactive",
-	"frame": {"x":1,"y":311,"w":98,"h":97},
+	"frame": {"x":101,"y":318,"w":98,"h":97},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":97},
@@ -122,7 +130,7 @@
 },
 {
 	"filename": "Ebene-1",
-	"frame": {"x":1,"y":654,"w":305,"h":234},
+	"frame": {"x":1,"y":661,"w":305,"h":234},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":305,"h":234},
@@ -130,7 +138,7 @@
 },
 {
 	"filename": "infoButton",
-	"frame": {"x":1,"y":512,"w":46,"h":103},
+	"frame": {"x":1,"y":519,"w":46,"h":103},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":103},
@@ -138,7 +146,7 @@
 },
 {
 	"filename": "label",
-	"frame": {"x":308,"y":654,"w":322,"h":244},
+	"frame": {"x":308,"y":661,"w":322,"h":244},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":322,"h":244},
@@ -146,15 +154,23 @@
 },
 {
 	"filename": "labelBig",
-	"frame": {"x":1,"y":1299,"w":646,"h":460},
+	"frame": {"x":1,"y":1346,"w":646,"h":460},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":646,"h":460},
 	"sourceSize": {"w":646,"h":460}
 },
 {
+	"filename": "labelMiddle",
+	"frame": {"x":595,"y":907,"w":284,"h":437},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":284,"h":437},
+	"sourceSize": {"w":284,"h":437}
+},
+{
 	"filename": "labelSmall",
-	"frame": {"x":527,"y":512,"w":322,"h":140},
+	"frame": {"x":527,"y":519,"w":322,"h":140},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":322,"h":140},
@@ -170,7 +186,7 @@
 },
 {
 	"filename": "logo",
-	"frame": {"x":1,"y":900,"w":483,"h":381},
+	"frame": {"x":1,"y":907,"w":483,"h":381},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":483,"h":381},
@@ -186,7 +202,7 @@
 },
 {
 	"filename": "progressBackSmall",
-	"frame": {"x":1,"y":58,"w":202,"h":55},
+	"frame": {"x":381,"y":58,"w":202,"h":55},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":202,"h":55},
@@ -194,7 +210,7 @@
 },
 {
 	"filename": "progressBarBig",
-	"frame": {"x":205,"y":58,"w":378,"h":55},
+	"frame": {"x":1,"y":58,"w":378,"h":55},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":378,"h":55},
@@ -234,7 +250,7 @@
 },
 {
 	"filename": "uiLabelBot",
-	"frame": {"x":1,"y":410,"w":990,"h":100},
+	"frame": {"x":1,"y":417,"w":990,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":990,"h":100},
@@ -242,7 +258,7 @@
 },
 {
 	"filename": "uiLabelLeft",
-	"frame": {"x":486,"y":900,"w":107,"h":397},
+	"frame": {"x":486,"y":907,"w":107,"h":397},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":397},
@@ -250,7 +266,7 @@
 },
 {
 	"filename": "uiLabelRight",
-	"frame": {"x":649,"y":1299,"w":252,"h":539},
+	"frame": {"x":649,"y":1346,"w":252,"h":539},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":539},
@@ -258,7 +274,7 @@
 },
 {
 	"filename": "uiLabelTop",
-	"frame": {"x":1,"y":217,"w":990,"h":92},
+	"frame": {"x":1,"y":224,"w":990,"h":92},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":990,"h":92},
@@ -271,6 +287,6 @@
 	"format": "RGBA8888",
 	"size": {"w":1024,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:4d95bc378a71aaa483d1605898a098d9:fccbf62171add6e05d70eb70c5a9cc54:5b04aa198265472a3c5f56958d78e97b$"
+	"smartupdate": "$TexturePacker:SmartUpdate:56f17e01e6d4b35bbd9af17df475f99d:e0551d24fedfcdbcb83b590cf523186c:5b04aa198265472a3c5f56958d78e97b$"
 }
 }

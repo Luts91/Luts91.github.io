@@ -1,12 +1,12 @@
 {
-    "version": "0.0.16",
+    "version": "0.0.17",
     "colors": {
         "purple": "0x8b628a",
         "brown": "0x8c867a",
         "green": "#8cc63f",
         "red": "#e6515d",
         "yellow": "#E5E55C",
-        "pink": "FF66D2"
+        "pink": "#FF66D2"
     },
     "diceTypes": [2,4,6,8,10,12,20,100],
     "dices": {
