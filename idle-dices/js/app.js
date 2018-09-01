@@ -4068,7 +4068,7 @@ d[k>>>24]^e[n>>>16&255]^j[g>>>8&255]^l[h&255]^c[p++],n=d[n>>>24]^e[g>>>16&255]^j
  * Created by Lutz on 13.02.2017.
  */
 Luts = {
-    version     :   "0.0.37",
+    version     :   "0.0.38",
     release:true,
     fullscreen  :   false,
     numberFormat: 0,
@@ -6803,9 +6803,10 @@ Luts.Object.Text = function(state, x, y,font,text,size,color){
             scl *= p.scale.x;
             p = p.parent;
         }
-        this.resolution = scale / this.state.world.scale.x * Luts.res;
-        //this.scale.set(1/scl);
-        //this.fontSize = this.size * scl;
+        //this.resolution = scl / this.state.world.scale.x * Luts.res;
+        this.fontSize = this.size * scl;
+        Math.round(this.fontSize);
+        this.scale.set(1/(this.fontSize/this.size));
     },this);
 };
 
@@ -7504,7 +7505,7 @@ Luts.Object.Tooltip = function(state, object,text){
         this.textString = this.getText();
     }
 
-    this.text = new Luts.Object.Text(this.state,0,0,'text',this.textString,8);
+    this.text = new Luts.Object.Text(this.state,0,0,'text',this.textString,20);
     this.text.wordWrapWidth = 200;
     this.addChild(this.text);
 
