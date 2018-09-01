@@ -4068,7 +4068,7 @@ d[k>>>24]^e[n>>>16&255]^j[g>>>8&255]^l[h&255]^c[p++],n=d[n>>>24]^e[g>>>16&255]^j
  * Created by Lutz on 13.02.2017.
  */
 Luts = {
-    version     :   "0.0.36",
+    version     :   "0.0.37",
     release:true,
     fullscreen  :   false,
     numberFormat: 0,
@@ -4090,6 +4090,7 @@ Luts = {
     GAME_WIDTH  :   960,
     GAME_HEIGHT :   540,
     scale       :   1,
+    res         :   1,
     turnPrompt  :   false,
     DEBUG       :   true,
     TEMP_STORE  :   false,
@@ -6802,7 +6803,7 @@ Luts.Object.Text = function(state, x, y,font,text,size,color){
             scl *= p.scale.x;
             p = p.parent;
         }
-        this.resolution = scale / this.state.world.scale.x;
+        this.resolution = scale / this.state.world.scale.x * Luts.res;
         //this.scale.set(1/scl);
         //this.fontSize = this.size * scl;
     },this);
