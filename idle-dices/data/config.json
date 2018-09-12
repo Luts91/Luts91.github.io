@@ -1,5 +1,5 @@
 {
-    "version": "0.0.73",
+    "version": "0.0.74",
     "colors": {
         "purple": "0x8b628a",
         "brown": "0x8c867a",
@@ -52,6 +52,28 @@
                 "costIncrease": 1.08,
                 "valueIncrease": 16,
                 "ascentIncrease": 100000
+            }
+        ],
+        "multi":[
+            {
+                "cost": 10000000,
+                "costIncrease": 100
+            },
+            {
+                "cost": 200000000,
+                "costIncrease": 100
+            },
+            {
+                "cost": 4000000000,
+                "costIncrease": 100
+            },
+            {
+                "cost": 80000000000,
+                "costIncrease": 100
+            },
+            {
+                "cost": 1600000000000,
+                "costIncrease": 100
             }
         ]
     }
