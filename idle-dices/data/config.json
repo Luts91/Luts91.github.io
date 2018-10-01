@@ -1,5 +1,5 @@
 {
-    "version": "0.0.80",
+    "version": "0.0.81",
     "colors": {
         "purple": "0x8b628a",
         "brown": "0x8c867a",
@@ -57,28 +57,28 @@
         "multi":[
             {
                 "cost": 10000000,
-                "costIncrease": 100,
-                "ascentIncrease": 100000000
+                "costIncrease": 10000,
+                "ascentIncrease": 10000000000000000000000000000000000000
             },
             {
                 "cost": 200000000,
-                "costIncrease": 200,
-                "ascentIncrease": 100000000
+                "costIncrease": 20000,
+                "ascentIncrease": 100000000000000000000000000000000000000000
             },
             {
                 "cost": 4000000000,
-                "costIncrease": 300,
-                "ascentIncrease": 100000000
+                "costIncrease": 30000,
+                "ascentIncrease": 1000000000000000000000000000000000000000000000
             },
             {
                 "cost": 80000000000,
-                "costIncrease": 400,
-                "ascentIncrease": 100000000
+                "costIncrease": 40000,
+                "ascentIncrease": 10000000000000000000000000000000000000000000000000
             },
             {
                 "cost": 1600000000000,
-                "costIncrease": 500,
-                "ascentIncrease": 100000000
+                "costIncrease": 50000,
+                "ascentIncrease": 100000000000000000000000000000000000000000000000000000
             }
         ]
     }
