@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="699537b8-6ac1-4402-b342-5cf8f0553060" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/idle-dices/data/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/idle-dices/data/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idle-dices/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/idle-dices/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idle-dices/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/idle-dices/service-worker.js" afterDir="false" />
-    </list>
+    <list default="true" id="699537b8-6ac1-4402-b342-5cf8f0553060" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
