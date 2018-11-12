@@ -1,0 +1,13 @@
+{
+  "logs":[
+    {
+      "version": "1.0.27",
+      "log": [
+        "fixed: dice ascending multiple times when auto draw is active",
+        "added: tooltip to reset goldcards",
+        "added: changelog",
+        "changed: color of d6 multiplier dice"
+        ]
+    }
+  ]
+}
