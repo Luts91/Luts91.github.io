@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="699537b8-6ac1-4402-b342-5cf8f0553060" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,14 +26,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="743" />
-          <entry key="txt" value="70" />
+          <entry key="html" value="745" />
+          <entry key="txt" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="743" />
-          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="HTML" value="745" />
+          <entry key="PLAIN_TEXT" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -141,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Luts91.github.io/index.html">
       <method v="2" />
     </configuration>
@@ -171,7 +170,7 @@
       <updated>1541399574362</updated>
       <workItem from="1541399575858" duration="7039000" />
       <workItem from="1541481646759" duration="1210000" />
-      <workItem from="1542359402941" duration="1332000" />
+      <workItem from="1542359402941" duration="2221000" />
     </task>
     <task id="LOCAL-00001" summary="added adsense">
       <created>1541401240333</created>
@@ -194,11 +193,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541429249626</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added crazygames links for idle dice">
+      <created>1542382066937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542382066937</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added google analytics">
+      <created>1542386632570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542386632570</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9581000" />
+    <option name="totallyTimeSpent" value="10470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -233,7 +246,9 @@
     <MESSAGE value="added adsense" />
     <MESSAGE value="added bootsrap" />
     <MESSAGE value="made page nicer and added more games" />
-    <option name="LAST_COMMIT_MESSAGE" value="made page nicer and added more games" />
+    <MESSAGE value="added crazygames links for idle dice" />
+    <MESSAGE value="added google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="added google analytics" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/overlays/01.png">
@@ -241,8 +256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
