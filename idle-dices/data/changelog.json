@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "1.0.60",
+      "log": [
+        "added: skills. you get one skill points per each casino",
+        "added: slow but strong luck upgrade. auto roll gets half as fast but dice multiplier doubles",
+        "changed: card progress per casino 90% -> 70%"
+        ]
+    },
+    {
       "version": "1.0.57",
       "log": [
         "fixed: interest always displayed as 0",
