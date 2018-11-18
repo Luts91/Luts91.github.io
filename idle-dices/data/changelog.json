@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.0.62",
+      "log": [
+        "fixed: roulette breaking at max level"
+        ]
+    },
+    {
       "version": "1.0.61",
       "log": [
         "fixed: not getting any luck by converting"
