@@ -1,6 +1,16 @@
 {
   "logs":[
     {
+      "version": "1.0.64",
+      "log": [
+        "added: explaination in golden card window",
+        "added: google analytics + disclaimer button",
+        "added: roulette automatically respinning when hitting card proression while havin 52 cards",
+        "added: achievement for 4 casinos",
+        "fixed: reroll chance not working if having high level of slow but strong"
+        ]
+    },
+    {
       "version": "1.0.62",
       "log": [
         "fixed: roulette breaking at max level"
