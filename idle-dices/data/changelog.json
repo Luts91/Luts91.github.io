@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "1.0.65",
+      "log": [
+        "changed: autodraw swap buttons",
+        "changed: rollcurve const increase 3.5 -> 15",
+        "fixed: now only one popup appears when forgetting to gild a card"
+        ]
+    },
+    {
       "version": "1.0.64",
       "log": [
         "added: explaination in golden card window",
