@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.0.61",
+      "log": [
+        "fixed: not getting any luck by converting"
+        ]
+    },
+    {
       "version": "1.0.60",
       "log": [
         "added: skills. you get one skill points per each casino",
