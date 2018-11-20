@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "1.0.66",
+      "log": [
+        "fixed: clicking buttons not working in safari",
+        "fixed: auto reroll chance showing NaN"
+        ]
+    },
+    {
       "version": "1.0.65",
       "log": [
         "changed: autodraw swap buttons",
