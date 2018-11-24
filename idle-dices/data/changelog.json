@@ -1,6 +1,15 @@
 {
   "logs":[
     {
+      "version": "1.0.67",
+      "log": [
+        "added: press B to buy all",
+        "added: press S to spin",
+        "changed: roulette level multi cost increase 0 -> 1",
+        "changed: gilding per convert cost increase 1 -> 2"
+        ]
+    },
+    {
       "version": "1.0.66",
       "log": [
         "fixed: clicking buttons not working in safari",
