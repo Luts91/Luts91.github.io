@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.0.68",
+      "log": [
+        "fixed: chip multi per card not working for golden cards"
+        ]
+    },
+    {
       "version": "1.0.67",
       "log": [
         "added: press B to buy all",
