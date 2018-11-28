@@ -1,6 +1,18 @@
 {
   "logs":[
     {
+      "version": "1.0.69",
+      "log": [
+        "added: number of spins possible shown on roulette icon",
+        "added: auto gild",
+        "added: roulette focus",
+        "added: roulette focus chance luck upgrade",
+        "added: new achievements",
+        "added: showing MAX when an upgrade reached its max level",
+        "fixed: exploit to hold down invest button"
+        ]
+    },
+    {
       "version": "1.0.68",
       "log": [
         "fixed: chip multi per card not working for golden cards"
