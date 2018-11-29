@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "1.0.70",
+      "log": [
+        "added: new achievements",
+        "added: switching focus to card after prestige and to none when you have all cards"
+        ]
+    },
+    {
       "version": "1.0.69",
       "log": [
         "added: number of spins possible shown on roulette icon",
