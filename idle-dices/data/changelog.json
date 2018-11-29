@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "1.0.71",
+      "log": [
+        "changed: focus chance cost increase 5 > 25",
+        "fixed: focus charge not reseting on prestige",
+        "fixed: switching focus to card on prestige when having 52 golden cards"
+        ]
+    },
+    {
       "version": "1.0.70",
       "log": [
         "added: new achievements",
