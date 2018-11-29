@@ -1,0 +1,10 @@
+@keyframes example {
+    0% {transform: scale(0)}
+    80% {transform: scale(1.05)}
+    100% {transform: scale(1)}
+}
+
+.card{
+    animation-name: example;
+    animation-duration: 0.5s;
+}
