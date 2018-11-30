@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "1.0.74",
+      "log": [
+          "fixed: focus charge not reseting on prestige. for real now",
+          "fixed: getting too many skill points at the 10th casino"
+        ]
+    },
+    {
       "version": "1.0.73",
       "log": [
           "fixed: luck multi per golden card not working with autogild"
