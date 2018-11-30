@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.0.73",
+      "log": [
+          "fixed: luck multi per golden card not working with autogild"
+        ]
+    },
+    {
       "version": "1.0.71",
       "log": [
         "changed: focus chance cost increase 5 > 25",
