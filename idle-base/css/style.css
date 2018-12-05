@@ -1,0 +1,185 @@
+
+body {
+    margin: 0;
+    background: white;
+    height: 100vh;
+    width: 100vw;
+}
+canvas {
+    margin: auto;
+}
+h1{
+    font-size: 5vmin;
+}
+.btn-icon{
+    line-height: 0;
+}
+.fas{
+    font-size: 4vmin;
+}
+#ui{
+    position: absolute;
+    color: white;
+    text-shadow: -0.1vmin 0 black, 0 0.1vmin black, 0.1vmin 0 black, 0 -0.1vmin black;
+    font-size: 2vmin;
+    width: 100%;
+    height: 100%;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+.luts-header{
+    width: 100%;
+    background: linear-gradient(0,cadetblue,darkcyan);
+}
+.btn{
+    padding: 1vmin;
+    margin: 1vmin;
+    font-size: 2vmin;
+    border-radius: 1vmin;
+}
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    transition: opacity .3s ease;
+}
+
+.modal-container {
+    width: 90%;
+    margin: 40px auto 0;
+    padding: 20px 30px;
+    background-color: #fff;
+    background: linear-gradient(0,cadetblue,darkcyan);
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
+
+.modal-body {
+    margin: 20px 0;
+    overflow-y: auto;
+    max-height: 69vh;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.form-label > .form-control {
+    margin-top: 0.5em;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5em 1em;
+    line-height: 1.5;
+    border: 1px solid #ddd;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btn-primary{
+    background-color: cadetblue!important;
+}
+.container{
+    padding-right: 1vmin;
+    padding-left: 1vmin;
+}
+#turn{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:white;
+    display:none;
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: Verdana monospace;
+    color: slategray;
+}
+#savePrompt{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+#promptWindow{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+}
+#save{
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+#gameDiv{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: 'regular';
+    src: url('../assets/fonts/robotomono-thin-webfont.woff2') format('woff2'),
+    url('../assets/fonts/robotomono-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'text';
+    src: url('../assets/fonts/roboto-thin-webfont.woff2') format('woff2'),
+    url('../assets/fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
