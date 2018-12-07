@@ -3,6 +3,10 @@
     {
       "name": "text",
       "url": "text.json"
+    },
+    {
+      "name": "changelog",
+      "url": "changelog.json"
     }
   ],
   "font":[

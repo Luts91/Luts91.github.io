@@ -11,6 +11,9 @@ canvas {
 h1{
     font-size: 5vmin;
 }
+.hide{
+    display: none;
+}
 .btn-icon{
     line-height: 0;
 }
@@ -23,7 +26,6 @@ h1{
     text-shadow: -0.1vmin 0 black, 0 0.1vmin black, 0.1vmin 0 black, 0 -0.1vmin black;
     font-size: 3vmin;
     width: 100%;
-    height: 100%;
 
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
@@ -39,6 +41,13 @@ h1{
     margin: 1vmin;
     font-size: 2vmin;
     border-radius: 1vmin;
+    border-color: white!important;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.btn:active{
+    transform: scale(0.9);
 }
 
 .modal-mask {
@@ -50,6 +59,10 @@ h1{
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
     transition: opacity .3s ease;
+}
+
+.modal-footer {
+    justify-content: space-around;
 }
 
 .modal-container {
@@ -64,36 +77,23 @@ h1{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.popup{
+    width: 50%;
+}
+
 .modal-header h3 {
     margin-top: 0;
     color: #42b983;
 }
 
 .modal-body {
-    margin: 20px 0;
+    background: rgba(255,255,255,0.1);
     overflow-y: auto;
-    max-height: 69vh;
+    max-height: 64vh;
 }
 
 .text-right {
     text-align: right;
-}
-
-.form-label {
-    display: block;
-    margin-bottom: 1em;
-}
-
-.form-label > .form-control {
-    margin-top: 0.5em;
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    padding: 0.5em 1em;
-    line-height: 1.5;
-    border: 1px solid #ddd;
 }
 
 /*
@@ -162,7 +162,14 @@ h1{
 #save{
     resize: none;
     width: 100%;
-    height: 100%;
+    height: 40vh;
+    font-size: 2vmin;
+}
+#load{
+    resize: none;
+    width: 100%;
+    height: 40vh;
+    font-size: 2vmin;
 }
 #gameDiv{
     height: 100%;
