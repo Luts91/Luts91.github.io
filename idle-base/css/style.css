@@ -2,8 +2,8 @@
 body {
     margin: 0;
     background: white;
-    height: 100vh;
-    width: 100vw;
+   /* height: 100vh;
+    width: 100vw;*/
 }
 canvas {
     margin: auto;
@@ -31,6 +31,7 @@ h1{
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+    touch-action: none;
 }
 .luts-header{
     width: 100%;
