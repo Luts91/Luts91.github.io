@@ -90,6 +90,8 @@ h1{
 .modal-body {
     background: rgba(255,255,255,0.1);
     overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scroll: touch;
     max-height: 64vh;
 }
 
