@@ -36,6 +36,8 @@ h1{
 .luts-header{
     width: 100%;
     background: linear-gradient(0,cadetblue,darkcyan);
+    display: flex;
+    justify-content: space-between;
 }
 .btn{
     padding: 1vmin;
@@ -44,10 +46,13 @@ h1{
     border-radius: 1vmin;
     border-color: white!important;
 }
-.btn:hover{
+.progress{
+    height: 0.3rem;
+}
+.btn:hover:not([disabled]){
     transform: scale(1.1);
 }
-.btn:active{
+.btn:active:not([disabled]){
     transform: scale(0.9);
 }
 
@@ -76,6 +81,14 @@ h1{
     box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
     transition: all .3s ease;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+    background-color: darkcyan;
 }
 
 .popup{
