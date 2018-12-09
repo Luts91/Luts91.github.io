@@ -49,6 +49,12 @@ h1{
 .progress{
     height: 0.3rem;
 }
+.progress-bar{
+    background-color: white;
+}
+.green-bg {
+    background-color: green;
+}
 .btn:hover:not([disabled]){
     transform: scale(1.1);
 }
@@ -74,7 +80,7 @@ h1{
 .modal-container {
     width: 90%;
     margin: 40px auto 0;
-    padding: 20px 30px;
+    padding: 3vmin;
     background-color: #fff;
     background: linear-gradient(0,cadetblue,darkcyan);
     border-radius: 2px;
@@ -106,8 +112,14 @@ h1{
     overflow-x: hidden;
     -webkit-overflow-scroll: touch;
     max-height: 64vh;
+    padding: 1vmin;
 }
-
+.achievement-label{
+    top: initial;
+    bottom: 10px;
+    height: initial;
+    background-color: initial;
+}
 .text-right {
     text-align: right;
 }
