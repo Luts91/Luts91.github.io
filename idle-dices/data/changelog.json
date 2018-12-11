@@ -1,6 +1,16 @@
 {
   "logs":[
     {
+      "version": "1.0.75",
+      "log": [
+          "added: P shortcut for prestige",
+          "added: Tooltip for all buttons that have a shortcut",
+          "added: autospin setting in roulette",
+          "changed: luck multi per casino 2 > 1.2",
+          "fixed: roulette counter visible when it is locked"
+      ]
+    },
+    {
       "version": "1.0.74",
       "log": [
           "fixed: focus charge not reseting on prestige. for real now",
