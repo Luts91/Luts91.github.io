@@ -1,6 +1,18 @@
 {
   "logs":[
     {
+      "version": "1.0.76",
+      "log": [
+          "added: new achievements",
+          "added: Bonus shop, bonus points and daily rewards",
+          "changed: focus cost increase 2 > 4",
+          "changed: level+ cost increase 3 > 5",
+          "fixed: auto spin switch in roulette not working",
+          "fixed: watch ad button visible when not ad is available",
+          "fixed: autospin only working when tab is active"
+      ]
+    },
+    {
       "version": "1.0.75",
       "log": [
           "added: P shortcut for prestige",
