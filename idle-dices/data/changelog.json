@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "1.0.78",
+      "log": [
+          "added: auto draw/gild setting in autodraw tab",
+          "added: rewarding bonus points for casions"
+      ]
+    },
+    {
       "version": "1.0.76",
       "log": [
           "added: new achievements",
