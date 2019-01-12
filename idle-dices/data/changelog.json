@@ -1,6 +1,21 @@
 {
   "logs":[
     {
+      "version": "1.1.0",
+      "log": [
+          "added: buyamount buttons fur luck and skill upgrades",
+          "added: focus on card setting",
+          "added: more achievements",
+          "added: auto convert",
+          "added: seperate mutable sound and music and volume setting",
+          "added: casino button in top bar",
+          "changed: autoroll unlocks after upgrading the dice",
+          "fixed: achievements texts",
+          "fixed: overlapping respins in roulette",
+          "fixed: roulette only spinable once in some browsers"
+      ]
+    },
+    {
       "version": "1.0.78",
       "log": [
           "added: auto draw/gild setting in autodraw tab",
