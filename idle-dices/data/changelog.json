@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.1.2",
+      "log": [
+          "fixed: selecting buy 10 or 100 not buying the correct amount"
+      ]
+    },
+    {
       "version": "1.1.0",
       "log": [
           "added: buyamount buttons fur luck and skill upgrades",
