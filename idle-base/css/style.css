@@ -9,7 +9,7 @@ canvas {
     margin: auto;
 }
 h1{
-    font-size: 5vh;
+    font-size: 3vh;
 }
 .hide{
     display: none;
@@ -36,6 +36,28 @@ h1{
     user-select: none; /* Standard */
     touch-action: none;
 }
+#loading{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 5vmin;
+}
+.version{
+    position: absolute;
+}
+.loadingCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.loadingLogo{
+    height: 50%;
+    max-width: 90%;
+}
 .luts-header{
     padding-left: 0.5%;
     width: 100%;
@@ -60,7 +82,7 @@ h1{
     background-color: green;
 }
 .btn:hover:not([disabled]){
-    transform: scale(1.1);
+    box-shadow: 0 0 1vmin white;
 }
 .btn:active:not([disabled]){
     transform: scale(0.9);
@@ -75,19 +97,26 @@ h1{
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
     transition: opacity .3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .modal-footer {
     justify-content: space-around;
+    padding: 0.5vh
 }
 
 .modal-container {
     width: 90%;
-    margin: 40px auto 0;
-    padding: 3vh;
+    margin: 0px auto 0;
+    height: 90%;
+    padding: 2vh;
     background-color: #fff;
     background: linear-gradient(0,cadetblue,darkcyan);
-    border-radius: 2px;
+    border: lightblue ridge 1vmin;
+    border-top-left-radius: 5vmin;
+    border-bottom-right-radius: 5vmin;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
     transition: all .3s ease;
     font-family: Helvetica, Arial, sans-serif;
@@ -103,6 +132,7 @@ h1{
 
 .popup{
     width: 50%;
+    height: initial;
 }
 
 .modal-header h3 {
@@ -115,8 +145,9 @@ h1{
     overflow-y: auto;
     overflow-x: hidden;
     -webkit-overflow-scroll: touch;
-    max-height: 64vh;
+    height: 90%;
     padding: 1vh;
+    border-bottom-right-radius: 5vmin;
 }
 .achievement-label{
     top: initial;
