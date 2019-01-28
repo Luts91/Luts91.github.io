@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background: white;
-   /* height: 100vh;
+   /* height: 100rem;
     width: 100vw;*/
     overflow-x: hidden;
     overflow-y: auto;
@@ -10,15 +10,9 @@ body {
 canvas {
     margin: auto;
 }
-h1{
-    font-size: 3vh;
-}
-h2{
-    font-size: 3vh;
-}
 .card {
     background-color: darkcyan;
-    padding: 0.5vh;
+    padding: 0.5rem;
 }
 .hide{
     display: none;
@@ -27,16 +21,15 @@ h2{
     line-height: 0;
 }
 .fas{
-    font-size: 3vh;
+    font-size: 2rem;
 }
 .fab{
-    font-size: 3vh;
+    font-size: 2rem;
 }
 #ui{
     position: absolute;
     color: white;
-    text-shadow: -0.1vh 0 black, 0 0.1vh black, 0.1vh 0 black, 0 -0.1vh black;
-    font-size: 2vh;
+    text-shadow: -0.05rem 0 black, 0 0.05rem black, 0.05rem 0 black, 0 -0.05rem black;
     width: 100%;
     height: 100%;
     background-color: cadetblue;
@@ -76,19 +69,23 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+.luts-body{
+    height: 93%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 .btn{
-    padding: 0.5vh;
-    margin: 0.5vh;
-    font-size: 2vh;
-    border-radius: 1vh;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
     border-color: white!important;
 }
 .upgrade-button{
-    width: 15vh;
+    width: 15rem;
 }
 .progress{
-    height: 0.5vh;
-    margin-top: 0.3vh;
+    height: 0.5rem;
+    margin-top: 0.3rem;
 }
 .progress-bar{
     background-color: white;
@@ -116,17 +113,19 @@ h2{
     flex-direction: column;
     justify-content: center;
 }
-
+.modal-header{
+    padding: 1vh;
+}
 .modal-footer {
     justify-content: space-around;
-    padding: 0.5vh
+    padding: 0.5rem
 }
 
 .modal-container {
     width: 90%;
     margin: 0px auto 0;
     height: 90%;
-    padding: 2vh;
+    padding: 2vmin;
     background-color: #fff;
     background: linear-gradient(0,cadetblue,darkcyan);
     border: lightblue ridge 1vmin;
@@ -161,7 +160,7 @@ h2{
     overflow-x: hidden;
     -webkit-overflow-scroll: touch;
     height: 90%;
-    padding: 1vh;
+    padding: 1vmin;
     border-bottom-right-radius: 5vmin;
 }
 .achievement-label{
@@ -209,7 +208,7 @@ h2{
     max-height: 55vh;
 }
 .vue-tabs .nav>li>a {
-    padding: 1vh 1.5vh;
+    padding: 1rem 1.5rem;
 }
 
 tr:nth-child(odd) {
@@ -221,8 +220,8 @@ tr:nth-child(odd) {
     background-color: transparent!important;
 }
 .container{
-    padding-right: 1vh;
-    padding-left: 1vh;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 #turn{
     width:100%;
@@ -261,13 +260,11 @@ tr:nth-child(odd) {
     resize: none;
     width: 100%;
     height: 40vh;
-    font-size: 2vh;
 }
 #load{
     resize: none;
     width: 100%;
     height: 40vh;
-    font-size: 2vh;
 }
 #gameDiv{
     height: 100%;
