@@ -24,7 +24,11 @@
 
     "popups": {
       "hardReset": "Are you sure? All of your progress will be lost forever.",
-      "copied": "Copied!"
+      "copied": "Copied!",
+      "error": "Something went wrong.",
+      "kongError": "Saves that started outside of Kongregate cannot be imported into the Kongregate Version",
+      "uploadSuccess": "Uploading to the cloud was successful!",
+      "waitForData": "Waiting for data..."
     },
 
     "achieveCategories": {
@@ -52,6 +56,10 @@
       "moneyIncrease": {
         "name": "Money Increase",
         "desc": "Increase Money by %"
+      },
+      "moneyMulti": {
+        "name": "Money Multi",
+        "desc": "Multiplies Money Increase by %"
       }
     },
 
@@ -101,7 +109,11 @@
 
     "popups": {
       "hardReset": "Bist du sicher? Dein Spielstand wird unwiderruflich gelöscht.",
-      "copied": "Kopiert!"
+      "copied": "Kopiert!",
+      "error": "Etwas ist schiefgelaufen...",
+      "kongError": "Es können nur Spielstände importiert werden, die auf Kongregate gestartet wurden.",
+      "uploadSuccess": "Hochladen war Erfolgreich!",
+      "waitForData": "Warte auf Daten..."
     },
 
     "achieveCategories": {
@@ -129,6 +141,10 @@
       "moneyIncrease": {
         "name": "Geldsteigerung",
         "desc": "Erhöht Geld um %"
+      },
+      "moneyMulti": {
+        "name": "Geld Multi",
+        "desc": "Multipliziert Geldsteigerung um %"
       }
     },
 
