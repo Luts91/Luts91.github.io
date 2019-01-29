@@ -6,7 +6,10 @@
     "achievementsHeader": "Achievements",
     "achievementUnlocked": "Achievement Unlocked",
     "level": "Level",
+    "upgrade": "Upgrade",
+    "value": "Value",
     "reward": "Reward",
+    "cost": "Cost",
     "done": "Done",
     "copy": "Copy",
     "export": "Export",
@@ -21,6 +24,11 @@
     "exportExplain": "Copy this and save it somewhere.",
     "importExplain": "Paste the savedata here and click load.",
     "load": "Load",
+
+    "currency": {
+      "money": "Money",
+      "gold": "Gold"
+    },
 
     "popups": {
       "hardReset": "Are you sure? All of your progress will be lost forever.",
@@ -60,6 +68,10 @@
       "moneyMulti": {
         "name": "Money Multi",
         "desc": "Multiplies Money Increase by %"
+      },
+      "goldIncrease": {
+        "name": "Gold Increase",
+        "desc": "Increase Gold by %"
       }
     },
 
@@ -91,7 +103,10 @@
     "achievementsHeader": "Erfolge",
     "achievementUnlocked": "Erfolg freigeschaltet",
     "level": "Level",
+    "upgrade": "Steigern",
+    "value": "Wert",
     "reward": "Belohnung",
+    "cost": "Kosten",
     "done": "Geschafft",
     "copy": "Kopieren",
     "export": "Exportieren",
@@ -106,6 +121,11 @@
     "exportExplain": "Kopiere diesen Text und speichere ihn irgendwo.",
     "importExplain": "Füge die Spielstanddaten hier ein und bestätige.",
     "load": "Laden",
+
+    "currency": {
+      "money": "Geld",
+      "gold": "Gold"
+    },
 
     "popups": {
       "hardReset": "Bist du sicher? Dein Spielstand wird unwiderruflich gelöscht.",
@@ -145,6 +165,10 @@
       "moneyMulti": {
         "name": "Geld Multi",
         "desc": "Multipliziert Geldsteigerung um %"
+      },
+      "goldIncrease": {
+        "name": "Goldsteigerung",
+        "desc": "Steigert Gold um %"
       }
     },
 

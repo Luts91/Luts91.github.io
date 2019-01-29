@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background: white;
-   /* height: 100rem;
+   /* height: 100vh;
     width: 100vw;*/
     overflow-x: hidden;
     overflow-y: auto;
@@ -10,9 +10,15 @@ body {
 canvas {
     margin: auto;
 }
+h1{
+    font-size: 3vh;
+}
+h2{
+    font-size: 2.5vh;
+}
 .card {
     background-color: darkcyan;
-    padding: 0.5rem;
+    padding: 0.5vh;
 }
 .hide{
     display: none;
@@ -21,18 +27,25 @@ canvas {
     line-height: 0;
 }
 .fas{
-    font-size: 2rem;
+    font-size: 3vh;
 }
 .fab{
-    font-size: 2rem;
+    font-size: 3vh;
+}
+.table td, .table th{
+    padding: 1vh;
+}
+.col{
+    margin-bottom: 0.5vh;
 }
 #ui{
     position: absolute;
     color: white;
-    text-shadow: -0.05rem 0 black, 0 0.05rem black, 0.05rem 0 black, 0 -0.05rem black;
+    text-shadow: -0.1vh 0 black, 0 0.1vh black, 0.1vh 0 black, 0 -0.1vh black;
     width: 100%;
     height: 100%;
     background-color: cadetblue;
+    font-size: 2vh;
 
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
@@ -75,17 +88,18 @@ canvas {
     overflow-y: auto;
 }
 .btn{
-    padding: 0.5rem;
-    margin: 0.5rem;
-    border-radius: 1rem;
+    padding: 0.5vh;
+    margin: 0.5vh;
+    border-radius: 1vh;
     border-color: white!important;
+    font-size: 2vh;
 }
 .upgrade-button{
-    width: 15rem;
+    width: 15vh;
 }
 .progress{
-    height: 0.5rem;
-    margin-top: 0.3rem;
+    height: 0.5vh;
+    margin-top: 0.3vh;
 }
 .progress-bar{
     background-color: white;
@@ -118,7 +132,7 @@ canvas {
 }
 .modal-footer {
     justify-content: space-around;
-    padding: 0.5rem
+    padding: 0.5vh
 }
 
 .modal-container {
@@ -208,7 +222,7 @@ canvas {
     max-height: 55vh;
 }
 .vue-tabs .nav>li>a {
-    padding: 1rem 1.5rem;
+    padding: 1vh 1.5vh;
 }
 
 tr:nth-child(odd) {
@@ -220,8 +234,8 @@ tr:nth-child(odd) {
     background-color: transparent!important;
 }
 .container{
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 1vh;
+    padding-left: 1vh;
 }
 #turn{
     width:100%;
