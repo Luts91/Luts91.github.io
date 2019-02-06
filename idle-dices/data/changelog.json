@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "1.1.23",
+      "log": [
+          "added: Auto roulette focus",
+          "fixed: loading after gilding a card doesnt reset that card"
+      ]
+    },
+    {
       "version": "1.1.2",
       "log": [
           "fixed: selecting buy 10 or 100 not buying the correct amount"
