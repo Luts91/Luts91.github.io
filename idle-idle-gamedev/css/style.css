@@ -1,0 +1,87 @@
+.progress-bar{
+    background-color: lightblue;
+    transition: width .3s ease;
+}
+.levelable{
+    height: 3.5vh;
+    margin-bottom: 0.5vh;
+    box-shadow: 0 0.1vh 5px black;
+}
+.progress-bar.feature{
+    background-color: #6691BB;
+}
+.card.feature{
+    background-color: #5681AB;
+}
+
+.progress-bar.bug{
+    background-color: #807EB1;
+}
+.card.bug{
+    background-color: #706EA1;
+}
+
+.progress-bar.idea{
+    background-color: #5DA1B9;
+}
+.card.idea{
+    background-color: #4D91A9;
+}
+
+.progress-bar.public{
+    background-color: #986897;
+}
+.card.public{
+    background-color: #885887;
+}
+.progress-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 2vh;
+}
+.task-button{
+    width: 15vh;
+}
+#gamesChart{
+    text-shadow: initial;
+}
+.table-scroll{
+    height: 41vh;
+    overflow-y: auto;
+}
+#gamesChart {
+    margin: 0 auto;
+    height: 45vh;
+    min-height: 300px;
+}
+.modebar{
+    display: none !important;
+}
+*{
+    transition: opacity .3s ease;
+}
+.btn{
+    box-shadow: inset 0 1px 5px white, inset 0 -1px 5px black;
+    padding-bottom: 0.8vh;
+}
+.btn:hover:not([disabled]){
+    box-shadow: inset 0 1px 5px white, inset 0 -1px 5px black, 0 0 1vmin white;
+}
+
+.btn:active:not([disabled]){
+    transform: initial;
+    box-shadow: inset 0 1px 5px black, inset 0 -1px 5px white;
+    padding-top: 0.6vh;
+    padding-bottom: 0.7vh;
+}
+.close:active:not([disabled]){
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus{
+    box-shadow: inset 0 1px 5px black, inset 0 -1px 5px white;
+}
+.btn.focus, .btn:focus, .btn-primary.focus, .btn-primary:focus{
+    box-shadow: inset 0 1px 5px white, inset 0 -1px 5px black;
+}

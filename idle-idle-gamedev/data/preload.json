@@ -1,0 +1,52 @@
+{
+  "json":[
+    {
+      "name": "text",
+      "url": "text.json"
+    },
+    {
+      "name": "changelog",
+      "url": "changelog.json"
+    }
+  ],
+  "font":[
+    {
+      "name": "regular",
+      "url": "regular_0.png",
+      "data": "regular.fnt"
+    }
+  ],
+  "atlas":[
+    {
+      "name": "ui",
+      "urlData": "ui.json",
+      "urlImg": "ui.png"
+    },
+    {
+      "name": "ingame",
+      "urlData": "ingame.json",
+      "urlImg": "ingame.png"
+    }
+  ],
+  "image":[
+    {
+      "name": "whiteSquare",
+      "url":  "whiteSquare.png"
+    },
+    {
+      "name": "tileable",
+      "url":  "bg/tileable.jpg"
+    }
+  ],
+  "sound":[
+    {
+      "name": "button",
+      "file": "button",
+      "credits":{
+        "author": "bubaproducer",
+        "name": "button 17",
+        "url": "https://freesound.org/people/bubaproducer/sounds/107135/"
+      }
+    }
+  ]
+}

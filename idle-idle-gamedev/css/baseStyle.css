@@ -1,0 +1,300 @@
+
+body {
+    margin: 0;
+    background: white;
+   /* height: 100vh;
+    width: 100vw;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+canvas {
+    margin: auto;
+}
+h1{
+    font-size: 3vh;
+}
+h2{
+    font-size: 2.5vh;
+}
+.card {
+    background-color: darkcyan;
+    padding: 0.5vh;
+}
+.hide{
+    display: none;
+}
+.btn-icon{
+    line-height: 0;
+}
+.fas{
+    font-size: 3vh;
+}
+.fab{
+    font-size: 3vh;
+}
+.table td, .table th{
+    padding: 1vh;
+}
+.col{
+    margin-bottom: 0.5vh;
+}
+#ui{
+    position: absolute;
+    color: white;
+    text-shadow: -0.1vh 0 black, 0 0.1vh black, 0.1vh 0 black, 0 -0.1vh black;
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    font-size: 2vh;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    touch-action: none;
+}
+#loading{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 5vmin;
+}
+.version{
+    position: absolute;
+}
+.loadingCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.loadingLogo{
+    height: 50%;
+    max-width: 90%;
+}
+.luts-header{
+    padding-left: 0.5%;
+    width: 100%;
+    background: linear-gradient(0,darkcyan,cadetblue);
+    display: flex;
+    justify-content: space-between;
+}
+.luts-body{
+    height: 93%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.btn{
+    padding: 0.5vh;
+    margin: 0.5vh;
+    border-radius: 1vh;
+    border-color: white!important;
+    font-size: 2vh;
+}
+.upgrade-button{
+    width: 15vh;
+}
+.progress{
+    height: 0.5vh;
+    margin-top: 0.3vh;
+}
+.progress-bar{
+    background-color: white;
+}
+.green-bg {
+    background-color: green;
+}
+.btn:hover:not([disabled]){
+    box-shadow: 0 0 1vmin white;
+}
+.btn:active:not([disabled]){
+    transform: scale(0.9);
+}
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    transition: opacity .3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.modal-header{
+    padding: 1vh;
+}
+.modal-footer {
+    justify-content: space-around;
+    padding: 0.5vh
+}
+
+.modal-container {
+    width: 90%;
+    margin: 0px auto 0;
+    height: 90%;
+    padding: 2vmin;
+    background-color: #fff;
+    background: linear-gradient(0,cadetblue,darkcyan);
+    border: lightblue ridge 1vmin;
+    border-top-left-radius: 5vmin;
+    border-bottom-right-radius: 5vmin;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+    background-color: darkcyan;
+}
+
+.popup{
+    width: 50%;
+    height: initial;
+}
+
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
+
+.modal-body {
+    background: rgba(255,255,255,0.1);
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scroll: touch;
+    height: 90%;
+    padding: 1vmin;
+    border-bottom-right-radius: 5vmin;
+}
+.achievement-label{
+    top: initial;
+    bottom: 10px;
+    height: initial;
+    background-color: initial;
+}
+.text-right {
+    text-align: right;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.vue-tabs .nav-tabs>li.active>a, .vue-tabs .nav-tabs>li.active>a:hover, .vue-tabs .nav-tabs>li.active>a:focus {
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+.vue-tabs .tabs__link {
+    color: white;
+}
+.tab-container {
+    overflow-y: auto;
+}
+.vue-tabs .nav>li>a {
+    padding: 1vh 1.5vh;
+}
+
+tr:nth-child(odd) {
+    background: #0000000f;
+}
+
+
+.btn-primary{
+    background-color: transparent!important;
+}
+.container{
+    padding-right: 0.1vh;
+    padding-left: 0.1vh;
+}
+#turn{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:white;
+    display:none;
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: Verdana monospace;
+    color: slategray;
+}
+#savePrompt{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+#promptWindow{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+}
+#save{
+    resize: none;
+    width: 100%;
+    height: 40vh;
+}
+#load{
+    resize: none;
+    width: 100%;
+    height: 40vh;
+}
+#gameDiv{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: 'regular';
+    src: url('../assets/fonts/robotomono-thin-webfont.woff2') format('woff2'),
+    url('../assets/fonts/robotomono-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'text';
+    src: url('../assets/fonts/roboto-thin-webfont.woff2') format('woff2'),
+    url('../assets/fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

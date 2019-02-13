@@ -1,0 +1,121 @@
+{
+  "logs":[
+    {
+      "version": "1.0.74",
+      "log": [
+          "fixed: focus charge not reseting on prestige. for real now",
+          "fixed: getting too many skill points at the 10th casino"
+        ]
+    },
+    {
+      "version": "1.0.73",
+      "log": [
+          "fixed: luck multi per golden card not working with autogild"
+        ]
+    },
+    {
+      "version": "1.0.71",
+      "log": [
+        "changed: focus chance cost increase 5 > 25",
+        "fixed: focus charge not reseting on prestige",
+        "fixed: switching focus to card on prestige when having 52 golden cards"
+        ]
+    },
+    {
+      "version": "1.0.70",
+      "log": [
+        "added: new achievements",
+        "added: switching focus to card after prestige and to none when you have all cards"
+        ]
+    },
+    {
+      "version": "1.0.69",
+      "log": [
+        "added: number of spins possible shown on roulette icon",
+        "added: auto gild",
+        "added: roulette focus",
+        "added: roulette focus chance luck upgrade",
+        "added: new achievements",
+        "added: showing MAX when an upgrade reached its max level",
+        "fixed: exploit to hold down invest button"
+        ]
+    },
+    {
+      "version": "1.0.68",
+      "log": [
+        "fixed: chip multi per card not working for golden cards"
+        ]
+    },
+    {
+      "version": "1.0.67",
+      "log": [
+        "added: press B to buy all",
+        "added: press S to spin",
+        "changed: roulette level multi cost increase 0 -> 1",
+        "changed: gilding per convert cost increase 1 -> 2"
+        ]
+    },
+    {
+      "version": "1.0.66",
+      "log": [
+        "fixed: clicking buttons not working in safari",
+        "fixed: auto reroll chance showing NaN"
+        ]
+    },
+    {
+      "version": "1.0.65",
+      "log": [
+        "changed: autodraw swap buttons",
+        "changed: rollcurve const increase 3.5 -> 15",
+        "fixed: now only one popup appears when forgetting to gild a card"
+        ]
+    },
+    {
+      "version": "1.0.64",
+      "log": [
+        "added: explaination in golden card window",
+        "added: google analytics + disclaimer button",
+        "added: roulette automatically respinning when hitting card proression while havin 52 cards",
+        "added: achievement for 4 casinos",
+        "fixed: reroll chance not working if having high level of slow but strong"
+        ]
+    },
+    {
+      "version": "1.0.62",
+      "log": [
+        "fixed: roulette breaking at max level"
+        ]
+    },
+    {
+      "version": "1.0.61",
+      "log": [
+        "fixed: not getting any luck by converting"
+        ]
+    },
+    {
+      "version": "1.0.60",
+      "log": [
+        "added: skills. you get one skill points per each casino",
+        "added: slow but strong luck upgrade. auto roll gets half as fast but dice multiplier doubles",
+        "changed: card progress per casino 90% -> 70%"
+        ]
+    },
+    {
+      "version": "1.0.57",
+      "log": [
+        "fixed: interest always displayed as 0",
+        "changed: buttons get clicked when the mouse is up instead down",
+        "some optimization"
+        ]
+    },
+    {
+      "version": "1.0.27",
+      "log": [
+        "fixed: dice ascending multiple times when auto draw is active",
+        "added: tooltip to reset goldcards",
+        "added: changelog",
+        "changed: color of d6 multiplier dice"
+        ]
+    }
+  ]
+}

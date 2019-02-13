@@ -1,0 +1,52 @@
+{
+  "name": "Idle IdleGameDev",
+  "short_name": "Idle IdleGameDev",
+  "description": "",
+  "icons": [
+    {
+      "src": "assets/img/icon/icon32.png",
+      "sizes": "33x28",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/icon64.png",
+      "sizes": "65x54",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/icon96.png",
+      "sizes": "97x80",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/icon128.png",
+      "sizes": "129x106",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/icon168.png",
+      "sizes": "169x139",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/icon192.png",
+      "sizes": "193x159",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/icon256.png",
+      "sizes": "257x211",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/icon/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "#DECCCC",
+  "background_color": "#CCCCCC"
+}

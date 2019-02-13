@@ -1,0 +1,204 @@
+{
+  "en": {
+    "buy": "Buy",
+    "settingsTitle": "Settings",
+    "statistics": "Statistics",
+    "achievementsHeader": "Achievements",
+    "achievementUnlocked": "Achievement Unlocked",
+    "level": "Level",
+    "upgrade": "Upgrade",
+    "value": "Value",
+    "reward": "Reward",
+    "cost": "Cost",
+    "done": "Done",
+    "copy": "Copy",
+    "export": "Export",
+    "import": "Import",
+    "hardReset": "Hard Reset",
+    "credits": "Credits",
+    "changelog": "Changelog",
+    "disclaimer": "Disclaimer",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "Ok",
+    "exportExplain": "Copy this and save it somewhere.",
+    "importExplain": "Paste the savedata here and click load.",
+    "load": "Load",
+    "think": "Think",
+    "program": "Program",
+    "fix": "Fix",
+    "market": "Market",
+
+    "currency": {
+      "money": "Money"
+    },
+
+    "values": {
+      "ideas": "Ideas",
+      "features": "Features",
+      "bugs": "Bugs"
+    },
+
+    "popups": {
+      "updateAvailable": "New Update available, refresh now?",
+      "hardReset": "Are you sure? All of your progress will be lost forever.",
+      "copied": "Copied!",
+      "error": "Something went wrong.",
+      "kongError": "Saves that started outside of Kongregate cannot be imported into the Kongregate Version",
+      "uploadSuccess": "Uploading to the cloud was successful!",
+      "waitForData": "Waiting for data..."
+    },
+
+    "achieveCategories": {
+      "basic": "Basic",
+      "advanced": "Advanced"
+    },
+
+    "settings": {
+      "quality": "Quality",
+      "canvas": "Use WebGL (Requires Restart)",
+      "numberformat": "Use Scientific Notation",
+      "soundVolume": "Volume",
+      "soundEnabled": "Enable Sound",
+      "musicEnabled": "Enable Music"
+    },
+
+    "stats": {
+      "version": "Version",
+      "fps": "FPS",
+      "activePlaytime": "Active Playtime",
+      "passivePlaytime": "Passive Playtime"
+    },
+
+    "upgrades": {
+      "moneyIncrease": {
+        "name": "Money Increase",
+        "desc": "Increase Money by %"
+      },
+      "moneyMulti": {
+        "name": "Money Multi",
+        "desc": "Multiplies Money Increase by %"
+      },
+      "goldIncrease": {
+        "name": "Gold Increase",
+        "desc": "Increase Gold by %"
+      }
+    },
+
+    "achievements": {
+      "totalMoney": {
+        "name": "Total Money",
+        "desc": "Get a total of % money",
+        "reward": "+% money"
+      },
+      "totalMoney2": {
+        "name": "Total Money",
+        "desc": "Get a total of % money",
+        "reward": "Nothing"
+      },
+      "totalMoney3": {
+        "name": "Advanced Money",
+        "desc": "Get a total of % money",
+        "reward": "Nothing"
+      }
+    }
+  },
+
+
+
+  "de": {
+    "buy": "Kauf",
+    "settingsTitle": "Einstellungen",
+    "statistics": "Statistiken",
+    "achievementsHeader": "Erfolge",
+    "achievementUnlocked": "Erfolg freigeschaltet",
+    "level": "Level",
+    "upgrade": "Steigern",
+    "value": "Wert",
+    "reward": "Belohnung",
+    "cost": "Kosten",
+    "done": "Geschafft",
+    "copy": "Kopieren",
+    "export": "Exportieren",
+    "import": "Importieren",
+    "hardReset": "Spielstand löschen",
+    "credits": "Credits",
+    "changelog": "Änderungsprotokoll",
+    "disclaimer": "Haftungsausschluss",
+    "yes": "Ja",
+    "no": "Nein",
+    "ok": "Ok",
+    "exportExplain": "Kopiere diesen Text und speichere ihn irgendwo.",
+    "importExplain": "Füge die Spielstanddaten hier ein und bestätige.",
+    "load": "Laden",
+
+    "currency": {
+      "money": "Geld",
+      "gold": "Gold"
+    },
+
+    "popups": {
+      "updateAvailable": "Neues Update verfügbar, jetzt aktualisieren?",
+      "hardReset": "Bist du sicher? Dein Spielstand wird unwiderruflich gelöscht.",
+      "copied": "Kopiert!",
+      "error": "Etwas ist schiefgelaufen...",
+      "kongError": "Es können nur Spielstände importiert werden, die auf Kongregate gestartet wurden.",
+      "uploadSuccess": "Hochladen war Erfolgreich!",
+      "waitForData": "Warte auf Daten..."
+    },
+
+    "achieveCategories": {
+      "basic": "Anfänger",
+      "advanced": "Fortgeschritten"
+    },
+
+    "settings": {
+      "quality": "Grafikqualität",
+      "canvas": "Benutze WebGL (Neustart benötigt)",
+      "numberformat": "Benutze Wissenschaftliche Notation",
+      "soundVolume": "Lautstärke",
+      "soundEnabled": "Geräusche an",
+      "musicEnabled": "Musik an"
+    },
+
+    "stats": {
+      "version": "Version",
+      "fps": "FPS",
+      "activePlaytime": "Aktive Spielzeit",
+      "passivePlaytime": "Passive Spielzeit"
+    },
+
+    "upgrades": {
+      "moneyIncrease": {
+        "name": "Geldsteigerung",
+        "desc": "Erhöht Geld um %"
+      },
+      "moneyMulti": {
+        "name": "Geld Multi",
+        "desc": "Multipliziert Geldsteigerung um %"
+      },
+      "goldIncrease": {
+        "name": "Goldsteigerung",
+        "desc": "Steigert Gold um %"
+      }
+    },
+
+    "achievements": {
+      "totalMoney": {
+        "name": "Gesamtes Geld",
+        "desc": "Erreiche % Geld",
+        "reward": "+% Geld"
+      },
+      "totalMoney2": {
+        "name": "Gesamtes Geld",
+        "desc": "Erreiche % Geld",
+        "reward": "Nichts"
+      },
+      "totalMoney3": {
+        "name": "Fortgeschrittenes Geld",
+        "desc": "Erreiche % Geld",
+        "reward": "Nichts"
+      }
+    }
+  }
+}
