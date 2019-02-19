@@ -1,6 +1,20 @@
 {
   "logs":[
     {
+      "version": "1.2.2",
+      "log": [
+          "added: roulette prestige, slot machine and diamond cards",
+          "fixed: roll interval and cardprogression not resetting on prestige",
+          "fixed: offline gain too high"
+      ]
+    },
+    {
+      "version": "1.1.33",
+      "log": [
+          "fixed: exploit to use exporting/importing to change the roulette result"
+      ]
+    },
+    {
       "version": "1.1.23",
       "log": [
           "added: Auto roulette focus",
