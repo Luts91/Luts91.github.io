@@ -1,6 +1,19 @@
 {
   "logs":[
     {
+      "version": "1.2.4",
+      "log": [
+          "changed: roulette level skill cost increase 1 > 2",
+          "changed: slot spins per casino 1 > 0.1(rounded up)"
+      ]
+    },
+    {
+      "version": "1.2.3",
+      "log": [
+          "fixed: casino skills resetting on prestige"
+      ]
+    },
+    {
       "version": "1.2.2",
       "log": [
           "added: roulette prestige, slot machine and diamond cards",
