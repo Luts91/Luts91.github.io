@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.2.6",
+      "log": [
+          "fixed: diamond cards resetting after convert"
+      ]
+    },
+    {
       "version": "1.2.4",
       "log": [
           "changed: roulette level skill cost increase 1 > 2",
