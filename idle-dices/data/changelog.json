@@ -1,6 +1,20 @@
 {
   "logs":[
     {
+      "version": "1.2.8",
+      "log": [
+          "fixed: added check if something got already unlocked (if something locked again that you already unlocked, reach the requirement for it and refresh the game)",
+          "changed: cap for BP earned for a casino = 33",
+          "changed: made green textcolor darker"
+      ]
+    },
+    {
+      "version": "1.2.7",
+      "log": [
+          "changed: roulette level multi max level infinite > 30"
+      ]
+    },
+    {
       "version": "1.2.6",
       "log": [
           "fixed: diamond cards resetting after convert"
