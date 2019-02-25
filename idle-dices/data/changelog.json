@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "1.2.10",
+      "log": [
+          "fixed: changelog text overlapping",
+          "added: clicking on background rolls the dice",
+          "changed: made golden cards more visible"
+      ]
+    },
+    {
       "version": "1.2.8",
       "log": [
           "fixed: added check if something got already unlocked (if something locked again that you already unlocked, reach the requirement for it and refresh the game)",
