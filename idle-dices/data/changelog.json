@@ -1,6 +1,16 @@
 {
   "logs":[
     {
+      "version": "1.2.13",
+      "log": [
+          "fixed: roulette chance for upgrade not correct",
+          "fixed: card cost not resetting when buying a casino",
+          "fixed: scientifical notation is actually engineering notation",
+          "fixed: some dice not reseting on autoconvert",
+          "added: additional checks if a cloud save was successful"
+      ]
+    },
+    {
       "version": "1.2.10",
       "log": [
           "fixed: changelog text overlapping",
