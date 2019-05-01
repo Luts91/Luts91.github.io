@@ -1,6 +1,20 @@
 {
   "logs":[
     {
+      "version": "1.2.63",
+      "log": [
+          "fixed: slot machine last coloumn endlessly spinning",
+          "changed: added popup confirmation to BP spin"
+      ]
+    },
+    {
+      "version": "1.2.62",
+      "log": [
+          "fixed: slot machine breaking when buying a coloumn while it is spinning",
+          "fixed: sometimes links not working"
+      ]
+    },
+    {
       "version": "1.2.13",
       "log": [
           "fixed: roulette chance for upgrade not correct",
