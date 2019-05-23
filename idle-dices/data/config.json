@@ -1,5 +1,5 @@
 {
-    "version": "1.2.107",
+    "version": "1.3.1",
     "colors": {
         "purple": "0x8b628a",
         "brown": "0x8c867a",
@@ -9,7 +9,8 @@
         "yellow": "#E5E55C",
         "yellow2": "0xE5E55C",
         "pink": "#FF66D2",
-        "gray": "#808080"
+        "gray": "#808080",
+        "white": "#ffffff"
     },
     "diceTypes": [2,4,6,8,10,12,20,100],
     "dices": {

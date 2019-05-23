@@ -34,6 +34,10 @@
       "url":  "bg/background.png"
     },
     {
+      "name": "bg2",
+      "url":  "bg/backgroun2.png"
+    },
+    {
       "name": "tileable",
       "url":  "bg/tileable.jpg"
     }
