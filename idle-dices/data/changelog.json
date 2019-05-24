@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "1.3.4",
+      "log": [
+          "added: more achievements",
+          "fixed: auto convert sometimes not converting"
+      ]
+    },
+    {
       "version": "1.3",
       "log": [
           "added: dice duels",
