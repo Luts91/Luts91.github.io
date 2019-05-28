@@ -1,6 +1,15 @@
 {
   "logs":[
     {
+      "version": "1.3.5",
+      "log": [
+          "added: roll history now shows multiplier from multiplier dices",
+          "added: new achievement",
+          "fixed: 'i dont need these' achievement needing 52 cards instead of 39",
+          "changed: cost of drawing diamond cards now doubles after each draw"
+      ]
+    },
+    {
       "version": "1.3.4",
       "log": [
           "added: more achievements",
