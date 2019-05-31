@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.3.10",
+      "log": [
+          "fixed: every dice had the same probability"
+      ]
+    },
+    {
       "version": "1.3.6",
       "log": [
           "added: slot machine fill",
