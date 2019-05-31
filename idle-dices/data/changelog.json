@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "1.3.11",
+      "log": [
+          "changed: enemy power calculation changed to linear",
+          "fixed: displayed power wrong"
+      ]
+    },
+    {
       "version": "1.3.10",
       "log": [
           "fixed: every dice had the same probability"
