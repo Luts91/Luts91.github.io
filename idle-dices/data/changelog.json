@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "1.3.12",
+      "log": [
+          "added: tooltips for dice in the duel screen",
+          "fixed: skills point reset locked when changing sp multi",
+          "fixed: cup point multi not working"
+      ]
+    },
+    {
       "version": "1.3.11",
       "log": [
           "changed: enemy power calculation changed to linear",
