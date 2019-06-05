@@ -1,6 +1,20 @@
 {
   "logs":[
     {
+      "version": "1.3.29",
+      "log": [
+          "added: number of casinos in statistics",
+          "added: info about rarities",
+          "fixed: chances of duel dice"
+      ]
+    },
+    {
+      "version": "1.3.25",
+      "log": [
+          "fixed: fixed tooltips being displayed in normal screen"
+      ]
+    },
+    {
       "version": "1.3.25",
       "log": [
           "fixed: fixed tooltips being displayed in normal screen"
