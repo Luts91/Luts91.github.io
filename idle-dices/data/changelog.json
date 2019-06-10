@@ -1,6 +1,15 @@
 {
   "logs":[
     {
+      "version": "1.3.33",
+      "log": [
+          "added: new achievements",
+          "added: auto spend luck",
+          "added: suffixes for high orders of magnitudes (1e1000 -> 1e1k)",
+          "changed: won online duels give cuppoints based on elo instead of duel level (elo/200)³"
+      ]
+    },
+    {
       "version": "1.3.32",
       "log": [
           "added: highscore for duel level and power",
