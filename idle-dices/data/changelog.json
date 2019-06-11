@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.3.34",
+      "log": [
+        "fixed: autoluck setting not unlocking"
+      ]
+    },
+    {
       "version": "1.3.33",
       "log": [
           "added: new achievements",
