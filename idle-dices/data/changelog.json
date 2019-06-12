@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "1.3.35",
+      "log": [
+        "fixed: grand duel master achievement incorrect level needed",
+        "changed: description of Duel Grand champion achievement"
+      ]
+    },
+    {
       "version": "1.3.34",
       "log": [
         "fixed: autoluck setting not unlocking"
