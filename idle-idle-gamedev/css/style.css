@@ -7,6 +7,54 @@
     margin-bottom: 0.5vh;
     box-shadow: 0 0.1vh 5px black;
 }
+#ui{
+    color: #eee;
+    background-color: #303030;
+}
+.hidden{
+    display: none;
+}
+.margin-auto{
+    margin-right: auto;
+    margin-left: auto;
+}
+.luts-header{
+    background: linear-gradient(0,#303030,#424242);
+}
+.btn-primary{
+    color: #ddd;
+}
+.btn.disabled, .btn:disabled{
+    opacity: 0.25;
+}
+.card{
+    background-color: #555;
+    height: 100%;
+    justify-content: space-between;
+}
+.skill-row{
+    margin-bottom: 1vh;
+}
+.modal-container{
+    background: linear-gradient(0,#303030,#424242);
+    border: #aaa ridge 0.5vmin;
+}
+.progress-text{
+    text-shadow: 0 0 0;
+    color: #555;
+}
+.progress{
+    background-color: #aaa;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: all 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+body{
+    overflow-y: hidden;
+}
 .progress-bar.feature{
     background-color: #6691BB;
 }
@@ -50,10 +98,12 @@
     height: 41vh;
     overflow-y: auto;
 }
+th{
+    text-align: center;
+}
 #gamesChart {
     margin: 0 auto;
     height: 45vh;
-    min-height: 300px;
 }
 .modebar{
     display: none !important;
@@ -64,6 +114,7 @@
 .btn{
     box-shadow: inset 0 1px 5px white, inset 0 -1px 5px black;
     padding-bottom: 0.8vh;
+    min-width: 4vh;
 }
 .btn:hover:not([disabled]){
     box-shadow: inset 0 1px 5px white, inset 0 -1px 5px black, 0 0 1vmin white;

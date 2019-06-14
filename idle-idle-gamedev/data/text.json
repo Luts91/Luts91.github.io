@@ -1,9 +1,18 @@
 {
   "en": {
+    "years": "Years",
+    "days": "Days",
+    "hours": "Hours",
+    "seconds": "Seconds",
     "buy": "Buy",
     "settingsTitle": "Settings",
+    "creativity": "Creativity",
+    "logic": "Logic",
+    "charisma": "Charisma",
+    "intelligence": "Intelligence",
     "statistics": "Statistics",
     "achievementsHeader": "Achievements",
+    "skillsHeader": "Skills",
     "achievementUnlocked": "Achievement Unlocked",
     "level": "Level",
     "upgrade": "Upgrade",
@@ -11,6 +20,7 @@
     "reward": "Reward",
     "cost": "Cost",
     "done": "Done",
+    "max": "Max",
     "copy": "Copy",
     "export": "Export",
     "import": "Import",
@@ -21,6 +31,11 @@
     "yes": "Yes",
     "no": "No",
     "ok": "Ok",
+    "amount": "Unemployed",
+    "ideaGuys": "Idea Guys",
+    "fProgrammers": "Feature Programmers",
+    "bugFixers": "Bug Fixers",
+    "marketers": "Marketers",
     "exportExplain": "Copy this and save it somewhere.",
     "importExplain": "Paste the savedata here and click load.",
     "load": "Load",
@@ -30,16 +45,37 @@
     "market": "Market",
 
     "currency": {
-      "money": "Money"
+      "money": "Money",
+      "creativitySP": "Creativity Points",
+      "programmingSP": "Logic Points",
+      "marketingSP": "Charisma Points",
+      "intelligenceSP": "Intelligence Points",
+      "researchPoints": "Research Points"
     },
 
     "values": {
       "ideas": "Ideas",
       "features": "Features",
-      "bugs": "Bugs"
+      "bugs": "Bugs",
+      "publicity": "Publicity",
+      "power": "Power",
+      "featuresMulti": "Programming Power",
+      "ideasMulti": "Thinking Power",
+      "bugsMulti": "Bug Fixing Power",
+      "publicityProgressMulti": "Marketing Power",
+      "researchMulti": "Researching Power",
+      "expMulti": "Exp Multi",
+      "cExpMulti": "Creativity Exp Multi",
+      "pExpMulti": "Logic Exp Multi",
+      "mExpMulti": "Charisma Exp Multi",
+      "iExpMulti": "Intelligence Exp Multi",
+      "fans": "Fans",
+      "shopCostMulti": "Shop Cost Multi"
     },
 
     "popups": {
+      "thankYou": "Thank you!",
+      "goneFor": "You were gone for %1. You gained %2",
       "updateAvailable": "New Update available, refresh now?",
       "hardReset": "Are you sure? All of your progress will be lost forever.",
       "copied": "Copied!",
@@ -60,7 +96,8 @@
       "numberformat": "Use Scientific Notation",
       "soundVolume": "Volume",
       "soundEnabled": "Enable Sound",
-      "musicEnabled": "Enable Music"
+      "musicEnabled": "Enable Music",
+      "plotEnabled": "Enable Game Plot"
     },
 
     "stats": {
@@ -71,17 +108,173 @@
     },
 
     "upgrades": {
-      "moneyIncrease": {
-        "name": "Money Increase",
-        "desc": "Increase Money by %"
+      "e_flea": {
+        "name": "Flea",
+        "desc": "They are not really good in what they are doing but at least you can idle a bit. Power: 0.1"
       },
-      "moneyMulti": {
-        "name": "Money Multi",
-        "desc": "Multiplies Money Increase by %"
+      "e_cockroach": {
+        "name": "Cockroach",
+        "desc": "Not very pleasant to have around in the office. Power: 1"
       },
-      "goldIncrease": {
-        "name": "Gold Increase",
-        "desc": "Increase Gold by %"
+      "e_hamster": {
+        "name": "Hamster",
+        "desc": "At least they are cute. Power: 10"
+      },
+      "e_monkey": {
+        "name": "Monkey",
+        "desc": "Having actual fingers helps a lot while working with computers. Power: 100"
+      },
+      "e_robot": {
+        "name": "Robot",
+        "desc": "Programmed to optimize everything to create the best games. Just be careful that they do not take over the world. Power: 10000"
+      },
+      "e_human": {
+        "name": "Human",
+        "desc": "An actual human beeing, willing to sell their soul and work for you forever. Power: 1000"
+      },
+      "r_forcedAds": {
+        "name": "Forced Ads",
+        "desc": "Increases CPM by 1"
+      },
+      "i_cent": {
+        "name": "Cent decoration",
+        "desc": "Hang the first cent you ever earned on the wall to get more Motivation and work 50% faster"
+      },
+      "i_bubbleGum": {
+        "name": "Bubble Gum",
+        "desc": "Work 2 times faster for 2 minutes"
+      },
+      "i_coffee": {
+        "name": "Coffee",
+        "desc": "Learn 2 times faster for 4 minutes"
+      },
+      "i_energyDrink": {
+        "name": "Energy Drink",
+        "desc": "Work 2 times faster for 8 minutes"
+      },
+      "i_cocaine": {
+        "name": "Cocaine",
+        "desc": "Learn 2 times faster for 20 minutes"
+      },
+      "i_meth": {
+        "name": "Meth",
+        "desc": "Work 2 times faster for 40 minutes"
+      },
+      "i_motivationalCourse": {
+        "name": "Motivational Course",
+        "desc": "Learn 2 times faster for 1 hour"
+      },
+      "i_calculator": {
+        "name": "Calculator",
+        "desc": "Learn Logic 1.5 times faster"
+      },
+      "i_book": {
+        "name": "Book",
+        "desc": "Learn everything 1.5 times faster"
+      },
+      "i_cactus": {
+        "name": "Cactus",
+        "desc": "Learn Creativity 1.5 times faster"
+      },
+      "i_megaphone": {
+        "name": "Megaphone",
+        "desc": "Learn Charisma 1.5 times faster"
+      },
+      "i_typewriter": {
+        "name": "Typewriter",
+        "desc": "Get new ideas 1.5 times faster"
+      },
+      "i_researchBench": {
+        "name": "Research Bench",
+        "desc": "Unlocks research"
+      },
+      "i_betterPC": {
+        "name": "Better PC",
+        "desc": "Program new features 1.5 times faster"
+      },
+      "serverSize": {
+        "name": "Server Size",
+        "desc": "How many games you can have published at the same time"
+      },
+      "bandWidth": {
+        "name": "Band Width",
+        "desc": "How many players can play a game simultaneously"
+      },
+      "ideaProgressMulti": {
+        "name": "Thinking Speed",
+        "desc": "Make % progress on a new idea per second"
+      },
+      "programmingXPMulti": {
+        "name": "Learn to Code",
+        "desc": "Multiplies logic skill learning speed by %"
+      },
+      "marketingXPMulti": {
+        "name": "Learn to Count",
+        "desc": "Multiplies charisma skill learning speed by %"
+      },
+      "ideaMulti": {
+        "name": "Bulk Thinking",
+        "desc": "Get % ideas when finishing an idea progress"
+      },
+      "greatIdeaChance": {
+        "name": "Great Ideas",
+        "desc": "% chance that an idea is a great idea"
+      },
+      "ideaReset": {
+        "name": "Holiday",
+        "desc": "Refresh your thoughts. Will reset the cost of new ideas"
+      },
+      "uniqueIdeaChance": {
+        "name": "Unique Ideas",
+        "desc": "% chance that an idea is an unique idea"
+      },
+      "featuresProgressMulti": {
+        "name": "Programming Speed",
+        "desc": "Make % progress on a new feature per second"
+      },
+      "contentStretching": {
+        "name": "Content Streching",
+        "desc": "Keep a player busy with one feature for %"
+      },
+      "bugsQualityDecrease": {
+        "name": "Bug Hiding",
+        "desc": "Decreases the incluence a bug has on the game quality. Quality is % decreased per bug now"
+      },
+      "maxBugs": {
+        "name": "Careful Programming",
+        "desc": "Produce less bugs per feature. Currently a feature will produce % bugs"
+      },
+      "qualityMulti": {
+        "name": "Programming Quality",
+        "desc": "Multiplies the quality of a game by %"
+      },
+      "bugsProgressMulti": {
+        "name": "Bug Fixing",
+        "desc": "Make % progress on a bug per second"
+      },
+      "publicityProgressMulti": {
+        "name": "Marketing Speed",
+        "desc": "Make % progress on publicity per second"
+      },
+      "publicityMulti": {
+        "name": "Marketing Effectiveness",
+        "desc": "A game will get % initial Players per publicity amount"
+      },
+      "cpmMulti": {
+        "name": "Money Grabbing",
+        "desc": "Get % money per 1000 players per day"
+      },
+      "marketingEffDecrease": {
+        "name": "Memorability",
+        "desc": "Publicity will sink % per day"
+      },
+      "donations": {
+        "name": "Donations",
+        "desc": "Your fans will donate % every day per 1000 fans"
+      },
+      "shopDiscount": {
+        "name": "Shop Discount",
+        "desc": "Items in the shop cost % of their original price"
       }
     },
 
@@ -91,15 +284,10 @@
         "desc": "Get a total of % money",
         "reward": "+% money"
       },
-      "totalMoney2": {
-        "name": "Total Money",
-        "desc": "Get a total of % money",
-        "reward": "Nothing"
-      },
-      "totalMoney3": {
-        "name": "Advanced Money",
-        "desc": "Get a total of % money",
-        "reward": "Nothing"
+      "cent1": {
+        "name": "Finally it pays out!",
+        "desc": "Earn your first cent",
+        "reward": "Unlocks Shop"
       }
     }
   },

@@ -1,3 +1,65 @@
+@keyframes scale-pulse
+{
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(0.8,0.8);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+.scale-pulse {
+    animation: scale-pulse 1s infinite;
+    animation-timing-function: ease-in-out;
+}
+.slide-fade-enter-active {
+    transition: all .05s ease;
+}
+.slide-fade-leave-active {
+    transition: all .05s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter{
+    display: inline-block;
+    transform: scale(1.1,1.1);
+}
+
+.progress-fade-enter-active {
+
+}
+.progress-fade-leave-active{
+    transition: all .5s ease!important;
+    opacity: 0;
+}
+.progress-fade-leave-to {
+    width: 100%!important;
+}
+.tooltip{
+    font-size: 2vh;
+}
+.container{
+    max-width: initial;
+}
+.progress-fade-enter{
+    transition: all 0s ease!important;
+    display: inline-block;
+    opacity: 1!important;
+    width: 0;
+}
+.progress-fade-leave{
+    transition: all 0s ease!important;
+    width: 100%!important;
+    opacity: 1!important;
+}
+
+.progress-bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
 
 body {
     margin: 0;
@@ -16,6 +78,9 @@ h1{
 h2{
     font-size: 2.5vh;
 }
+.done{
+    background-color: green !important;
+}
 .card {
     background-color: darkcyan;
     padding: 0.5vh;
@@ -23,10 +88,20 @@ h2{
 .hide{
     display: none;
 }
+.levelable-progress-text {
+    font-size: 1.5vh;
+    text-align: right;
+}
+.invisible{
+    opacity: 0;
+}
 .btn-icon{
     line-height: 0;
 }
 .fas{
+    font-size: 3vh;
+}
+.far{
     font-size: 3vh;
 }
 .fab{
@@ -36,6 +111,9 @@ h2{
     padding: 1vh;
 }
 .col{
+    margin-bottom: 0.5vh;
+}
+.col-lg-6{
     margin-bottom: 0.5vh;
 }
 #ui{
@@ -93,6 +171,7 @@ h2{
     border-radius: 1vh;
     border-color: white!important;
     font-size: 2vh;
+    border: 0.1vh solid white;
 }
 .upgrade-button{
     width: 15vh;
@@ -100,6 +179,7 @@ h2{
 .progress{
     height: 0.5vh;
     margin-top: 0.3vh;
+    position: relative;
 }
 .progress-bar{
     background-color: white;
@@ -151,11 +231,11 @@ h2{
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
-    background-color: #F5F5F5;
+    width: 4px;
+    background-color: #303030;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: darkcyan;
+    background-color: #888;
 }
 
 .popup{
@@ -177,6 +257,10 @@ h2{
     padding: 1vmin;
     border-bottom-right-radius: 5vmin;
 }
+.popup > .modal-body{
+    height: initial;
+}
+
 .achievement-label{
     top: initial;
     bottom: 10px;
@@ -219,6 +303,7 @@ h2{
 }
 .tab-container {
     overflow-y: auto;
+/*    overflow-x: hidden;*/
 }
 .vue-tabs .nav>li>a {
     padding: 1vh 1.5vh;
@@ -228,13 +313,19 @@ tr:nth-child(odd) {
     background: #0000000f;
 }
 
-
+.vue-tabs{
+   /* height: 100%;*/
+}
+.tab-content{
+    height: 94%;
+    overflow-y: auto;
+}
+.tab-content-main{
+    height: 84vh;
+    overflow-y: auto;
+}
 .btn-primary{
     background-color: transparent!important;
-}
-.container{
-    padding-right: 0.1vh;
-    padding-left: 0.1vh;
 }
 #turn{
     width:100%;
