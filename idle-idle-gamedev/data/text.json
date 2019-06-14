@@ -54,6 +54,7 @@
     },
 
     "values": {
+      "research": "Research",
       "ideas": "Ideas",
       "features": "Features",
       "bugs": "Bugs",
@@ -134,11 +135,11 @@
       },
       "r_forcedAds": {
         "name": "Forced Ads",
-        "desc": "Increases CPM by 1"
+        "desc": "Increases CPM by (%1 -> %2)"
       },
       "i_cent": {
         "name": "Cent decoration",
-        "desc": "Hang the first cent you ever earned on the wall to get more Motivation and work 50% faster"
+        "desc": "Hang the first cent you ever earned on the wall to get more Motivation and work %2 faster"
       },
       "i_bubbleGum": {
         "name": "Bubble Gum",
@@ -166,23 +167,23 @@
       },
       "i_calculator": {
         "name": "Calculator",
-        "desc": "Learn Logic 1.5 times faster"
+        "desc": "Learn Logic %2 times faster"
       },
       "i_book": {
         "name": "Book",
-        "desc": "Learn everything 1.5 times faster"
+        "desc": "Learn everything %2 times faster"
       },
       "i_cactus": {
         "name": "Cactus",
-        "desc": "Learn Creativity 1.5 times faster"
+        "desc": "Learn Creativity %2 times faster"
       },
       "i_megaphone": {
         "name": "Megaphone",
-        "desc": "Learn Charisma 1.5 times faster"
+        "desc": "Learn Charisma %2 times faster"
       },
       "i_typewriter": {
         "name": "Typewriter",
-        "desc": "Get new ideas 1.5 times faster"
+        "desc": "Get new ideas %2 times faster"
       },
       "i_researchBench": {
         "name": "Research Bench",
@@ -190,7 +191,7 @@
       },
       "i_betterPC": {
         "name": "Better PC",
-        "desc": "Program new features 1.5 times faster"
+        "desc": "Program new features (%1 -> %2) times faster"
       },
       "serverSize": {
         "name": "Server Size",
@@ -282,12 +283,47 @@
       "totalMoney": {
         "name": "Total Money",
         "desc": "Get a total of % money",
-        "reward": "+% money"
+        "reward": "Charisma Exp Multi x%"
+      },
+      "totalIdeas": {
+        "name": "Total Ideas",
+        "desc": "Think of % ideas in total",
+        "reward": "Creativity Exp Multi x%"
+      },
+      "totalQualityGame": {
+        "name": "Quality Game",
+        "desc": "Release a game with a quality of at least %",
+        "reward": "Logic Exp Multi x%"
       },
       "cent1": {
         "name": "Finally it pays out!",
         "desc": "Earn your first cent",
         "reward": "Unlocks Shop"
+      },
+      "ideas3": {
+        "name": "I have an idea for a game",
+        "desc": "Have 3 ideas",
+        "reward": "Unlocks Features"
+      },
+      "features2": {
+        "name": "What's that?",
+        "desc": "Program 2 features",
+        "reward": "Unlocks Bug fixing"
+      },
+      "features5": {
+        "name": "Someone wants to play?",
+        "desc": "Program 5 features",
+        "reward": "Unlocks Marketing"
+      },
+      "games1": {
+        "name": "My first game!",
+        "desc": "Release your first game",
+        "reward": "Unlocks Game tab"
+      },
+      "games3": {
+        "name": "Need some help",
+        "desc": "Release 3 games",
+        "reward": "Unlocks employees"
       }
     }
   },
@@ -295,98 +331,5 @@
 
 
   "de": {
-    "buy": "Kauf",
-    "settingsTitle": "Einstellungen",
-    "statistics": "Statistiken",
-    "achievementsHeader": "Erfolge",
-    "achievementUnlocked": "Erfolg freigeschaltet",
-    "level": "Level",
-    "upgrade": "Steigern",
-    "value": "Wert",
-    "reward": "Belohnung",
-    "cost": "Kosten",
-    "done": "Geschafft",
-    "copy": "Kopieren",
-    "export": "Exportieren",
-    "import": "Importieren",
-    "hardReset": "Spielstand löschen",
-    "credits": "Credits",
-    "changelog": "Änderungsprotokoll",
-    "disclaimer": "Haftungsausschluss",
-    "yes": "Ja",
-    "no": "Nein",
-    "ok": "Ok",
-    "exportExplain": "Kopiere diesen Text und speichere ihn irgendwo.",
-    "importExplain": "Füge die Spielstanddaten hier ein und bestätige.",
-    "load": "Laden",
-
-    "currency": {
-      "money": "Geld",
-      "gold": "Gold"
-    },
-
-    "popups": {
-      "updateAvailable": "Neues Update verfügbar, jetzt aktualisieren?",
-      "hardReset": "Bist du sicher? Dein Spielstand wird unwiderruflich gelöscht.",
-      "copied": "Kopiert!",
-      "error": "Etwas ist schiefgelaufen...",
-      "kongError": "Es können nur Spielstände importiert werden, die auf Kongregate gestartet wurden.",
-      "uploadSuccess": "Hochladen war Erfolgreich!",
-      "waitForData": "Warte auf Daten..."
-    },
-
-    "achieveCategories": {
-      "basic": "Anfänger",
-      "advanced": "Fortgeschritten"
-    },
-
-    "settings": {
-      "quality": "Grafikqualität",
-      "canvas": "Benutze WebGL (Neustart benötigt)",
-      "numberformat": "Benutze Wissenschaftliche Notation",
-      "soundVolume": "Lautstärke",
-      "soundEnabled": "Geräusche an",
-      "musicEnabled": "Musik an"
-    },
-
-    "stats": {
-      "version": "Version",
-      "fps": "FPS",
-      "activePlaytime": "Aktive Spielzeit",
-      "passivePlaytime": "Passive Spielzeit"
-    },
-
-    "upgrades": {
-      "moneyIncrease": {
-        "name": "Geldsteigerung",
-        "desc": "Erhöht Geld um %"
-      },
-      "moneyMulti": {
-        "name": "Geld Multi",
-        "desc": "Multipliziert Geldsteigerung um %"
-      },
-      "goldIncrease": {
-        "name": "Goldsteigerung",
-        "desc": "Steigert Gold um %"
-      }
-    },
-
-    "achievements": {
-      "totalMoney": {
-        "name": "Gesamtes Geld",
-        "desc": "Erreiche % Geld",
-        "reward": "+% Geld"
-      },
-      "totalMoney2": {
-        "name": "Gesamtes Geld",
-        "desc": "Erreiche % Geld",
-        "reward": "Nichts"
-      },
-      "totalMoney3": {
-        "name": "Fortgeschrittenes Geld",
-        "desc": "Erreiche % Geld",
-        "reward": "Nichts"
-      }
-    }
   }
 }
