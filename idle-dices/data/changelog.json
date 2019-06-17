@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "1.3.37",
+      "log": [
+        "added: confirmation before saving to cloud",
+        "added: a roll gets triggered when rerollchance is maxed"
+      ]
+    },
+    {
       "version": "1.3.36",
       "log": [
         "added: setting for short magnitudes",
