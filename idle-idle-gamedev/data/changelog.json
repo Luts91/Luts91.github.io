@@ -1,6 +1,15 @@
 {
   "logs":[
     {
+      "version": "0.0.25",
+      "log": [
+          "added: discord link",
+          "added: game plot",
+          "fixed: time not updating",
+          "fixed: some things not loading when importing"
+        ]
+    },
+    {
       "version": "0.0.24",
       "log": [
           "initial"

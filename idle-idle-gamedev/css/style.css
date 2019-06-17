@@ -11,8 +11,11 @@
     color: #eee;
     background-color: #303030;
 }
+.task-content{
+    flex: 1 0 auto;
+}
 .hidden{
-    display: none;
+    display: none!important;
 }
 .margin-auto{
     margin-right: auto;
