@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "1.3.38",
+      "log": [
+        "fixed: duel enemy changing after refreshing",
+        "fixed: slot spin block after export not working",
+        "changed: disabled slot spin block if the layout is filled with the same item"
+      ]
+    },
+    {
       "version": "1.3.37",
       "log": [
         "added: confirmation before saving to cloud",
