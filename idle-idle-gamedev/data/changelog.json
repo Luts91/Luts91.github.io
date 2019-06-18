@@ -1,6 +1,20 @@
 {
   "logs":[
     {
+      "version": "0.0.28",
+      "log": [
+          "added: more explanations",
+          "added: hiding things that are locked",
+          "added: more shop items",
+          "changed: days to hours to make it more realistic",
+          "changed: cost for cent decoration 0.1 -> 0.01",
+          "changed: donations 0.1 -> 0.02",
+          "changed: how rewards for some achievements work",
+          "changed: decreased multi from shop items",
+          "changed: some style changes"
+        ]
+    },
+    {
       "version": "0.0.25",
       "log": [
           "added: discord link",

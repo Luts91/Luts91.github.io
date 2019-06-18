@@ -1,6 +1,10 @@
 {
   "en": {
     "ideaExplain": "Ideas are needed to create game features",
+    "programExplain": "Programming turns ideas into features that improve the playtime and quality of your game",
+    "bugsExplain": "Bugs decrease the quality of your games, so get rid of them!",
+    "marketExplain": "Market your game to give it more publicity and reach more players",
+    "researchExplain": "Research new technologies to make your games better",
     "years": "Years",
     "days": "Days",
     "hours": "Hours",
@@ -136,7 +140,7 @@
       },
       "r_forcedAds": {
         "name": "Forced Ads",
-        "desc": "Increases CPM by (%1 -> %2)"
+        "desc": "Increases CPM by %3"
       },
       "i_cent": {
         "name": "Cent decoration",
@@ -166,6 +170,10 @@
         "name": "Motivational Course",
         "desc": "Learn 2 times faster for 1 hour"
       },
+      "i_experimentalLiquid": {
+        "name": "Experimental Liquid",
+        "desc": "Work 2 times faster for 2 hours"
+      },
       "i_calculator": {
         "name": "Calculator",
         "desc": "Learn Logic %2 times faster"
@@ -186,13 +194,53 @@
         "name": "Typewriter",
         "desc": "Get new ideas %2 times faster"
       },
+      "i_antFarm": {
+        "name": "Ant Farm",
+        "desc": "Fix Bugs %2 times faster"
+      },
+      "i_shittyphone": {
+        "name": "Shitty Phone",
+        "desc": "Program new features %2 times faster"
+      },
+      "i_haircut": {
+        "name": "Haircut",
+        "desc": "Market %2 times faster"
+      },
       "i_researchBench": {
         "name": "Research Bench",
         "desc": "Unlocks research"
       },
       "i_betterPC": {
         "name": "Better PC",
-        "desc": "Program new features (%1 -> %2) times faster"
+        "desc": "Program new features %3 times faster"
+      },
+      "i_betterCalc": {
+        "name": "Better Calculator",
+        "desc": "Learn logic %3 times faster"
+      },
+      "i_betterBook": {
+        "name": "Better Book",
+        "desc": "Learn everything %3 times faster"
+      },
+      "i_betterDecoration": {
+        "name": "Better Decoration",
+        "desc": "Learn creativity %3 times faster"
+      },
+      "i_betterStyle": {
+        "name": "Better Style",
+        "desc": "Learn charisma %3 times faster"
+      },
+      "i_betterTypewriter": {
+        "name": "Better Typewriter",
+        "desc": "Think of new ideas %3 times faster"
+      },
+      "i_betterBugs": {
+        "name": "Better Bug Pets",
+        "desc": "Fix bugs %3 times faster"
+      },
+      "i_betterHaircut": {
+        "name": "Better Haircut",
+        "desc": "Market %3 times faster"
       },
       "serverSize": {
         "name": "Server Size",
@@ -272,7 +320,7 @@
       },
       "donations": {
         "name": "Donations",
-        "desc": "Your fans will donate % every day per 1000 fans"
+        "desc": "Your fans will donate % every hour per 1000 fans"
       },
       "shopDiscount": {
         "name": "Shop Discount",

@@ -85,6 +85,12 @@ body{
 .card.public{
     background-color: #885887;
 }
+.progress-bar.research{
+    background-color: #579361;
+}
+.card.research{
+    background-color: #598861;
+}
 .progress-text{
     position: absolute;
     width: 100%;
