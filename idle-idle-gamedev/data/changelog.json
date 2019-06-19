@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "0.0.289",
+      "log": [
+          "added: intelligence upgrades",
+          "added: scientist",
+          "changed: priceincrease of bandwidth 5 -> 4"
+        ]
+    },
+    {
       "version": "0.0.28",
       "log": [
           "added: more explanations",

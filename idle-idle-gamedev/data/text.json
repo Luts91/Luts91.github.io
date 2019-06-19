@@ -5,6 +5,7 @@
     "bugsExplain": "Bugs decrease the quality of your games, so get rid of them!",
     "marketExplain": "Market your game to give it more publicity and reach more players",
     "researchExplain": "Research new technologies to make your games better",
+    "games": "Games",
     "years": "Years",
     "days": "Days",
     "hours": "Hours",
@@ -41,6 +42,7 @@
     "fProgrammers": "Feature Programmers",
     "bugFixers": "Bug Fixers",
     "marketers": "Marketers",
+    "researchers": "Scientists",
     "exportExplain": "Copy this and save it somewhere.",
     "importExplain": "Paste the savedata here and click load.",
     "load": "Load",
@@ -48,6 +50,7 @@
     "program": "Program",
     "fix": "Fix",
     "market": "Market",
+    "research": "Research",
 
     "currency": {
       "money": "Money",
@@ -325,13 +328,37 @@
       "shopDiscount": {
         "name": "Shop Discount",
         "desc": "Items in the shop cost % of their original price"
+      },
+      "creativityXPMulti": {
+        "name": "Learn to think",
+        "desc": "Multiplies creativity learning speed by %"
+      },
+      "researchDiscount": {
+        "name": "Research Discount",
+        "desc": "Multiplies the price of researches by %"
+      },
+      "researchMulti": {
+        "name": "Research Multi",
+        "desc": "Multiplies research speed by %"
+      },
+      "XPMulti": {
+        "name": "Learn to learn",
+        "desc": "Multiplies learning speed by %"
+      },
+      "intXPMulti": {
+        "name": "How to be smart",
+        "desc": "Multiplies intelligence learning speed by %"
+      },
+      "researchPointMulti": {
+        "name": "Bulk Researching",
+        "desc": "Multiplies research points gained by %"
       }
     },
 
     "achievements": {
       "totalMoney": {
-        "name": "Total Money",
-        "desc": "Get a total of % money",
+        "name": "Bank Account",
+        "desc": "Have % money",
         "reward": "Charisma Exp Multi x%"
       },
       "totalIdeas": {
