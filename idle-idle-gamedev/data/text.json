@@ -139,11 +139,15 @@
       },
       "e_human": {
         "name": "Human",
-        "desc": "An actual human beeing, willing to sell their soul and work for you forever. Power: 1000"
+        "desc": "An actual human being, willing to sell their soul and work for you forever. Power: 1000"
       },
       "r_forcedAds": {
         "name": "Forced Ads",
         "desc": "Increases CPM by %3"
+      },
+      "r_procGen": {
+        "name": "Procedural Generation",
+        "desc": "Multiplies playtime by %3"
       },
       "i_cent": {
         "name": "Cent decoration",
@@ -255,23 +259,23 @@
       },
       "ideaProgressMulti": {
         "name": "Thinking Speed",
-        "desc": "Make % progress on a new idea per second"
+        "desc": "Think %3 times faster per level"
       },
       "programmingXPMulti": {
         "name": "Learn to Code",
-        "desc": "Multiplies logic skill learning speed by %"
+        "desc": "Multiplies logic skill learning speed by %3 per level"
       },
       "marketingXPMulti": {
         "name": "Learn to Count",
-        "desc": "Multiplies charisma skill learning speed by %"
+        "desc": "Multiplies charisma skill learning speed by %3 per level"
       },
       "ideaMulti": {
         "name": "Bulk Thinking",
-        "desc": "Get % ideas when finishing an idea progress"
+        "desc": "Multiplies ideas by %3 per level"
       },
       "greatIdeaChance": {
         "name": "Great Ideas",
-        "desc": "% chance that an idea is a great idea"
+        "desc": "Increases the change for great ideas by %3 per level"
       },
       "ideaReset": {
         "name": "Holiday",
@@ -279,19 +283,19 @@
       },
       "uniqueIdeaChance": {
         "name": "Unique Ideas",
-        "desc": "% chance that an idea is an unique idea"
+        "desc": "Increases chance for unique ideas by %3 per level"
       },
       "featuresProgressMulti": {
         "name": "Programming Speed",
-        "desc": "Make % progress on a new feature per second"
+        "desc": "Program %3 times faster per level"
       },
       "contentStretching": {
         "name": "Content Streching",
-        "desc": "Keep a player busy with one feature for %"
+        "desc": "Increases playtime of games by %3 per level"
       },
       "bugsQualityDecrease": {
         "name": "Bug Hiding",
-        "desc": "Decreases the incluence a bug has on the game quality. Quality is % decreased per bug now"
+        "desc": "Multiplies the influence a bug has on the game quality by %3 per level"
       },
       "maxBugs": {
         "name": "Careful Programming",
@@ -299,59 +303,59 @@
       },
       "qualityMulti": {
         "name": "Programming Quality",
-        "desc": "Multiplies the quality of a game by %"
+        "desc": "Multiplies the quality of a game by %3 per level"
       },
       "bugsProgressMulti": {
         "name": "Bug Fixing",
-        "desc": "Make % progress on a bug per second"
+        "desc": "Multiplies bug fixing speed by %3 per level"
       },
       "publicityProgressMulti": {
         "name": "Marketing Speed",
-        "desc": "Make % progress on publicity per second"
+        "desc": "Multiplies marketing speed by %3 per level"
       },
       "publicityMulti": {
         "name": "Marketing Effectiveness",
-        "desc": "A game will get % initial Players per publicity amount"
+        "desc": "Multiplies initial Players by %3 per level"
       },
       "cpmMulti": {
         "name": "Money Grabbing",
-        "desc": "Get % money per 1000 players per day"
+        "desc": "Increases cpm by %3 per level"
       },
       "marketingEffDecrease": {
         "name": "Memorability",
-        "desc": "Publicity will sink % per day"
+        "desc": "Mutliplies marketing efficiency decay by %3 per level"
       },
       "donations": {
         "name": "Donations",
-        "desc": "Your fans will donate % every hour per 1000 fans"
+        "desc": "1000 fans will donate %3 per level every hour"
       },
       "shopDiscount": {
         "name": "Shop Discount",
-        "desc": "Items in the shop cost % of their original price"
+        "desc": "Mutliplies shop prices by %3 per level"
       },
       "creativityXPMulti": {
         "name": "Learn to think",
-        "desc": "Multiplies creativity learning speed by %"
+        "desc": "Multiplies creativity learning speed by %3 per level"
       },
       "researchDiscount": {
         "name": "Research Discount",
-        "desc": "Multiplies the price of researches by %"
+        "desc": "Multiplies the price of researches by %3 per level"
       },
       "researchMulti": {
         "name": "Research Multi",
-        "desc": "Multiplies research speed by %"
+        "desc": "Multiplies research speed by %3 per level"
       },
       "XPMulti": {
         "name": "Learn to learn",
-        "desc": "Multiplies learning speed by %"
+        "desc": "Multiplies learning speed by %3 per level"
       },
       "intXPMulti": {
         "name": "How to be smart",
-        "desc": "Multiplies intelligence learning speed by %"
+        "desc": "Multiplies intelligence learning speed by %3 per level"
       },
       "researchPointMulti": {
         "name": "Bulk Researching",
-        "desc": "Multiplies research points gained by %"
+        "desc": "Multiplies research points gained by %3 per level"
       }
     },
 

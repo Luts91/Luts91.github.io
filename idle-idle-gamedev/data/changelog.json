@@ -1,7 +1,22 @@
 {
   "logs":[
     {
-      "version": "0.0.289",
+      "version": "0.0.30",
+      "log": [
+          "added: buyamount buttons on game tab",
+          "added: items/researches with multiple levels disappear after buying if the cost of the next level is too high",
+          "added: display level of items",
+          "added: new research",
+          "changed: seperated buffs and items",
+          "changed: skill cost increase: +30 per level -> x1.1 per level",
+          "fixed: the buyamount buttons on research tab are controlling money instead of research points",
+          "fixed: optimized buying multiple items and adding progress to progress bars",
+          "fixed: intelligence skills have the wrong color",
+          "fixed: typos"
+        ]
+    },
+    {
+      "version": "0.0.29",
       "log": [
           "added: intelligence upgrades",
           "added: scientist",
