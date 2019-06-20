@@ -1,12 +1,6 @@
 {
   "logs":[
     {
-      "version": "1.3.41",
-      "log": [
-        "changed: optimized buy max"
-      ]
-    },
-    {
       "version": "1.3.40",
       "log": [
         "changed: lowered the kred price for BP (retroactive, you get the additional bps if you already bought some)"
