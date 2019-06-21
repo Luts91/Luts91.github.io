@@ -1,6 +1,22 @@
 {
   "logs":[
     {
+      "version": "0.0.31",
+      "log": [
+          "added: fan expectations. that is the quality that is needed to get 100% retention",
+          "added: code structure, every programmed feature will produce unstructured code which decreases the programming speed. can be fixed be researching code structure",
+          "added: buy amount buttons for skills",
+          "changed: how fans and some multipliers work, you should hard reset to get the real values",
+          "changed: intelligence base cost 30 -> 300",
+          "changed: skills base cost 30 -> 45",
+          "changed: how some unlocks happen",
+          "changed: some design",
+          "fixed: gamechart",
+          "fixed: discounts not working",
+          "fixed: getting negative money when buying multiple levels at once"
+        ]
+    },
+    {
       "version": "0.0.30",
       "log": [
           "added: buyamount buttons on game tab",

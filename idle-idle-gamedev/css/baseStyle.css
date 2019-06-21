@@ -36,7 +36,7 @@
     width: 100%!important;
 }
 .tooltip{
-    font-size: 2vh;
+    font-size: 1.6vh;
 }
 .container{
     max-width: initial;
@@ -76,10 +76,14 @@ h1{
     font-size: 3vh;
 }
 h2{
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 .done{
     background-color: rgba(0, 250, 0, 0.19) !important;
+}
+hr{
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
 }
 .card {
     background-color: darkcyan;
@@ -99,13 +103,13 @@ h2{
     line-height: 0;
 }
 .fas{
-    font-size: 3vh;
+    font-size: 2vh;
 }
 .far{
-    font-size: 3vh;
+    font-size: 2vh;
 }
 .fab{
-    font-size: 3vh;
+    font-size: 2vh;
 }
 .table td, .table th{
     padding: 1vh;
@@ -123,7 +127,7 @@ h2{
     width: 100%;
     height: 100%;
     background-color: cadetblue;
-    font-size: 2vh;
+    font-size: 1.6vh;
 
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
@@ -170,7 +174,7 @@ h2{
     margin: 0.5vh;
     border-radius: 1vh;
     border-color: white!important;
-    font-size: 2vh;
+    font-size: 1.6vh;
     border: 0.1vh solid white;
 }
 .upgrade-button{

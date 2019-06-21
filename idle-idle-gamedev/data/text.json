@@ -5,6 +5,7 @@
     "bugsExplain": "Bugs decrease the quality of your games, so get rid of them!",
     "marketExplain": "Market your game to give it more publicity and reach more players",
     "researchExplain": "Research new technologies to make your games better",
+    "structureExplain": "Unstructured code slows feature programming down, structure your code to make it easier to program new features!",
     "games": "Games",
     "years": "Years",
     "days": "Days",
@@ -43,6 +44,7 @@
     "bugFixers": "Bug Fixers",
     "marketers": "Marketers",
     "researchers": "Scientists",
+    "structurers": "Structurers",
     "exportExplain": "Copy this and save it somewhere.",
     "importExplain": "Paste the savedata here and click load.",
     "load": "Load",
@@ -62,6 +64,7 @@
     },
 
     "values": {
+      "structure": "Code Structure",
       "research": "Research",
       "ideas": "Ideas",
       "features": "Features",
@@ -79,6 +82,7 @@
       "mExpMulti": "Charisma Exp Multi",
       "iExpMulti": "Intelligence Exp Multi",
       "fans": "Fans",
+      "fanMulti": "Fan gain per new player",
       "shopCostMulti": "Shop Cost Multi"
     },
 
@@ -149,6 +153,10 @@
         "name": "Procedural Generation",
         "desc": "Multiplies playtime by %3"
       },
+      "r_structureCode": {
+        "name": "Coding Structure",
+        "desc": "Unlocks code structuring"
+      },
       "i_cent": {
         "name": "Cent decoration",
         "desc": "Hang the first cent you ever earned on the wall to get more Motivation and work %2 faster"
@@ -216,6 +224,10 @@
       "i_researchBench": {
         "name": "Research Bench",
         "desc": "Unlocks research"
+      },
+      "i_tinyPC": {
+        "name": "Extremely Tiny Computer",
+        "desc": "Unlocks employees"
       },
       "i_betterPC": {
         "name": "Better PC",
@@ -294,8 +306,8 @@
         "desc": "Increases playtime of games by %3 per level"
       },
       "bugsQualityDecrease": {
-        "name": "Bug Hiding",
-        "desc": "Multiplies the influence a bug has on the game quality by %3 per level"
+        "name": "Coding Patterns",
+        "desc": "Multiplies the influence a feature has on the programming power by %3 per level"
       },
       "maxBugs": {
         "name": "Careful Programming",
@@ -380,6 +392,11 @@
         "desc": "Earn your first cent",
         "reward": "Unlocks Shop"
       },
+      "fans1": {
+        "name": "Hi Mom!",
+        "desc": "Get your first fan",
+        "reward": "Unlocks Marketing"
+      },
       "ideas3": {
         "name": "I have an idea for a game",
         "desc": "Have 3 ideas",
@@ -390,20 +407,10 @@
         "desc": "Program 2 features",
         "reward": "Unlocks Bug fixing"
       },
-      "features5": {
-        "name": "Someone wants to play?",
-        "desc": "Program 5 features",
-        "reward": "Unlocks Marketing"
-      },
       "games1": {
         "name": "My first game!",
         "desc": "Release your first game",
         "reward": "Unlocks Game tab"
-      },
-      "games3": {
-        "name": "Need some help",
-        "desc": "Release 3 games",
-        "reward": "Unlocks employees"
       }
     }
   },
