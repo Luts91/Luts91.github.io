@@ -1,6 +1,19 @@
 {
   "logs":[
     {
+      "version": "1.3.43",
+      "log": [
+        "added: new enemy button for duels",
+        "fixed: improved performance"
+      ]
+    },
+    {
+      "version": "1.3.42",
+      "log": [
+        "added: highscore submit at start of game"
+      ]
+    },
+    {
       "version": "1.3.40",
       "log": [
         "changed: lowered the kred price for BP (retroactive, you get the additional bps if you already bought some)"
