@@ -3,13 +3,22 @@
     transition: width .3s ease;
 }
 .levelable{
-    height: 3.5vh;
+    height: 2.8vh;
     margin-bottom: 0.5vh;
     box-shadow: 0 0.1vh 5px black;
 }
 #ui{
     color: #eee;
     background-color: #303030;
+}
+.goodQuality{
+    color: #85b48d;
+}
+.okQuality{
+    color: #b0b485;
+}
+.badQuality{
+    color: #ee7878;
 }
 .task-content{
     flex: 1 0 auto;
@@ -95,7 +104,7 @@ body{
     position: absolute;
     width: 100%;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.6vh;
 }
 .task-button{
     width: 15vh;

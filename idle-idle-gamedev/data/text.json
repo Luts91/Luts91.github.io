@@ -88,7 +88,7 @@
 
     "popups": {
       "thankYou": "Thank you!",
-      "goneFor": "You were gone for %1. You gained %2",
+      "goneFor": "You were gone for %1. You gained %2 bonus seconds",
       "updateAvailable": "New Update available, refresh now?",
       "hardReset": "Are you sure? All of your progress will be lost forever.",
       "copied": "Copied!",

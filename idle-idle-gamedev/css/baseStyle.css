@@ -14,6 +14,22 @@
     animation: scale-pulse 1s infinite;
     animation-timing-function: ease-in-out;
 }
+@keyframes alpha-pulse
+{
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+.alpha-pulse {
+    animation: alpha-pulse 1s infinite;
+    animation-timing-function: ease-in-out;
+}
 .slide-fade-enter-active {
     transition: all .05s ease;
 }
@@ -210,6 +226,9 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.error{
+    color: #ee7878;
 }
 .modal-header{
     padding: 1vh;

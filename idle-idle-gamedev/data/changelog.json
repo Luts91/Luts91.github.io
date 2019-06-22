@@ -1,6 +1,17 @@
 {
   "logs":[
     {
+      "version": "0.0.32",
+      "log": [
+          "added: warnings for server full and no ideas",
+          "added: colors for quality",
+          "added: bonus seconds",
+          "changed: retention of a game wont changed based on the fans it earned itself",
+          "fixed: improved performance of game chart",
+          "fixed: unemployed not decreasing when adding structurers"
+        ]
+    },
+    {
       "version": "0.0.31",
       "log": [
           "added: fan expectations. that is the quality that is needed to get 100% retention",
