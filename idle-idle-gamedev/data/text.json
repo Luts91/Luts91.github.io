@@ -6,6 +6,15 @@
     "marketExplain": "Market your game to give it more publicity and reach more players",
     "researchExplain": "Research new technologies to make your games better",
     "structureExplain": "Unstructured code slows feature programming down, structure your code to make it easier to program new features!",
+    "fansExplain": "Your fans will play your all of your new games when they release",
+    "fanExpExplain": "The quality needed to get no retention penalty",
+    "donationsExplain": "The money your fans give you every hour",
+    "playtimeExplain": "How long your game can be played without running out of content",
+    "baseRetentionExplain": "The percentage of players that will keep playing based on playtime",
+    "qualityExplain": "How good your game is",
+    "totalRetentionExplain": "The percentage of players that will keep playing based on playtime and quality/expecations",
+    "initPlayersExplain": "The amount of players that will play your game on release",
+    "cpmExplain": "Money you will get for 1000 plays",
     "games": "Games",
     "years": "Years",
     "days": "Days",
@@ -291,7 +300,7 @@
       },
       "ideaReset": {
         "name": "Holiday",
-        "desc": "Refresh your thoughts. Will reset the cost of new ideas"
+        "desc": "Refresh your thoughts. Will reset the cost of new ideas. (Use when getting ideas is slowing down)"
       },
       "uniqueIdeaChance": {
         "name": "Unique Ideas",

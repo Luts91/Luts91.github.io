@@ -1,6 +1,19 @@
 {
   "logs":[
     {
+      "version": "0.0.33",
+      "log": [
+          "added: tooltips for info on the left",
+          "changed: positions of tooltips of tasks",
+          "changed: serversize price increase 20 -> 40",
+          "changed: increased cost for motivation course and experimental liquid",
+          "changed: removed progressbars from buttons",
+          "fixed: structure cost not reseting when releasing a game",
+          "fixed: things not unlocking",
+          "fixed: improved performance when speeding up"
+        ]
+    },
+    {
       "version": "0.0.32",
       "log": [
           "added: warnings for server full and no ideas",
