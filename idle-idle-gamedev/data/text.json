@@ -62,6 +62,9 @@
     "fix": "Fix",
     "market": "Market",
     "research": "Research",
+    "dev": "Dev",
+    "shop": "Shop",
+    "employees": "Employees",
 
     "currency": {
       "money": "Money",
@@ -377,6 +380,50 @@
       "researchPointMulti": {
         "name": "Bulk Researching",
         "desc": "Multiplies research points gained by %3 per level"
+      },
+      "lowExpectation": {
+        "name": "Disappointment",
+        "desc": "Multiplies fan expectations by %3 per level"
+      },
+      "inspiration": {
+        "name": "Inspiration",
+        "desc": "Employees working on the same task as you get their power multiplied %3 per level"
+      },
+      "bandWidthDiscount": {
+        "name": "Server Architecture",
+        "desc": "Multiplies Bandwidth cost by %3 per level"
+      },
+      "structureMulti": {
+        "name": "Software Architecture",
+        "desc": "Multiplies structuring speed by %3 per level"
+      },
+      "teamWork": {
+        "name": "Team Work",
+        "desc": "Employees get their power multiplied by %3 per level for each employee working on the same task"
+      },
+      "brand": {
+        "name": "Brand Building",
+        "desc": "%3 of the players of each game also play every other game"
+      },
+      "employeeDiscount": {
+        "name": "Employee Discount",
+        "desc": "Multiplies the price of employees by %3 per level"
+      },
+      "fanMulti": {
+        "name": "Community Building",
+        "desc": "Multiplies fan gain by %3 per level"
+      },
+      "buffMulti": {
+        "name": "Chemistry",
+        "desc": "Multiplies buff duration by %3 per level"
+      },
+      "researchReset": {
+        "name": "Party",
+        "desc": "Reset research cost (Use when research point gain is slowing down)"
+      },
+      "multiTasking": {
+        "name": "Multitasking",
+        "desc": "Passively learn each skill without working on them with %3 efficiency per level"
       }
     },
 

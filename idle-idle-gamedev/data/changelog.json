@@ -1,6 +1,19 @@
 {
   "logs":[
     {
+      "version": "0.0.43",
+      "log": [
+          "added: new skills",
+          "changed: cost increase server size 40 -> 100",
+          "changed: initial server size 5 -> 3",
+          "changed: new tab system",
+          "fixed: time too fast when bonuns time active",
+          "fixed: buffs not decreasing faster when bonus time is active",
+          "fixed: everything NaN when releasing the first game",
+          "fixed: tabs not displaying"
+        ]
+    },
+    {
       "version": "0.0.33",
       "log": [
           "added: tooltips for info on the left",

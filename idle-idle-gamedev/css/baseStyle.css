@@ -230,6 +230,34 @@ hr{
 .error{
     color: #ee7878;
 }
+.tabs a:hover {
+    //border-bottom-color: #ffffff;
+    color: #ffffff;
+}
+.tabs .is-active a {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+    /* border-bottom: 0; */
+    text-shadow: -0.1vh 0 black, 0 0.1vh black, 0.1vh 0 black, 0 -0.1vh black;
+}
+.tabs a {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #777777;
+    color: #777777;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: -1px;
+    padding: .5em 1em;
+    vertical-align: top;
+    text-shadow: initial;
+    cursor: pointer;
+}
 .modal-header{
     padding: 1vh;
 }
