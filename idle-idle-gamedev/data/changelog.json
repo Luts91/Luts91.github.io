@@ -1,6 +1,16 @@
 {
   "logs":[
     {
+      "version": "0.0.44",
+      "log": [
+          "added: contracts",
+          "changed: sidebar now scrolling with main content",
+          "changed: design of upgrade containers",
+          "changed: changed teamwork value increase 0.01 -> 0.001",
+          "fixed: everything going negative"
+        ]
+    },
+    {
       "version": "0.0.43",
       "log": [
           "added: new skills",

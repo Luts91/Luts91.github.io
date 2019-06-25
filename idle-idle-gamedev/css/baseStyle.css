@@ -34,7 +34,7 @@
     transition: all .05s ease;
 }
 .slide-fade-leave-active {
-    transition: all .05s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+    transition: all .01s cubic-bezier(1.0, 0.5, 0.8, 1.0);
 }
 .slide-fade-enter{
     display: inline-block;
@@ -213,7 +213,24 @@ hr{
 .btn:active:not([disabled]){
     transform: scale(0.9);
 }
-
+@media screen and (orientation: landscape) {
+    .col-side {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+        overflow-y: auto;
+        height: 91vh;
+    }
+    .col-main {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .tabs-main {
+        height: 87vh;
+        overflow-y: auto;
+    }
+}
 .modal-mask {
     position: fixed;
     z-index: 9998;
@@ -232,6 +249,7 @@ hr{
 }
 .tabs a:hover {
     //border-bottom-color: #ffffff;
+    box-shadow: inset 0px -10px 6px -6px white;
     color: #ffffff;
 }
 .tabs .is-active a {
@@ -241,6 +259,7 @@ hr{
     text-shadow: -0.1vh 0 black, 0 0.1vh black, 0.1vh 0 black, 0 -0.1vh black;
 }
 .tabs a {
+    transition: all .2s ease;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;

@@ -15,6 +15,8 @@
     "totalRetentionExplain": "The percentage of players that will keep playing based on playtime and quality/expecations",
     "initPlayersExplain": "The amount of players that will play your game on release",
     "cpmExplain": "Money you will get for 1000 plays",
+    "pausedWarning": "Game is paused",
+    "contractExplain": "Contracts will give you special rewards if you fulfill them. You need to accept a contract to work on it. The game created will not belong to you, so won't bring you revenue or fans. You will only get the reward.",
     "games": "Games",
     "years": "Years",
     "days": "Days",
@@ -65,6 +67,8 @@
     "dev": "Dev",
     "shop": "Shop",
     "employees": "Employees",
+    "contracts": "Contracts",
+    "contract": "Contract",
 
     "currency": {
       "money": "Money",
@@ -107,7 +111,10 @@
       "error": "Something went wrong.",
       "kongError": "Saves that started outside of Kongregate cannot be imported into the Kongregate Version",
       "uploadSuccess": "Uploading to the cloud was successful!",
-      "waitForData": "Waiting for data..."
+      "waitForData": "Waiting for data...",
+      "startContract": "You have to release your game before starting the contract. Release now?",
+      "startContractFail": "You have to release your game before starting the contract. But your server is full. Do you want to abandon your game? YOUR CURRENT GAME WILL BE ABANDONED AND NOT RELEASED IF YOU CLICK YES",
+      "cancelContract": "Are you sure to cancel the contract? You will be able to keep developing the game and release it yourself"
     },
 
     "achieveCategories": {
@@ -199,7 +206,19 @@
       },
       "i_experimentalLiquid": {
         "name": "Experimental Liquid",
-        "desc": "Work 2 times faster for 2 hours"
+        "desc": "Work 2 times faster for 1 hour"
+      },
+      "i_spaceCrack": {
+        "name": "Space Crack",
+        "desc": "Learn 2 times faster for 1 hour"
+      },
+      "i_bodyEnhancement": {
+        "name": "Body Enhancement",
+        "desc": "Work 2 times faster for 1 hour"
+      },
+      "i_brainEnhancement": {
+        "name": "Brain Enhancement",
+        "desc": "Learn 2 times faster for 1 hour"
       },
       "i_calculator": {
         "name": "Calculator",
@@ -395,7 +414,7 @@
       },
       "structureMulti": {
         "name": "Software Architecture",
-        "desc": "Multiplies structuring speed by %3 per level"
+        "desc": "Multiplies structuring speed by %3 per level (unlock through research)"
       },
       "teamWork": {
         "name": "Team Work",
@@ -453,6 +472,11 @@
         "desc": "Get your first fan",
         "reward": "Unlocks Marketing"
       },
+      "fans100": {
+        "name": "Making a name",
+        "desc": "Get 100 fans",
+        "reward": "Unlocks contracts"
+      },
       "ideas3": {
         "name": "I have an idea for a game",
         "desc": "Have 3 ideas",
@@ -467,6 +491,14 @@
         "name": "My first game!",
         "desc": "Release your first game",
         "reward": "Unlocks Game tab"
+      }
+    },
+
+    "contractData":{
+      "first":{
+        "name": "Hello World!",
+        "desc": "Create a game with a quality of 300",
+        "reward": "% Money"
       }
     }
   },
