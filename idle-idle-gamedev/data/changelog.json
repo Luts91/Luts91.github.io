@@ -1,6 +1,16 @@
 {
   "logs":[
     {
+      "version": "0.0.45",
+      "log": [
+          "added: repeatable contracts and special contracts",
+          "changed: retention wont round to 100",
+          "changed: align of values",
+          "changed: progress bars showing /s value when the progress is too fast",
+          "fixed: great idea chance too low"
+        ]
+    },
+    {
       "version": "0.0.44",
       "log": [
           "added: contracts",

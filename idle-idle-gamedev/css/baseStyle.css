@@ -57,6 +57,15 @@
 .container{
     max-width: initial;
 }
+.currency-title{
+    width: initial;
+    flex-basis: auto;
+    flex-grow: 0;
+}
+.l-col{
+    flex-basis: auto;
+    width: initial;
+}
 .progress-fade-enter{
     transition: all 0s ease!important;
     display: inline-block;
@@ -396,6 +405,9 @@ tr:nth-child(odd) {
 }
 .btn-primary{
     background-color: transparent!important;
+}
+.btn{
+    text-shadow: -0.1vh 0 black, 0 0.1vh black, 0.1vh 0 black, 0 -0.1vh black;
 }
 #turn{
     width:100%;

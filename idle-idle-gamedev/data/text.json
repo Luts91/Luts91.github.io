@@ -69,6 +69,11 @@
     "employees": "Employees",
     "contracts": "Contracts",
     "contract": "Contract",
+    "repeatable": "Repeatable",
+    "special": "Special",
+    "company": "Company",
+    "timeLeft": "Time to accept",
+    "fansNeeded": "Fans needed",
 
     "currency": {
       "money": "Money",
@@ -175,6 +180,10 @@
       "r_structureCode": {
         "name": "Coding Structure",
         "desc": "Unlocks code structuring"
+      },
+      "r_mtx": {
+        "name": "Micro Transactions",
+        "desc": "Increases CPM by %3"
       },
       "i_cent": {
         "name": "Cent decoration",
@@ -495,10 +504,35 @@
     },
 
     "contractData":{
+      "quality":{
+        "name": "Quality Game",
+        "desc": "Create a game with a quality of %1",
+        "reward": "% Money"
+      },
       "first":{
         "name": "Hello World!",
-        "desc": "Create a game with a quality of 300",
+        "desc": "Create a game with a quality of %1",
         "reward": "% Money"
+      },
+      "second":{
+        "name": "To the dark side",
+        "desc": "Create a game with a playtime of %1 and market it to %2 players. We don't care about the quality, only want to make a lot of money",
+        "reward": "Publicity x%"
+      },
+      "third":{
+        "name": "More.. friendsss..",
+        "desc": "Give us... %1 bugssss",
+        "reward": "Feature Programming x%"
+      },
+      "fourth":{
+        "name": "Not Rich enough",
+        "desc": "Create a game with a playtime of %1 and market it to %2 players. We don't care about the quality, only want to make a lot of money",
+        "reward": "Publicity x%"
+      },
+      "fifth":{
+        "name": "Recursion",
+        "desc": "Create a game with a quality of %1 and %2 initial Players.",
+        "reward": "?"
       }
     }
   },
