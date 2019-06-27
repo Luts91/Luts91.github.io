@@ -17,6 +17,9 @@
     "cpmExplain": "Money you will get for 1000 plays",
     "pausedWarning": "Game is paused",
     "contractExplain": "Contracts will give you special rewards if you fulfill them. You need to accept a contract to work on it. The game created will not belong to you, so won't bring you revenue or fans. You will only get the reward.",
+    "recursionExplain": "You created Idle Idle GameDev%! You can tweak some parameters and play your just developed game. This works like a reset, you will lose all your money, researches, items, fans and skills. But you are able to buy powerful upgrades with recursion points that depend on your number of fans.",
+    "iniigd":  " in Idle Idle GameDev",
+    "playNow": "Play now",
     "games": "Games",
     "years": "Years",
     "days": "Days",
@@ -74,6 +77,7 @@
     "company": "Company",
     "timeLeft": "Time to accept",
     "fansNeeded": "Fans needed",
+    "recursion": "Recursion",
 
     "currency": {
       "money": "Money",
@@ -81,7 +85,8 @@
       "programmingSP": "Logic Points",
       "marketingSP": "Charisma Points",
       "intelligenceSP": "Intelligence Points",
-      "researchPoints": "Research Points"
+      "researchPoints": "Research Points",
+      "recursionPoints": "Recursion Points"
     },
 
     "values": {
@@ -119,7 +124,8 @@
       "waitForData": "Waiting for data...",
       "startContract": "You have to release your game before starting the contract. Release now?",
       "startContractFail": "You have to release your game before starting the contract. But your server is full. Do you want to abandon your game? YOUR CURRENT GAME WILL BE ABANDONED AND NOT RELEASED IF YOU CLICK YES",
-      "cancelContract": "Are you sure to cancel the contract? You will be able to keep developing the game and release it yourself"
+      "cancelContract": "Are you sure to cancel the contract? You will be able to keep developing the game and release it yourself",
+      "recursion": "You will lose all your money, fans, games, and skills. You will keep your achievements. Are you sure?"
     },
 
     "achieveCategories": {
@@ -168,6 +174,10 @@
       "e_human": {
         "name": "Human",
         "desc": "An actual human being, willing to sell their soul and work for you forever. Power: 1000"
+      },
+      "e_ai": {
+        "name": "A.I.",
+        "desc": "A learning Artificial Intelligence, always becoming smarter. At one point it may realized humans a disturbing factor in creating better Idle Games. Power: 100000"
       },
       "r_forcedAds": {
         "name": "Forced Ads",
@@ -452,6 +462,22 @@
       "multiTasking": {
         "name": "Multitasking",
         "desc": "Passively learn each skill without working on them with %3 efficiency per level"
+      },
+      "maxSkillLevel": {
+        "name": "Brain Capacity",
+        "desc": "Increase max levels of skills by %3 per level"
+      },
+      "bandWidthMulti": {
+        "name": "Download RAM",
+        "desc": "Increases Bandwidth by %3 per level"
+      },
+      "tickSpeedMulti": {
+        "name": "Overclocking",
+        "desc": "Increases tickspeed by %3 per level"
+      },
+      "startingMoney": {
+        "name": "Rich Parents",
+        "desc": "Multiplies starting money by %3 per level"
       }
     },
 

@@ -1,6 +1,17 @@
 {
   "logs":[
     {
+      "version": "0.0.46",
+      "log": [
+          "added: recursion and recursion upgrades",
+          "added: new employee",
+          "changed: increased cost increase of shop items",
+          "changed: decreased money needed to show an shop/research item",
+          "fixed: buffs running out when game is paused",
+          "fixed: removed minutes from time"
+        ]
+    },
+    {
       "version": "0.0.45",
       "log": [
           "added: repeatable contracts and special contracts",
