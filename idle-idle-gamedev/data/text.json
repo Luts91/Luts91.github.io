@@ -337,7 +337,7 @@
       },
       "greatIdeaChance": {
         "name": "Great Ideas",
-        "desc": "Increases the change for great ideas by %3 per level"
+        "desc": "Increases the chance for great ideas by %3 per level"
       },
       "ideaReset": {
         "name": "Holiday",
@@ -478,6 +478,10 @@
       "startingMoney": {
         "name": "Rich Parents",
         "desc": "Multiplies starting money by %3 per level"
+      },
+      "recurseExpMulti": {
+        "name": "Lower Difficulty",
+        "desc": "Increases Exp Multi by %3 per level"
       }
     },
 
@@ -496,6 +500,16 @@
         "name": "Quality Game",
         "desc": "Release a game with a quality of at least %",
         "reward": "Logic Exp Multi x%"
+      },
+      "totalPlayers": {
+        "name": "Total Players",
+        "desc": "Get your games played % times in total",
+        "reward": "Marketing Speed x%"
+      },
+      "playtime": {
+        "name": "Replayability",
+        "desc": "Release a game with a playtime of % hours",
+        "reward": "Feature Programming x%"
       },
       "cent1": {
         "name": "Finally it pays out!",
@@ -526,6 +540,11 @@
         "name": "My first game!",
         "desc": "Release your first game",
         "reward": "Unlocks Game tab"
+      },
+      "retention0,9999999": {
+        "name": "Good Game",
+        "desc": "Release a game with a retention of %",
+        "reward": "Logic Exp Multi x%"
       }
     },
 

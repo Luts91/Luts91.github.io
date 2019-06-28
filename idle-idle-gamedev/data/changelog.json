@@ -1,6 +1,17 @@
 {
   "logs":[
     {
+      "version": "0.0.47",
+      "log": [
+          "added: new achievements",
+          "added: New recursion upgrade",
+          "changed: how to be smart value incrase 1.02 -> 1.1",
+          "changed: intelligence skill base cost 300 -> 150",
+          "fixed: export not working",
+          "fixed: typo"
+        ]
+    },
+    {
       "version": "0.0.46",
       "log": [
           "added: recursion and recursion upgrades",
