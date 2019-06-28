@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.3.46",
+      "log": [
+        "fixed: preventing random save loss better"
+      ]
+    },
+    {
       "version": "1.3.45",
       "log": [
         "added: buy max cups and open max cups"
