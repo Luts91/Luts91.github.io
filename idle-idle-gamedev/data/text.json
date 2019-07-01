@@ -1,18 +1,22 @@
 {
   "en": {
     "ideaExplain": "Ideas are needed to create game features",
+    "gideaExplain": "Great Ideas are needed to create great game features. A great feature gives 10 quality",
+    "uideaExplain": "Unique Ideas are needed to create unique game features. A unique feature gives 100 quality",
     "programExplain": "Programming turns ideas into features that improve the playtime and quality of your game",
+    "gprogramExplain": "A great feature gives 10 quality",
+    "uprogramExplain": "A unique feature gives 100 quality",
     "bugsExplain": "Bugs decrease the quality of your games, so get rid of them!",
     "marketExplain": "Market your game to give it more publicity and reach more players",
     "researchExplain": "Research new technologies to make your games better",
     "structureExplain": "Unstructured code slows feature programming down, structure your code to make it easier to program new features!",
     "fansExplain": "Your fans will play your all of your new games when they release",
-    "fanExpExplain": "The quality needed to get no retention penalty",
+    "fanExpExplain": "The quality needed to get maximum retention",
     "donationsExplain": "The money your fans give you every hour",
     "playtimeExplain": "How long your game can be played without running out of content",
-    "baseRetentionExplain": "The percentage of players that will keep playing based on playtime",
+    "baseRetentionExplain": "The percentage of players that can keep playing every hour based on playtime",
     "qualityExplain": "How good your game is",
-    "totalRetentionExplain": "The percentage of players that will keep playing based on playtime and quality/expecations",
+    "totalRetentionExplain": "The percentage of players that will keep playing every hour based on playtime and quality/expecations",
     "initPlayersExplain": "The amount of players that will play your game on release",
     "cpmExplain": "Money you will get for 1000 plays",
     "pausedWarning": "Game is paused",
@@ -337,7 +341,7 @@
       },
       "greatIdeaChance": {
         "name": "Great Ideas",
-        "desc": "Increases the chance for great ideas by %3 per level"
+        "desc": "Increases the chance for great ideas by %3 per level. Great Ideas turn into great features which give 10 quality"
       },
       "ideaReset": {
         "name": "Holiday",
@@ -345,7 +349,7 @@
       },
       "uniqueIdeaChance": {
         "name": "Unique Ideas",
-        "desc": "Increases chance for unique ideas by %3 per level"
+        "desc": "Increases chance for unique ideas by %3 per level. Unique Ideas turn into unique features which give 100 quality"
       },
       "featuresProgressMulti": {
         "name": "Programming Speed",
@@ -361,7 +365,7 @@
       },
       "maxBugs": {
         "name": "Careful Programming",
-        "desc": "Produce less bugs per feature. Currently a feature will produce % bugs"
+        "desc": "Produce less bugs per feature."
       },
       "qualityMulti": {
         "name": "Programming Quality",

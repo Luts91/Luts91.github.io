@@ -1,6 +1,24 @@
 {
   "logs":[
     {
+      "version": "0.0.48",
+      "log": [
+          "added: more explanations",
+          "added: highlighting special shop/research items",
+          "added: exclamtion marks if something in a tab is buyable",
+          "added: some buttons pulsating when they should be clicked",
+          "changed: showing upgrade description directly in the box instead of a tooltip",
+          "changed: switched xp multi and research xp multi",
+          "changed: retention already increasing before 1h reaching content",
+          "changed: renamed base retention to max retention",
+          "changed: hiding some stuff before it is unlocked",
+          "changed: design of task boxes",
+          "changed: fixing buyamount buttons for shop, research and employees at the top",
+          "changed: how fan expecations are connected to fans, to make it more clear",
+          "fixed: contract still active after recursion"
+        ]
+    },
+    {
       "version": "0.0.47",
       "log": [
           "added: new achievements",

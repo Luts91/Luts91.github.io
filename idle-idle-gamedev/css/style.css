@@ -17,6 +17,16 @@
 .okQuality{
     color: #b0b485;
 }
+.skills{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 63vh;
+}
+.shop-content{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 80vh;
+}
 .badQuality{
     color: #ee7878;
 }
@@ -54,6 +64,9 @@
 .progress-text{
     text-shadow: 0 0 0;
     color: #555;
+}
+.tabs-main{
+    overflow-x: auto;
 }
 .progress{
     background-color: #aaa;
