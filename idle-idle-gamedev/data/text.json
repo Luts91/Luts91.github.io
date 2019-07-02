@@ -22,6 +22,10 @@
     "pausedWarning": "Game is paused",
     "contractExplain": "Contracts will give you special rewards if you fulfill them. You need to accept a contract to work on it. The game created will not belong to you, so won't bring you revenue or fans. You will only get the reward.",
     "recursionExplain": "You created Idle Idle GameDev%! You can tweak some parameters and play your just developed game. This works like a reset, you will lose all your money, researches, items, fans and skills. But you are able to buy powerful upgrades with recursion points that depend on your number of fans.",
+    "planetSearchExplain": "Search the universe for all kinds of planets",
+    "planetAnalyzeExplain": "Analyze planets for intelligent species",
+    "planetContactExplain": "Contact inhabited planets, establish a connection and let them play your games! Increases maximum players",
+    "populationExplain": "Maximum number of people who can play your games and be your fan",
     "iniigd":  " in Idle Idle GameDev",
     "playNow": "Play now",
     "games": "Games",
@@ -63,6 +67,9 @@
     "marketers": "Marketers",
     "researchers": "Scientists",
     "structurers": "Structurers",
+    "astronomers": "Astronomers",
+    "planetAnalyzers": "Planet Analyzers",
+    "astronaut": "Astronauts",
     "exportExplain": "Copy this and save it somewhere.",
     "importExplain": "Paste the savedata here and click load.",
     "load": "Load",
@@ -71,6 +78,9 @@
     "fix": "Fix",
     "market": "Market",
     "research": "Research",
+    "planetSearch": "Search",
+    "planetAnalyze": "Analyze",
+    "planetContact": "Contact",
     "dev": "Dev",
     "shop": "Shop",
     "employees": "Employees",
@@ -104,7 +114,7 @@
       "featuresMulti": "Programming Power",
       "ideasMulti": "Thinking Power",
       "bugsMulti": "Bug Fixing Power",
-      "publicityProgressMulti": "Marketing Power",
+      "publicityMulti": "Marketing Power",
       "researchMulti": "Researching Power",
       "expMulti": "Exp Multi",
       "cExpMulti": "Creativity Exp Multi",
@@ -113,7 +123,10 @@
       "iExpMulti": "Intelligence Exp Multi",
       "fans": "Fans",
       "fanMulti": "Fan gain per new player",
-      "shopCostMulti": "Shop Cost Multi"
+      "shopCostMulti": "Shop Cost Multi",
+      "planetSearch": "Found Planets",
+      "planetAnalyze": "Inhabited Planets",
+      "planetContact": "Contacted Planets"
     },
 
     "popups": {
@@ -134,7 +147,7 @@
 
     "achieveCategories": {
       "basic": "Basic",
-      "advanced": "Advanced"
+      "intergalactic": "Intergalactic"
     },
 
     "settings": {
@@ -199,9 +212,21 @@
         "name": "Micro Transactions",
         "desc": "Increases CPM by %3"
       },
+      "r_telescope": {
+        "name": "Telescope",
+        "desc": "Unlocks planet searching"
+      },
+      "r_planetAnalyzer": {
+        "name": "Planet Analyzing",
+        "desc": "Unlocks planet analyzing"
+      },
       "i_cent": {
         "name": "Cent decoration",
         "desc": "Hang the first cent you ever earned on the wall to get more Motivation and work %2 faster"
+      },
+      "i_spaceShip": {
+        "name": "Space Ship",
+        "desc": "Unlocks planet contacting"
       },
       "i_bubbleGum": {
         "name": "Bubble Gum",
@@ -530,6 +555,11 @@
         "desc": "Get 100 fans",
         "reward": "Unlocks contracts"
       },
+      "fans7500m": {
+        "name": "World Domination",
+        "desc": "Get 7.5B fans",
+        "reward": "Unlocks telescope research"
+      },
       "ideas3": {
         "name": "I have an idea for a game",
         "desc": "Have 3 ideas",
@@ -549,6 +579,11 @@
         "name": "Good Game",
         "desc": "Release a game with a retention of %",
         "reward": "Logic Exp Multi x%"
+      },
+      "habitedPlanet1": {
+        "name": "New potential players",
+        "desc": "Find a inhabited Planet",
+        "reward": "Unlocks buyable Spaceship"
       }
     },
 

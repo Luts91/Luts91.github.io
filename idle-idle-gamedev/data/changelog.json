@@ -1,6 +1,15 @@
 {
   "logs":[
     {
+      "version": "0.0.49",
+      "log": [
+          "added: space exploration and contacting of inhabited planets",
+          "added: icon",
+          "changed: internal structure of tasks. your multipliers may be weird, in which case you need to hard reset. also you need to reassign your employees",
+          "fixed: bugs / structure not longer jumping around"
+        ]
+    },
+    {
       "version": "0.0.48",
       "log": [
           "added: more explanations",
