@@ -26,7 +26,9 @@
     "planetAnalyzeExplain": "Analyze planets for intelligent species",
     "planetContactExplain": "Contact inhabited planets, establish a connection and let them play your games! Increases maximum players",
     "populationExplain": "Maximum number of people who can play your games and be your fan",
+    "butcherExplain": "Destroys all of these employees but doubles to power of all remaining employees",
     "iniigd":  " in Idle Idle GameDev",
+    "butcher": "Butcher",
     "playNow": "Play now",
     "games": "Games",
     "years": "Years",
@@ -142,7 +144,8 @@
       "startContract": "You have to release your game before starting the contract. Release now?",
       "startContractFail": "You have to release your game before starting the contract. But your server is full. Do you want to abandon your game? YOUR CURRENT GAME WILL BE ABANDONED AND NOT RELEASED IF YOU CLICK YES",
       "cancelContract": "Are you sure to cancel the contract? You will be able to keep developing the game and release it yourself",
-      "recursion": "You will lose all your money, fans, games, and skills. You will keep your achievements. Are you sure?"
+      "recursion": "You will lose all your money, fans, games, and skills. You will keep your achievements. Are you sure?",
+      "butcher": "You will lose of this kind of employee. All remaining employees will have their power doubled. Are you sure?"
     },
 
     "achieveCategories": {
@@ -579,6 +582,11 @@
         "name": "Good Game",
         "desc": "Release a game with a retention of %",
         "reward": "Logic Exp Multi x%"
+      },
+      "fleas100": {
+        "name": "Wash your hair",
+        "desc": "Have % fleas",
+        "reward": "Unlocks butchering"
       },
       "habitedPlanet1": {
         "name": "New potential players",
