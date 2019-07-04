@@ -210,7 +210,7 @@ hr{
     justify-content: space-between;
 }
 .luts-body{
-    height: 93%;
+    height: 95%;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -248,7 +248,7 @@ hr{
         flex: 0 0 25%;
         max-width: 25%;
         overflow-y: auto;
-        height: 91vh;
+        height: 95vh;
     }
     .col-main {
         -ms-flex: 0 0 75%;

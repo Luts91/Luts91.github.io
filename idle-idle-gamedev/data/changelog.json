@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "0.0.52",
+      "log": [
+          "fixed: retention calculation of released games wrong",
+          "fixed: fan expectations doubled after recursion",
+          "fixed: first purchase of a buff not working after after recursion"
+        ]
+    },
+    {
       "version": "0.0.51",
       "log": [
           "added: butchering, when you have 100 employees of one type you can feed them to you other employees and give them a x2 multi",
