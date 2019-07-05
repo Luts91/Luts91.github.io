@@ -1,6 +1,17 @@
 {
   "logs":[
     {
+      "version": "0.0.54",
+      "log": [
+          "added: time will pause after recursion",
+          "changed: skill descriptions",
+          "fixed: maxlevel sometimes wrong",
+          "fixed: scrollbars too near",
+          "fixed: some chart bugs",
+          "fixed: chart not reseting on recursion"
+        ]
+    },
+    {
       "version": "0.0.52",
       "log": [
           "fixed: retention calculation of released games wrong",

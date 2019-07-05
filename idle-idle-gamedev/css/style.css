@@ -21,11 +21,15 @@
     overflow-y: auto;
     overflow-x: hidden;
     height: 63vh;
+    padding-right: 15px;
+    margin-right: -15px;
 }
 .shop-content{
     overflow-y: auto;
     overflow-x: hidden;
     height: 80vh;
+    padding-right: 15px;
+    margin-right: -15px;
 }
 .badQuality{
     color: #ee7878;
@@ -72,7 +76,7 @@
     background-color: #aaa;
 }
 .fade-enter-active, .fade-leave-active {
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
     opacity: 0;

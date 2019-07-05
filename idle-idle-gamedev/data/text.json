@@ -357,11 +357,11 @@
       },
       "programmingXPMulti": {
         "name": "Learn to Code",
-        "desc": "Multiplies logic skill learning speed by %3 per level"
+        "desc": "Increases logic skill learning speed by %3 per level (compounding)"
       },
       "marketingXPMulti": {
         "name": "Learn to Count",
-        "desc": "Multiplies charisma skill learning speed by %3 per level"
+        "desc": "Increases charisma skill learning speed by %3 per level (compounding)"
       },
       "ideaMulti": {
         "name": "Bulk Thinking",
@@ -369,7 +369,7 @@
       },
       "greatIdeaChance": {
         "name": "Great Ideas",
-        "desc": "Increases the chance for great ideas by %3 per level. Great Ideas turn into great features which give 10 quality"
+        "desc": "Increases the chance for great ideas by %3 per level (diminishing). Great Ideas turn into great features which give 10 quality"
       },
       "ideaReset": {
         "name": "Holiday",
@@ -377,7 +377,7 @@
       },
       "uniqueIdeaChance": {
         "name": "Unique Ideas",
-        "desc": "Increases chance for unique ideas by %3 per level. Unique Ideas turn into unique features which give 100 quality"
+        "desc": "Increases chance for unique ideas by %3 per level (diminishing). Unique Ideas turn into unique features which give 100 quality"
       },
       "featuresProgressMulti": {
         "name": "Programming Speed",
@@ -389,7 +389,7 @@
       },
       "bugsQualityDecrease": {
         "name": "Coding Patterns",
-        "desc": "Multiplies the influence a feature has on the programming power by %3 per level"
+        "desc": "Multiplies the influence a feature has on the programming power by %3 per level (dimishing)"
       },
       "maxBugs": {
         "name": "Careful Programming",
@@ -417,7 +417,7 @@
       },
       "marketingEffDecrease": {
         "name": "Memorability",
-        "desc": "Mutliplies marketing efficiency decay by %3 per level"
+        "desc": "Changes marketing efficiency decay by %3 per level (diminishing)"
       },
       "donations": {
         "name": "Donations",
@@ -425,15 +425,15 @@
       },
       "shopDiscount": {
         "name": "Shop Discount",
-        "desc": "Mutliplies shop prices by %3 per level"
+        "desc": "Changes shop prices by %3 per level (diminishing)"
       },
       "creativityXPMulti": {
         "name": "Learn to think",
-        "desc": "Multiplies creativity learning speed by %3 per level"
+        "desc": "Increases creativity learning speed by %3 per level (compounding)"
       },
       "researchDiscount": {
         "name": "Research Discount",
-        "desc": "Multiplies the price of researches by %3 per level"
+        "desc": "Changes the price of researches by %3 per level (compounding)"
       },
       "researchMulti": {
         "name": "Research Multi",
@@ -441,11 +441,11 @@
       },
       "XPMulti": {
         "name": "Learn to learn",
-        "desc": "Multiplies learning speed by %3 per level"
+        "desc": "Changes learning speed by %3 per level (compounding)"
       },
       "intXPMulti": {
         "name": "How to be smart",
-        "desc": "Multiplies intelligence learning speed by %3 per level"
+        "desc": "Increases intelligence learning speed by %3 per level (compounding)"
       },
       "researchPointMulti": {
         "name": "Bulk Researching",
@@ -453,7 +453,7 @@
       },
       "lowExpectation": {
         "name": "Disappointment",
-        "desc": "Multiplies fan expectations by %3 per level"
+        "desc": "Changes fan expectations by %3 per level (diminishing)"
       },
       "inspiration": {
         "name": "Inspiration",
@@ -461,7 +461,7 @@
       },
       "bandWidthDiscount": {
         "name": "Server Architecture",
-        "desc": "Multiplies Bandwidth cost by %3 per level"
+        "desc": "Changes Bandwidth cost by %3 per level (dimishing)"
       },
       "structureMulti": {
         "name": "Software Architecture",
@@ -473,19 +473,19 @@
       },
       "brand": {
         "name": "Brand Building",
-        "desc": "%3 of the players of each game also play every other game"
+        "desc": "%3 of the players of each game per level also play every other game"
       },
       "employeeDiscount": {
         "name": "Employee Discount",
-        "desc": "Multiplies the price of employees by %3 per level"
+        "desc": "Changes the price of employees by %3 per level (dimishing)"
       },
       "fanMulti": {
         "name": "Community Building",
-        "desc": "Multiplies fan gain by %3 per level"
+        "desc": "Increases fan gain by %3 per level (compounding)"
       },
       "buffMulti": {
         "name": "Chemistry",
-        "desc": "Multiplies buff duration by %3 per level"
+        "desc": "Increases buff duration by %3 per level"
       },
       "researchReset": {
         "name": "Party",
