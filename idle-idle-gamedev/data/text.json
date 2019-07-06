@@ -26,7 +26,7 @@
     "planetAnalyzeExplain": "Analyze planets for intelligent species",
     "planetContactExplain": "Contact inhabited planets, establish a connection and let them play your games! Increases maximum players",
     "populationExplain": "Maximum number of people who can play your games and be your fan",
-    "butcherExplain": "Destroys all of these employees but doubles to power of all remaining employees",
+    "butcherExplain": "Destroys all of these employees but doubles power of all remaining employees",
     "iniigd":  " in Idle Idle GameDev",
     "butcher": "Butcher",
     "playNow": "Play now",
@@ -124,7 +124,7 @@
       "mExpMulti": "Charisma Exp Multi",
       "iExpMulti": "Intelligence Exp Multi",
       "fans": "Fans",
-      "fanMulti": "Fan gain per new player",
+      "fanMulti": "Fan gain per player",
       "shopCostMulti": "Shop Cost Multi",
       "planetSearch": "Found Planets",
       "planetAnalyze": "Inhabited Planets",
@@ -433,7 +433,7 @@
       },
       "researchDiscount": {
         "name": "Research Discount",
-        "desc": "Changes the price of researches by %3 per level (compounding)"
+        "desc": "Changes the price of researches by %3 per level (diminishing)"
       },
       "researchMulti": {
         "name": "Research Multi",
@@ -596,10 +596,30 @@
     },
 
     "contractData":{
+      "fans":{
+        "name": "Fan Service",
+        "desc": "Create a game with a playtime of %1 and a quality of %2.",
+        "reward": "% Fans"
+      },
       "quality":{
         "name": "Quality Game",
         "desc": "Create a game with a quality of %1",
         "reward": "% Money"
+      },
+      "cpm":{
+        "name": "Data Mining",
+        "desc": "Create a game with %1 initial players",
+        "reward": "Cpm +%"
+      },
+      "researchPoints":{
+        "name": "Even more... friends",
+        "desc": "We want %1 bugss... in exchange for resssearch",
+        "reward": "% Research Points"
+      },
+      "recursionPoints":{
+        "name": "Update",
+        "desc": "Create a game with a quality of %1 and %2 initial Players.",
+        "reward": "% Recursion Points"
       },
       "first":{
         "name": "Hello World!",

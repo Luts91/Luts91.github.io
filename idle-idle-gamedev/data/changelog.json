@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "0.0.55",
+      "log": [
+          "added: more repeatable contracts",
+          "changed: fan gain so it retention and quality have a bigger effect on it",
+          "changed: made chart nicer"
+        ]
+    },
+    {
       "version": "0.0.54",
       "log": [
           "added: time will pause after recursion",
