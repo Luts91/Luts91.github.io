@@ -105,8 +105,8 @@
 body {
     margin: 0;
     background: white;
-   /* height: 100vh;
-    width: 100vw;*/
+    height: 100vh;
+    /*width: 100vw;*/
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -278,7 +278,7 @@ hr{
 }
 .tabs a:hover {
     //border-bottom-color: #ffffff;
-    box-shadow: inset 0px -10px 6px -6px white;
+    box-shadow: inset 0 -1vh 0.6vh -0.6vh white;
     color: #ffffff;
 }
 .tabs .is-active a {

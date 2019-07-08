@@ -11,6 +11,9 @@
     color: #eee;
     background-color: #303030;
 }
+body{
+    background-color: #303030;
+}
 .goodQuality{
     color: #85b48d;
 }
@@ -151,17 +154,17 @@ th{
     transition: opacity .3s ease;
 }
 .btn{
-    box-shadow: inset 0 1px 5px white, inset 0 -1px 5px black;
+    box-shadow: inset 0 0.1vh 0.5vh white, inset 0 -0.1vh 0.5vh black;
     padding-bottom: 0.8vh;
     min-width: 4vh;
 }
 .btn:hover:not([disabled]){
-    box-shadow: inset 0 1px 5px white, inset 0 -1px 5px black, 0 0 1vmin white;
+    box-shadow: inset 0 0.1vh 0.5vh white, inset 0 -0.1vh 0.5vh black, 0 0 1vmin white;
 }
 
 .btn:active:not([disabled]){
     transform: initial;
-    box-shadow: inset 0 1px 5px black, inset 0 -1px 5px white;
+    box-shadow: inset 0 0.1vh 0.5vh black, inset 0 -0.1vh 0.5vh white;
     padding-top: 0.6vh;
     padding-bottom: 0.7vh;
 }
@@ -170,8 +173,12 @@ th{
     padding-bottom: 1rem;
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus{
-    box-shadow: inset 0 1px 5px black, inset 0 -1px 5px white;
+    box-shadow: inset 0 0.1vh 0.5vh black, inset 0 -0.1vh 0.5vh white;
 }
 .btn.focus, .btn:focus, .btn-primary.focus, .btn-primary:focus{
-    box-shadow: inset 0 1px 5px white, inset 0 -1px 5px black;
+    box-shadow: inset 0 0.1vh 0.5vh white, inset 0 -0.1vh 0.5vh black;
+}
+::-webkit-scrollbar {
+    width: 0.4vh;
+    height: 0.4vh;
 }

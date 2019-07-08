@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "0.0.56",
+      "log": [
+          "added: new researches",
+          "changed: rewards and goals of repeatable contracts are now randomized a bit, rewards can be 0.5 - 1.5 times of their base value and the goal can be 0 - 2 times",
+          "fixed: improved performance"
+        ]
+    },
+    {
       "version": "0.0.55",
       "log": [
           "added: more repeatable contracts",

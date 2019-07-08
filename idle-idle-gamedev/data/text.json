@@ -215,6 +215,18 @@
         "name": "Micro Transactions",
         "desc": "Increases CPM by %3"
       },
+      "r_feedback": {
+        "name": "Feedback Channel",
+        "desc": "Multiplies Fan Gain by %3"
+      },
+      "r_forum": {
+        "name": "Community Forum",
+        "desc": "Multiplies Fan Gain by %3"
+      },
+      "r_neuralNet": {
+        "name": "Neural Network",
+        "desc": "Multiplies playtime by %3"
+      },
       "r_telescope": {
         "name": "Telescope",
         "desc": "Unlocks planet searching"
