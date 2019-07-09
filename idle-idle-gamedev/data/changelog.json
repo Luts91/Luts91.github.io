@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "0.0.57",
+      "log": [
+          "changed: fan gain gets multiplied if the game has better quality than expecations",
+          "fixed: multipliers not saving"
+        ]
+    },
+    {
       "version": "0.0.56",
       "log": [
           "added: new researches",
