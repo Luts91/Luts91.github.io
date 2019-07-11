@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "0.0.58",
+      "log": [
+          "fixed: improved performance at higher speeds",
+          "fixed: game not starting"
+        ]
+    },
+    {
       "version": "0.0.57",
       "log": [
           "changed: fan gain gets multiplied if the game has better quality than expecations",
