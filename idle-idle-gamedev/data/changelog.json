@@ -1,6 +1,13 @@
 {
   "logs":[
     {
+      "version": "0.0.60",
+      "log": [
+          "changed: giving 15m of bonusseconds on start of a new game",
+          "changed: fastforward button pulsating when fastforward is available"
+        ]
+    },
+    {
       "version": "0.0.58",
       "log": [
           "fixed: improved performance at higher speeds",
