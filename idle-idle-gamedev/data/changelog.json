@@ -1,6 +1,24 @@
 {
   "logs":[
     {
+      "version": "0.0.62",
+      "log": [
+          "added: universe explored on found planets",
+          "added: more employees",
+          "added: found, analyzed and contacted planets increase reasearch power",
+          "changed: scientific -> engineering notation",
+          "changed: cost for feedback and forum",
+          "fixed: population not reseting on recursion",
+          "fixed: some shop / research display issues"
+        ]
+    },
+    {
+      "version": "0.0.61",
+      "log": [
+          "fixed: upgrades not updating fast enough"
+        ]
+    },
+    {
       "version": "0.0.60",
       "log": [
           "changed: giving 15m of bonusseconds on start of a new game",

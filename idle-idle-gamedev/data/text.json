@@ -27,6 +27,7 @@
     "planetContactExplain": "Contact inhabited planets, establish a connection and let them play your games! Increases maximum players",
     "populationExplain": "Maximum number of people who can play your games and be your fan",
     "butcherExplain": "Destroys all of these employees but doubles power of all remaining employees",
+    "ffExplain": "Time will move 5x as fast",
     "iniigd":  " in Idle Idle GameDev",
     "butcher": "Butcher",
     "playNow": "Play now",
@@ -156,7 +157,7 @@
     "settings": {
       "quality": "Quality",
       "canvas": "Use WebGL (Requires Restart)",
-      "numberformat": "Use Scientific Notation",
+      "numberformat": "Use Engineering Notation",
       "soundVolume": "Volume",
       "soundEnabled": "Enable Sound",
       "musicEnabled": "Enable Music",
@@ -189,15 +190,31 @@
       },
       "e_robot": {
         "name": "Robot",
-        "desc": "Programmed to optimize everything to create the best games. Just be careful that they do not take over the world. Power: 10000"
+        "desc": "Programmed to optimize everything to create the best games. Just be careful that they do not take over the world. Power: 10k"
       },
       "e_human": {
         "name": "Human",
-        "desc": "An actual human being, willing to sell their soul and work for you forever. Power: 1000"
+        "desc": "An actual human being, willing to sell their soul and work for you forever. Power: 1k"
       },
       "e_ai": {
         "name": "A.I.",
-        "desc": "A learning Artificial Intelligence, always becoming smarter. At one point it may realized humans a disturbing factor in creating better Idle Games. Power: 100000"
+        "desc": "A learning Artificial Intelligence, always becoming smarter. At one point it may realized humans a disturbing factor in creating better Idle Games. Power: 100k"
+      },
+      "e_alien": {
+        "name": "Alien",
+        "desc": "Much smarter than any human or AI. For a bit money you can convince them to work for you, even though they will be extremely bored by your tasks. Power: 1M"
+      },
+      "e_hivemind": {
+        "name": "Hivemind",
+        "desc": "These beings have the brainpower of multiple beings at once. They all work together even though they aren't at the same place. Power: 10M"
+      },
+      "e_cyborgalien": {
+        "name": "Cyborg Alien",
+        "desc": "Why not combine the powers of AI with an alien? They are exponentially smarter than either of its.halfs  Power: 100M"
+      },
+      "e_transcendent": {
+        "name": "Transcendent being",
+        "desc": "An overworldy being. Nobody knows what it is, only that the fact that they are working for you is really disregarding their powers. But they have to pay bills, too.  Power: 1B"
       },
       "r_forcedAds": {
         "name": "Forced Ads",
@@ -593,7 +610,7 @@
       "retention0,9999999": {
         "name": "Good Game",
         "desc": "Release a game with a retention of %",
-        "reward": "Logic Exp Multi x%"
+        "reward": "Logic Exp Multi x1.01"
       },
       "fleas100": {
         "name": "Wash your hair",
@@ -631,7 +648,7 @@
       "recursionPoints":{
         "name": "Update",
         "desc": "Create a game with a quality of %1 and %2 initial Players.",
-        "reward": "% Recursion Points"
+        "reward": "% Recursion Points next recursion"
       },
       "first":{
         "name": "Hello World!",
