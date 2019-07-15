@@ -182,3 +182,19 @@ th{
     width: 0.4vh;
     height: 0.4vh;
 }
+@media (min-width: 576px) {
+    .dailyreward-col {
+        flex: 0 0 14.28%;
+        max-width: 14.28%;
+    }
+}
+.dailyreward-col{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.transparent{
+    opacity: 0.1;
+}

@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "0.0.63",
+      "log": [
+          "added: bonus shop"
+        ]
+    },
+    {
       "version": "0.0.62",
       "log": [
           "added: universe explored on found planets",

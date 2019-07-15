@@ -28,15 +28,27 @@
     "populationExplain": "Maximum number of people who can play your games and be your fan",
     "butcherExplain": "Destroys all of these employees but doubles power of all remaining employees",
     "ffExplain": "Time will move 5x as fast",
+    "getMoreExplain": "Get daily rewards and unlock achievements to get more bonus points",
     "iniigd":  " in Idle Idle GameDev",
     "butcher": "Butcher",
+    "dailyReward": "Daily Reward",
+    "getMore": "Get More",
+    "auto": "Auto",
+    "autoRelease": "Auto Release",
+    "autoDelete": "Auto Delete",
+    "freeStuff": "Free Stuff",
     "playNow": "Play now",
     "games": "Games",
     "years": "Years",
     "days": "Days",
+    "day": "Day",
     "hours": "Hours",
     "seconds": "Seconds",
+    "nextReward": "Next Reward",
+    "rewardAvailable": "Reward Available",
     "buy": "Buy",
+    "buyAll": "Buy all",
+    "butcherAll": "Butcher all",
     "settingsTitle": "Settings",
     "creativity": "Creativity",
     "logic": "Logic",
@@ -45,6 +57,7 @@
     "statistics": "Statistics",
     "achievementsHeader": "Achievements",
     "skillsHeader": "Skills",
+    "bonusHeader": "Bonus Shop",
     "achievementUnlocked": "Achievement Unlocked",
     "level": "Level",
     "upgrade": "Upgrade",
@@ -95,6 +108,14 @@
     "timeLeft": "Time to accept",
     "fansNeeded": "Fans needed",
     "recursion": "Recursion",
+    "facebook": "Facebook",
+    "followOnFacebook": "Like me on Facebook for % Bonus Points!",
+    "discord": "Discord",
+    "followOnDiscord": "Join the Discord for % Bonus Points!",
+    "reddit": "Reddit",
+    "followOnReddit": "Join the Subreddit for % Bonus Points!",
+    "kong": "Kongregate",
+    "followOnKong": "Follow me on Kongregate for % Bonus Points!",
 
     "currency": {
       "money": "Money",
@@ -103,7 +124,8 @@
       "marketingSP": "Charisma Points",
       "intelligenceSP": "Intelligence Points",
       "researchPoints": "Research Points",
-      "recursionPoints": "Recursion Points"
+      "recursionPoints": "Recursion Points",
+      "bonusPoints": "Bonus Points"
     },
 
     "values": {
@@ -146,7 +168,8 @@
       "startContractFail": "You have to release your game before starting the contract. But your server is full. Do you want to abandon your game? YOUR CURRENT GAME WILL BE ABANDONED AND NOT RELEASED IF YOU CLICK YES",
       "cancelContract": "Are you sure to cancel the contract? You will be able to keep developing the game and release it yourself",
       "recursion": "You will lose all your money, fans, games, and skills. You will keep your achievements. Are you sure?",
-      "butcher": "You will lose of this kind of employee. All remaining employees will have their power doubled. Are you sure?"
+      "butcher": "You will lose of this kind of employee. All remaining employees will have their power doubled. Are you sure?",
+      "dailyRewardText": "You got %1 Bonus Points! Come back tomorrow for more!"
     },
 
     "achieveCategories": {
@@ -543,6 +566,54 @@
       "recurseExpMulti": {
         "name": "Lower Difficulty",
         "desc": "Increases Exp Multi by %3 per level"
+      },
+      "1hBonusSeconds": {
+        "name": "1h Bonus Seconds",
+        "desc": "Get 1 hour of Bonus seconds (5x speed for 1h)"
+      },
+      "5hBonusSeconds": {
+        "name": "5h Bonus Seconds",
+        "desc": "Get 5 hours of Bonus seconds (5x speed for 5h hours)"
+      },
+      "10hBonusSeconds": {
+        "name": "10h Bonus Seconds",
+        "desc": "Get 10 hours of Bonus seconds (5x speed for 10h hours)"
+      },
+      "bonusXPMulti": {
+        "name": "EXP Multi",
+        "desc": "Increase your learning speed by +%3 per level"
+      },
+      "autoBuff": {
+        "name": "Auto Buff",
+        "desc": "Adds an option to buy buffs automatically"
+      },
+      "autoRelease": {
+        "name": "Auto Release",
+        "desc": "Adds an option to release games automatically"
+      },
+      "autoDelete": {
+        "name": "Auto Delete",
+        "desc": "Adds an option to delete games automatically when the server is full"
+      },
+      "autoReleaseContract": {
+        "name": "Auto Contract",
+        "desc": "Adds an option to release a contract automatically"
+      },
+      "buyAllShop": {
+        "name": "Buy all",
+        "desc": "Adds an option to buy all items in the shop with one click"
+      },
+      "buyAllResearch": {
+        "name": "Research all",
+        "desc": "Adds an option to buy all researches with one click"
+      },
+      "butcherAll": {
+        "name": "Butcher all",
+        "desc": "Adds an option to buy 100 of each employee and butcher them, if affordable"
+      },
+      "autoBandWidth": {
+        "name": "Auto Bandwidth",
+        "desc": "Adds an option to upgrade bandwidth automatically"
       }
     },
 
