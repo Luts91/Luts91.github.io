@@ -1,6 +1,15 @@
 {
   "logs":[
     {
+      "version": "0.0.66",
+      "log": [
+          "added: xp bar in skill window",
+          "added: 2 new buffs",
+          "added: challenges",
+          "changed: nerfed forum and feedback"
+        ]
+    },
+    {
       "version": "0.0.65",
       "log": [
           "added: get bonus points for already unlocked achievements"

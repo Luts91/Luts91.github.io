@@ -29,6 +29,7 @@
     "butcherExplain": "Destroys all of these employees but doubles power of all remaining employees",
     "ffExplain": "Time will move 5x as fast",
     "getMoreExplain": "Get daily rewards and unlock achievements to get more bonus points",
+    "challengeExplain": "You may select a challenge to modify the game and get special rewards by finishing them.",
     "iniigd":  " in Idle Idle GameDev",
     "butcher": "Butcher",
     "dailyReward": "Daily Reward",
@@ -116,6 +117,10 @@
     "followOnReddit": "Join the Subreddit for % Bonus Points!",
     "kong": "Kongregate",
     "followOnKong": "Follow me on Kongregate for % Bonus Points!",
+    "challenges": "Challenges",
+    "select": "Select",
+    "unselect": "Unselect",
+    "cancelChallenge": "Cancel Challenge",
 
     "currency": {
       "money": "Money",
@@ -168,8 +173,9 @@
       "startContractFail": "You have to release your game before starting the contract. But your server is full. Do you want to abandon your game? YOUR CURRENT GAME WILL BE ABANDONED AND NOT RELEASED IF YOU CLICK YES",
       "cancelContract": "Are you sure to cancel the contract? You will be able to keep developing the game and release it yourself",
       "recursion": "You will lose all your money, fans, games, and skills. You will keep your achievements. Are you sure?",
-      "butcher": "You will lose of this kind of employee. All remaining employees will have their power doubled. Are you sure?",
-      "dailyRewardText": "You got %1 Bonus Points! Come back tomorrow for more!"
+      "butcher": "You will lose of this kind of employee. All remaining employees will have their power multiplied by %1. Are you sure?",
+      "dailyRewardText": "You got %1 Bonus Points! Come back tomorrow for more!",
+      "cancelChallenge": "Your challemge will be cancelled and you will reset without getting anything. Are you sure to cancel the challenge?"
     },
 
     "achieveCategories": {
@@ -321,6 +327,14 @@
       },
       "i_brainEnhancement": {
         "name": "Brain Enhancement",
+        "desc": "Learn 2 times faster for 1 hour"
+      },
+      "i_absorbGalaxy": {
+        "name": "Absorb Galaxy",
+        "desc": "Work 2 times faster for 1 hour"
+      },
+      "i_absorbUniverse": {
+        "name": "Absorb Universe",
         "desc": "Learn 2 times faster for 1 hour"
       },
       "i_calculator": {
@@ -567,6 +581,10 @@
         "name": "Lower Difficulty",
         "desc": "Increases Exp Multi by %3 per level"
       },
+      "butcherMulti": {
+        "name": "Discipline",
+        "desc": "Increases Butcher Multi by %3 per level"
+      },
       "1hBonusSeconds": {
         "name": "1h Bonus Seconds",
         "desc": "Get 1 hour of Bonus seconds (5x speed for 1h)"
@@ -745,6 +763,18 @@
         "name": "Recursion",
         "desc": "Create a game with a quality of %1 and %2 initial Players.",
         "reward": "?"
+      }
+    },
+    "challengeData":{
+      "thieves":{
+        "name": "Thieves",
+        "desc": "Your employees are tired of not getting any salary. Every employee will steal money as high as their base cost every hour. Develop Idle Idle Gamedev to end the challenge.",
+        "reward": "Unlocks Discipline Skill"
+      },
+      "fanDecay":{
+        "name": "Bored Fans",
+        "desc": "Your fans are getting bored. You will lose 0.1% of your fans every hour. Develop Idle Idle Gamedev to end the challenge.",
+        "reward": "Fan Gain +25%"
       }
     }
   },
