@@ -483,7 +483,7 @@
       },
       "marketingEffDecrease": {
         "name": "Memorability",
-        "desc": "Changes marketing efficiency decay by %3 per level (diminishing)"
+        "desc": "Multiplies marketing efficiency decay by %3 per level (diminishing)"
       },
       "donations": {
         "name": "Donations",
@@ -491,7 +491,7 @@
       },
       "shopDiscount": {
         "name": "Shop Discount",
-        "desc": "Changes shop prices by %3 per level (diminishing)"
+        "desc": "Multiplies shop prices by %3 per level (diminishing)"
       },
       "creativityXPMulti": {
         "name": "Learn to think",
@@ -499,7 +499,7 @@
       },
       "researchDiscount": {
         "name": "Research Discount",
-        "desc": "Changes the price of researches by %3 per level (diminishing)"
+        "desc": "Multiplies the price of researches by %3 per level (diminishing)"
       },
       "researchMulti": {
         "name": "Research Multi",
@@ -507,7 +507,7 @@
       },
       "XPMulti": {
         "name": "Learn to learn",
-        "desc": "Changes learning speed by %3 per level (compounding)"
+        "desc": "Increases learning speed by %3 per level (compounding)"
       },
       "intXPMulti": {
         "name": "How to be smart",
@@ -519,7 +519,7 @@
       },
       "lowExpectation": {
         "name": "Disappointment",
-        "desc": "Changes fan expectations by %3 per level (diminishing)"
+        "desc": "Multiplies fan expectations by %3 per level (diminishing)"
       },
       "inspiration": {
         "name": "Inspiration",
@@ -527,7 +527,7 @@
       },
       "bandWidthDiscount": {
         "name": "Server Architecture",
-        "desc": "Changes Bandwidth cost by %3 per level (dimishing)"
+        "desc": "Multiplies Bandwidth cost by %3 per level (dimishing)"
       },
       "structureMulti": {
         "name": "Software Architecture",
@@ -543,7 +543,7 @@
       },
       "employeeDiscount": {
         "name": "Employee Discount",
-        "desc": "Changes the price of employees by %3 per level (dimishing)"
+        "desc": "Multiplies the price of employees by %3 per level (dimishing)"
       },
       "fanMulti": {
         "name": "Community Building",
@@ -584,6 +584,26 @@
       "butcherMulti": {
         "name": "Discipline",
         "desc": "Increases Butcher Multi by %3 per level"
+      },
+      "lowerExpectations": {
+        "name": "Lower Expectations",
+        "desc": "Multiplies fan expectations by %3 per level (diminishing)"
+      },
+      "recurseCpmMulti": {
+        "name": "CPM Multi",
+        "desc": "Increases CPM by %3 per level"
+      },
+      "reproduction": {
+        "name": "Reproduction",
+        "desc": "Maximum Population is increasing by %3 per hour per level"
+      },
+      "maxPlanetPop": {
+        "name": "Planet Population",
+        "desc": "Multiplies Max Planet Population by %3 per level"
+      },
+      "planetExpectMulti": {
+        "name": "Planet Expectations",
+        "desc": "Multiplies Expecations per Planet by %3 per level (diminishing)"
       },
       "1hBonusSeconds": {
         "name": "1h Bonus Seconds",
@@ -775,6 +795,31 @@
         "name": "Bored Fans",
         "desc": "Your fans are getting bored. You will lose 0.1% of your fans every hour. Develop Idle Idle Gamedev to end the challenge.",
         "reward": "Fan Gain +25%"
+      },
+      "highExpectations":{
+        "name": "High Expectations",
+        "desc": "Fan Expectations are multiplied by 100. Develop Idle Idle Gamedev to end the challenge.",
+        "reward": "Unlocks Lower Expecations Skill"
+      },
+      "bugsReproduce":{
+        "name": "Kill them before they lay eggs!",
+        "desc": "Bugs are real and reproducing. They will increase by 1% every hour. Contact a planet to end the challenge.",
+        "reward": "Unlocks Reproduction Skill"
+      },
+      "blackout":{
+        "name": "Blackout",
+        "desc": "Electricity on earth is unstable. Games will randomly get deleted. Contact a planet to end the challenge.",
+        "reward": "Unlocks Planet Population Skill"
+      },
+      "competition":{
+        "name": "Competition",
+        "desc": "You are not the only one to make games. Fan Expectation will increase by 0.1% very hour. Contact a planet to end the challenge.",
+        "reward": "Unlocks Planet Expectation Skill"
+      },
+      "adBlocker":{
+        "name": "Ad Blocker",
+        "desc": "Everybody is using ad blockers. Your CPM will always be 0. Contact a planet to end the challenge.",
+        "reward": "Unlocks CPM Multi Skill"
       }
     }
   },

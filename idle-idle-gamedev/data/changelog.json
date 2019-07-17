@@ -1,6 +1,18 @@
 {
   "logs":[
     {
+      "version": "0.0.67",
+      "log": [
+          "added: more challenges",
+          "added: active challenge being displayed in recursion tab",
+          "changed: some skill descriptions",
+          "changed: butcher increase 50% -> 10%",
+          "changed: maxlevel for rich parents and overclocking",
+          "fixed: skills not reacting to selected buyamount",
+          "fixed: games reappearing if reloading right after recursion"
+        ]
+    },
+    {
       "version": "0.0.66",
       "log": [
           "added: xp bar in skill window",
