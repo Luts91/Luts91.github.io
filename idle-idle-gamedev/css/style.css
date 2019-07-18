@@ -1,5 +1,5 @@
 .progress-bar{
-    background-color: lightblue;
+    background-color: #303030;
     transition: width .3s ease;
 }
 .levelable{

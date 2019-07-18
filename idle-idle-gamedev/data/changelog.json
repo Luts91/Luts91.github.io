@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "0.0.68",
+      "log": [
+          "added: more achievements",
+          "fixed: some employees not updating",
+          "fixed: maxlevel & increase of rich parents swapped"
+        ]
+    },
+    {
       "version": "0.0.67",
       "log": [
           "added: more challenges",

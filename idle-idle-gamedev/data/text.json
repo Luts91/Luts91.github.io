@@ -180,6 +180,7 @@
 
     "achieveCategories": {
       "basic": "Basic",
+      "recursive": "Recursive",
       "intergalactic": "Intergalactic"
     },
 
@@ -239,7 +240,7 @@
       },
       "e_cyborgalien": {
         "name": "Cyborg Alien",
-        "desc": "Why not combine the powers of AI with an alien? They are exponentially smarter than either of its.halfs  Power: 100M"
+        "desc": "Why not combine the powers of AI with an alien? They are exponentially smarter than either of its halfs.  Power: 100M"
       },
       "e_transcendent": {
         "name": "Transcendent being",
@@ -726,10 +727,95 @@
         "desc": "Have % fleas",
         "reward": "Unlocks butchering"
       },
+      "recursed": {
+        "name": "Recurse",
+        "desc": "Recurse % times",
+        "reward": "Fan Gain x%"
+      },
+      "timeRecursed": {
+        "name": "Speedrun",
+        "desc": "Recurse in less than % (ingame time)",
+        "reward": "Tick Speed x%"
+      },
+      "totalFans": {
+        "name": "Total Fans",
+        "desc": "Get % fans in total",
+        "reward": "Thinking Speed x%"
+      },
+      "totalResearch": {
+        "name": "Research",
+        "desc": "Have % research points",
+        "reward": "Intelligence Exp Multi x%"
+      },
+      "totalContracts": {
+        "name": "Contractor",
+        "desc": "Release % contracts in total",
+        "reward": "Bug Fixing Speed x%"
+      },
+      "totalBugs": {
+        "name": "Insect Killer",
+        "desc": "Fix % bugs total",
+        "reward": "Bug Fixing Speed x%"
+      },
+      "creativityLevel": {
+        "name": "Creative",
+        "desc": "Reach Creativity Level %",
+        "reward": "Logic Exp Multi x%"
+      },
+      "logicLevel": {
+        "name": "Logician",
+        "desc": "Reach Logic Level %",
+        "reward": "Charisma Exp Multi x%"
+      },
+      "charismaLevel": {
+        "name": "Charismatic",
+        "desc": "Reach Charisma Level %",
+        "reward": "Intelligence Exp Multi x%"
+      },
+      "intelligenceLevel": {
+        "name": "Intelligent",
+        "desc": "Reach Intelligence Level %",
+        "reward": "Creativity Exp Multi x%"
+      },
+      "timeContact": {
+        "name": "Spacerun",
+        "desc": "Contact a planet in less than % (ingame time)",
+        "reward": "Contacting Speed x%"
+      },
+      "totalChallenges": {
+        "name": "Challenge Accepted",
+        "desc": "Beat % challenges in total",
+        "reward": "Recursion Point Multi x%"
+      },
       "habitedPlanet1": {
         "name": "New potential players",
-        "desc": "Find a inhabited Planet",
+        "desc": "Find an inhabited Planet",
         "reward": "Unlocks buyable Spaceship"
+      },
+      "universeDomination": {
+        "name": "Universe Domination",
+        "desc": "Have everybody in the universe as your fan",
+        "reward": "The End. (?)"
+      },
+      "totalFoundPlanets": {
+        "name": "Astronomer",
+        "desc": "Find % planets in total",
+        "reward": "Planet Searching x%"
+      },
+      "totalAnalyzedPlanets": {
+        "name": "Analyzer",
+        "desc": "Analyze % planets in total",
+        "reward": "Planet Analyzing x%"
+      },
+      "totalContactedPlanets": {
+        "name": "Astronaut",
+        "desc": "Contact % planets in total",
+        "reward": "Planet Contacting x%"
+      },
+      "timeUniversal": {
+        "name": "Universe Run",
+        "desc": "Dominate the universe in less than % (ingame time)",
+        "reward": "Recursion Point Multi x%"
       }
     },
 
