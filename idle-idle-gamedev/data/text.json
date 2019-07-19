@@ -606,6 +606,14 @@
         "name": "Planet Expectations",
         "desc": "Multiplies Expecations per Planet by %3 per level (diminishing)"
       },
+      "contactCurve": {
+        "name": "Contact Curve",
+        "desc": "Higher possibility that a planet has more population (pow(rnd,%1) * maxpop). Multiplies by %3 per level (diminishing)"
+      },
+      "clones": {
+        "name": "Clones",
+        "desc": "Increases population multi by %3 per level"
+      },
       "1hBonusSeconds": {
         "name": "1h Bonus Seconds",
         "desc": "Get 1 hour of Bonus seconds (5x speed for 1h)"
@@ -906,6 +914,16 @@
         "name": "Ad Blocker",
         "desc": "Everybody is using ad blockers. Your CPM will always be 0. Contact a planet to end the challenge.",
         "reward": "Unlocks CPM Multi Skill"
+      },
+      "higherBadCode":{
+        "name": "Realistic Code",
+        "desc": "Unstructured code per feature is 100 times higher. Contact a planet to end the challenge.",
+        "reward": "Unlocks Contact Curve Skill"
+      },
+      "alzheimers":{
+        "name": "Alzheimers",
+        "desc": "10% Chance to lose all your Ideas every hour. Contact a planet to end the challenge.",
+        "reward": "Unlocks Clones Skill"
       }
     }
   },
