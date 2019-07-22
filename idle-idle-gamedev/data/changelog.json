@@ -1,6 +1,29 @@
 {
   "logs":[
     {
+      "version": "1.0.10",
+      "log": [
+          "added: checkbox to enable programming for great and unique features",
+          "added: holiday and party for money",
+          "added: reset buttons for skills",
+          "changed: scaling of contracts",
+          "changed: change maxlevel and base goal of contract achievement",
+          "changed: recursion points 1/1m -> 1/100k",
+          "changed: decreased cost increase of shop items",
+          "changed: increases bp gain from achievements",
+          "changed: skillpoint cost increase 1.10 -> 1.08",
+          "changed: save interval 2s -> 60s",
+          "changed: bandwidth cost increase 4 -> 3.5",
+          "changed: replaced old holiday and party by discounts",
+          "changed: disabled sorting of shop and research for now",
+          "fixed: canceling a challenge triggers speedrun achievement",
+          "fixed: power multi of employees not displayed",
+          "fixed: description of careful programming",
+          "fixed: /s value on progresses not reseting",
+          "fixed: fan tooltip typo"
+        ]
+    },
+    {
       "version": "1.0.0",
       "log": [
           "release"

@@ -23,7 +23,7 @@ body{
 .skills{
     overflow-y: auto;
     overflow-x: hidden;
-    height: 63vh;
+    height: 61vh;
     padding: 15px;
     margin: -15px;
     margin-bottom: 0;
@@ -197,4 +197,10 @@ th{
 }
 .transparent{
     opacity: 0.1;
+}
+.crazygames {
+    background-image: url("../assets/img/crazygames.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 19vh;
 }

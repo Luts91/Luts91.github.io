@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699537b8-6ac1-4402-b342-5cf8f0553060" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idle-idle-gamedev/data/text.json" beforeDir="false" afterPath="$PROJECT_DIR$/idle-idle-gamedev/data/text.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idle-idle-gamedev/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/idle-idle-gamedev/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idle-idle-gamedev/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/idle-idle-gamedev/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +19,7 @@
     <session id="653750297">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -242,7 +240,7 @@
       <workItem from="1550540418608" duration="616000" />
       <workItem from="1563507409323" duration="814000" />
       <workItem from="1563607188387" duration="10000" />
-      <workItem from="1563607213005" duration="69000" />
+      <workItem from="1563607213005" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="added adsense">
       <created>1541401240333</created>
@@ -297,11 +295,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21835000" />
+    <option name="totallyTimeSpent" value="22435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20021075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

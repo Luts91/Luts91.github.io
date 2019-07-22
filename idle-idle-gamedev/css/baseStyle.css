@@ -42,6 +42,9 @@
         opacity: 0.5;
     }
 }
+.line-through{
+    text-decoration: line-through;
+}
 .alpha-pulse {
     animation: alpha-pulse 1s infinite;
     animation-timing-function: ease-in-out;

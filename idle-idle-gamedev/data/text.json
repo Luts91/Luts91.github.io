@@ -10,7 +10,7 @@
     "marketExplain": "Market your game to give it more publicity and reach more players",
     "researchExplain": "Research new technologies to make your games better",
     "structureExplain": "Unstructured code slows feature programming down, structure your code to make it easier to program new features!",
-    "fansExplain": "Your fans will play your all of your new games when they release",
+    "fansExplain": "Your fans will play all of your new games when they release",
     "fanExpExplain": "The quality needed to get maximum retention",
     "donationsExplain": "The money your fans give you every hour",
     "playtimeExplain": "How long your game can be played without running out of content",
@@ -161,6 +161,7 @@
 
     "popups": {
       "thankYou": "Thank you!",
+      "noAd": "No Ad available, try again later",
       "goneFor": "You were gone for %1. You gained %2 bonus seconds",
       "updateAvailable": "New Update available, refresh now?",
       "hardReset": "Are you sure? All of your progress will be lost forever.",
@@ -204,47 +205,47 @@
     "upgrades": {
       "e_flea": {
         "name": "Flea",
-        "desc": "They are not really good in what they are doing but at least you can idle a bit. Power: 0.1"
+        "desc": "They are not really good in what they are doing but at least you can idle a bit. Power: %"
       },
       "e_cockroach": {
         "name": "Cockroach",
-        "desc": "Not very pleasant to have around in the office. Power: 1"
+        "desc": "Not very pleasant to have around in the office. Power: %"
       },
       "e_hamster": {
         "name": "Hamster",
-        "desc": "At least they are cute. Power: 10"
+        "desc": "At least they are cute. Power: %"
       },
       "e_monkey": {
         "name": "Monkey",
-        "desc": "Having actual fingers helps a lot while working with computers. Power: 100"
+        "desc": "Having actual fingers helps a lot while working with computers. Power: %"
       },
       "e_robot": {
         "name": "Robot",
-        "desc": "Programmed to optimize everything to create the best games. Just be careful that they do not take over the world. Power: 10k"
+        "desc": "Programmed to optimize everything to create the best games. Just be careful that they do not take over the world. Power: %"
       },
       "e_human": {
         "name": "Human",
-        "desc": "An actual human being, willing to sell their soul and work for you forever. Power: 1k"
+        "desc": "An actual human being, willing to sell their soul and work for you forever. Power: %"
       },
       "e_ai": {
         "name": "A.I.",
-        "desc": "A learning Artificial Intelligence, always becoming smarter. At one point it may realized humans a disturbing factor in creating better Idle Games. Power: 100k"
+        "desc": "A learning Artificial Intelligence, always becoming smarter. At one point it may realized humans a disturbing factor in creating better Idle Games. Power: %"
       },
       "e_alien": {
         "name": "Alien",
-        "desc": "Much smarter than any human or AI. For a bit money you can convince them to work for you, even though they will be extremely bored by your tasks. Power: 1M"
+        "desc": "Much smarter than any human or AI. For a bit money you can convince them to work for you, even though they will be extremely bored by your tasks. Power: %"
       },
       "e_hivemind": {
         "name": "Hivemind",
-        "desc": "These beings have the brainpower of multiple beings at once. They all work together even though they aren't at the same place. Power: 10M"
+        "desc": "These beings have the brainpower of multiple beings at once. They all work together even though they aren't at the same place. Power: %"
       },
       "e_cyborgalien": {
         "name": "Cyborg Alien",
-        "desc": "Why not combine the powers of AI with an alien? They are exponentially smarter than either of its halfs.  Power: 100M"
+        "desc": "Why not combine the powers of AI with an alien? They are exponentially smarter than either of its halfs.  Power: %"
       },
       "e_transcendent": {
         "name": "Transcendent being",
-        "desc": "An overworldy being. Nobody knows what it is, only that the fact that they are working for you is really disregarding their powers. But they have to pay bills, too.  Power: 1B"
+        "desc": "An overworldy being. Nobody knows what it is, only that the fact that they are working for you is really disregarding their powers. But they have to pay bills, too.  Power: %"
       },
       "r_forcedAds": {
         "name": "Forced Ads",
@@ -292,51 +293,51 @@
       },
       "i_bubbleGum": {
         "name": "Bubble Gum",
-        "desc": "Work 2 times faster for 2 minutes"
+        "desc": "Work 2 times faster for 2 minutes (affected by tickspeed)"
       },
       "i_coffee": {
         "name": "Coffee",
-        "desc": "Learn 2 times faster for 4 minutes"
+        "desc": "Learn 2 times faster for 4 minutes (affected by tickspeed)"
       },
       "i_energyDrink": {
         "name": "Energy Drink",
-        "desc": "Work 2 times faster for 8 minutes"
+        "desc": "Work 2 times faster for 8 minutes (affected by tickspeed)"
       },
       "i_cocaine": {
         "name": "Cocaine",
-        "desc": "Learn 2 times faster for 20 minutes"
+        "desc": "Learn 2 times faster for 20 minutes (affected by tickspeed)"
       },
       "i_meth": {
         "name": "Meth",
-        "desc": "Work 2 times faster for 40 minutes"
+        "desc": "Work 2 times faster for 40 minutes (affected by tickspeed)"
       },
       "i_motivationalCourse": {
         "name": "Motivational Course",
-        "desc": "Learn 2 times faster for 1 hour"
+        "desc": "Learn 2 times faster for 1 hour (affected by tickspeed)"
       },
       "i_experimentalLiquid": {
         "name": "Experimental Liquid",
-        "desc": "Work 2 times faster for 1 hour"
+        "desc": "Work 2 times faster for 1 hour (affected by tickspeed)"
       },
       "i_spaceCrack": {
         "name": "Space Crack",
-        "desc": "Learn 2 times faster for 1 hour"
+        "desc": "Learn 2 times faster for 1 hour (affected by tickspeed)"
       },
       "i_bodyEnhancement": {
         "name": "Body Enhancement",
-        "desc": "Work 2 times faster for 1 hour"
+        "desc": "Work 2 times faster for 1 hour (affected by tickspeed)"
       },
       "i_brainEnhancement": {
         "name": "Brain Enhancement",
-        "desc": "Learn 2 times faster for 1 hour"
+        "desc": "Learn 2 times faster for 1 hour (affected by tickspeed)"
       },
       "i_absorbGalaxy": {
         "name": "Absorb Galaxy",
-        "desc": "Work 2 times faster for 1 hour"
+        "desc": "Work 2 times faster for 1 hour (affected by tickspeed)"
       },
       "i_absorbUniverse": {
         "name": "Absorb Universe",
-        "desc": "Learn 2 times faster for 1 hour"
+        "desc": "Learn 2 times faster for 1 hour (affected by tickspeed)"
       },
       "i_calculator": {
         "name": "Calculator",
@@ -438,9 +439,13 @@
         "name": "Great Ideas",
         "desc": "Increases the chance for great ideas by %3 per level (diminishing). Great Ideas turn into great features which give 10 quality"
       },
-      "ideaReset": {
+      "ideaResetReal": {
         "name": "Holiday",
         "desc": "Refresh your thoughts. Will reset the cost of new ideas. (Use when getting ideas is slowing down)"
+      },
+      "ideaReset": {
+        "name": "Holiday Discount",
+        "desc": "Multiplies the cost of Holiday by %3 per level (diminishing)"
       },
       "uniqueIdeaChance": {
         "name": "Unique Ideas",
@@ -452,15 +457,15 @@
       },
       "contentStretching": {
         "name": "Content Streching",
-        "desc": "Increases playtime of games by %3 per level"
+        "desc": "Increases playtime of games by %3 per feature per level"
       },
       "bugsQualityDecrease": {
         "name": "Coding Patterns",
-        "desc": "Multiplies the influence a feature has on the programming power by %3 per level (dimishing)"
+        "desc": "Multiplies the influence a feature has on the programming power by %3 per level (diminishing)"
       },
       "maxBugs": {
         "name": "Careful Programming",
-        "desc": "Produce less bugs per feature."
+        "desc": "Produce fewer bugs per feature."
       },
       "qualityMulti": {
         "name": "Programming Quality",
@@ -481,6 +486,26 @@
       "cpmMulti": {
         "name": "Money Grabbing",
         "desc": "Increases cpm by %3 per level"
+      },
+      "creativityReset": {
+        "name": "Reset",
+        "desc": "Reset your Creativity Skills"
+      },
+      "logicReset": {
+        "name": "Reset",
+        "desc": "Reset your Logic Skills"
+      },
+      "charismaReset": {
+        "name": "Reset",
+        "desc": "Reset your Charisma Skills"
+      },
+      "intelligenceReset": {
+        "name": "Reset",
+        "desc": "Reset your Intelligence Skills"
+      },
+      "recursionReset": {
+        "name": "Reset",
+        "desc": "Reset your Recursion Skills"
       },
       "marketingEffDecrease": {
         "name": "Memorability",
@@ -528,7 +553,7 @@
       },
       "bandWidthDiscount": {
         "name": "Server Architecture",
-        "desc": "Multiplies Bandwidth cost by %3 per level (dimishing)"
+        "desc": "Multiplies Bandwidth cost by %3 per level (diminishing)"
       },
       "structureMulti": {
         "name": "Software Architecture",
@@ -544,7 +569,7 @@
       },
       "employeeDiscount": {
         "name": "Employee Discount",
-        "desc": "Multiplies the price of employees by %3 per level (dimishing)"
+        "desc": "Multiplies the price of employees by %3 per level (diminishing)"
       },
       "fanMulti": {
         "name": "Community Building",
@@ -554,9 +579,13 @@
         "name": "Chemistry",
         "desc": "Increases buff duration by %3 per level"
       },
-      "researchReset": {
+      "researchResetReal": {
         "name": "Party",
         "desc": "Reset research cost (Use when research point gain is slowing down)"
+      },
+      "researchReset": {
+        "name": "Party Discount",
+        "desc": "Multiplies the cost of Party by %3 per level (diminishing)"
       },
       "multiTasking": {
         "name": "Multitasking",
