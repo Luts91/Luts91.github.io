@@ -485,7 +485,7 @@
       },
       "cpmMulti": {
         "name": "Money Grabbing",
-        "desc": "Increases cpm by %3 per level"
+        "desc": "Increases cpm by %3 per level (compounding)"
       },
       "creativityReset": {
         "name": "Reset",
@@ -847,6 +847,11 @@
       "totalContactedPlanets": {
         "name": "Astronaut",
         "desc": "Contact % planets in total",
+        "reward": "Planet Contacting x%"
+      },
+      "contacted1": {
+        "name": "Oh.. hi.. you're alone?",
+        "desc": "Contact a planet with a population of %",
         "reward": "Planet Contacting x%"
       },
       "timeUniversal": {

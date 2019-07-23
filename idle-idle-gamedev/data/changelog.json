@@ -1,6 +1,23 @@
 {
   "logs":[
     {
+      "version": "1.0.11",
+      "log": [
+          "added: new achievement",
+          "changed: base contact curve 10 -> 5",
+          "changed: rich parent cost increase 2 -> 4",
+          "changed: learn to learn increase 1.1 -> 1.2",
+          "changed: Money Grabbing to multiplicative",
+          "changed: scaling of contracts",
+          "changed: time for next contract 20m -> 60m",
+          "changed: total fans achievements base goal 10b -> 10m",
+          "changed: capped new players a game can gain by population",
+          "fixed: great feature enabling not saving",
+          "fixed: holiday and party affected by buyamount",
+          "fixed: modifiers of challenges not reseting after they are done"
+        ]
+    },
+    {
       "version": "1.0.10",
       "log": [
           "added: checkbox to enable programming for great and unique features",
