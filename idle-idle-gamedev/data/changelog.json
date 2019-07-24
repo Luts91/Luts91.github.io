@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.0.14",
+      "log": [
+          "fixed: players of a game directly becoming 0"
+        ]
+    },
+    {
       "version": "1.0.11",
       "log": [
           "added: new achievement",
