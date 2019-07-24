@@ -186,13 +186,19 @@
     },
 
     "settings": {
-      "quality": "Quality",
-      "canvas": "Use WebGL (Requires Restart)",
-      "numberformat": "Use Engineering Notation",
-      "soundVolume": "Volume",
-      "soundEnabled": "Enable Sound",
-      "musicEnabled": "Enable Music",
-      "plotEnabled": "Enable Game Plot"
+      "quality": {"name": "Quality"},
+      "canvas": {"name": "Use WebGL (Requires Restart)"},
+      "numberformat": {"name": "Use Engineering Notation"},
+      "soundVolume": {"name": "Volume"},
+      "soundEnabled": {"name": "Enable Sound"},
+      "musicEnabled": {"name": "Enable Music"},
+      "plotEnabled": {"name": "Enable Game Plot"},
+      "pauseOnLoad": {"name": "Pause on Load"},
+      "pauseOnRecursion": {"name": "Pause on Recursion"},
+      "autoReleaseThreshold": {
+        "name": "Auto Release Threshold",
+        "desc": "At which quality/expectation ratio a game should be automatically released if Auto Release is unlocked and enabled. (in percent)"
+      }
     },
 
     "stats": {
@@ -852,7 +858,7 @@
       "contacted1": {
         "name": "Oh.. hi.. you're alone?",
         "desc": "Contact a planet with a population of %",
-        "reward": "Planet Contacting x%"
+        "reward": "Planet Contacting x1.1"
       },
       "timeUniversal": {
         "name": "Universe Run",
