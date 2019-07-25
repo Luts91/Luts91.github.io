@@ -156,7 +156,8 @@
       "shopCostMulti": "Shop Cost Multi",
       "planetSearch": "Found Planets",
       "planetAnalyze": "Inhabited Planets",
-      "planetContact": "Contacted Planets"
+      "planetContact": "Contacted Planets",
+      "fanGain": "Fan gain per hour"
     },
 
     "popups": {
@@ -288,6 +289,18 @@
       "r_planetAnalyzer": {
         "name": "Planet Analyzing",
         "desc": "Unlocks planet analyzing"
+      },
+      "r_blog": {
+        "name": "Blog",
+        "desc": "Get %3 additional fans every hour"
+      },
+      "r_vlog": {
+        "name": "Vlog",
+        "desc": "Multiplies fans gained by blog by %3"
+      },
+      "r_marketingOptimize": {
+        "name": "Marketing Optimizing",
+        "desc": "Increases CPM by %3 x publicity"
       },
       "i_cent": {
         "name": "Cent decoration",

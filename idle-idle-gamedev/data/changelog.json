@@ -1,6 +1,14 @@
 {
   "logs":[
     {
+      "version": "1.0.17",
+      "log": [
+          "added: more researches",
+          "added: retriggering achievements on start",
+          "changed: cpm reward from datamining 20% -> 5% of current cpm"
+        ]
+    },
+    {
       "version": "1.0.16",
       "log": [
           "added: pause on load and pause on recursion setting",
