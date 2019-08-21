@@ -1,6 +1,33 @@
 {
   "logs":[
     {
+      "version": "1.0.19",
+      "log": [
+          "added: step-forward button",
+          "added: more number formats",
+          "added: auto release threshold setting in bonus shop",
+          "added: auto delete preference",
+          "added: hotkeys for pause, step and fast forward",
+          "added: unassign all-button for employees",
+          "added: max visible achieved labels = 10",
+          "added: red pulsing to time container when game is paused",
+          "added: power display on job and employees",
+          "added: save buttons for employees",
+          "added: setting to only contact planets if max fans are reached",
+          "added: base quality to features job",
+          "changed: fans gain from blog 100 -> 20",
+          "changed: fans gain based on current players instead of new players",
+          "changed: planet contact cost increase 1000000000 -> 100000000",
+          "fixed: recursion locking again (reload if you already did the recursion contract but recursion is locked)",
+          "fixed: tab text of universal achievements",
+          "fixed: buy max sometimes not working",
+          "fixed: -Infinity Ideas bug",
+          "fixed: slightly better performance",
+          "fixed: last achievment not achieveable",
+          "fixed: typo"
+        ]
+    },
+    {
       "version": "1.0.17",
       "log": [
           "added: more researches",

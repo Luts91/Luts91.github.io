@@ -27,11 +27,16 @@
     "planetContactExplain": "Contact inhabited planets, establish a connection and let them play your games! Increases maximum players",
     "populationExplain": "Maximum number of people who can play your games and be your fan",
     "butcherExplain": "Destroys all of these employees but doubles power of all remaining employees",
-    "ffExplain": "Time will move 5x as fast",
+    "ffExplain": "Time will move 5x as fast (F)",
+    "sfExplain": "Run time for just one tick (S)",
+    "nExplain": "Normal Speed",
+    "pExplain": "Pause (Space)",
     "getMoreExplain": "Get daily rewards and unlock achievements to get more bonus points",
     "challengeExplain": "You may select a challenge to modify the game and get special rewards by finishing them.",
     "iniigd":  " in Idle Idle GameDev",
     "butcher": "Butcher",
+    "power": "Power",
+    "unassignAll": "Unassign All",
     "dailyReward": "Daily Reward",
     "getMore": "Get More",
     "auto": "Auto",
@@ -89,6 +94,7 @@
     "astronaut": "Astronauts",
     "exportExplain": "Copy this and save it somewhere.",
     "importExplain": "Paste the savedata here and click load.",
+    "save": "Save",
     "load": "Load",
     "think": "Think",
     "program": "Program",
@@ -183,22 +189,41 @@
     "achieveCategories": {
       "basic": "Basic",
       "recursive": "Recursive",
-      "intergalactic": "Intergalactic"
+      "intergalactic": "Intergalactic",
+      "universal": "Universal"
     },
 
     "settings": {
       "quality": {"name": "Quality"},
       "canvas": {"name": "Use WebGL (Requires Restart)"},
-      "numberformat": {"name": "Use Engineering Notation"},
+      "numberformat": {
+        "name": "Number Format",
+        "selections": {
+            "suffix": "Suffix (12.34k)",
+            "scientific": "Scientific (1.23e4)",
+            "engineering": "Engineering  (12.34e3)",
+            "logarithmic": "Logarithmic (e4.09)"
+        }
+      },
       "soundVolume": {"name": "Volume"},
       "soundEnabled": {"name": "Enable Sound"},
       "musicEnabled": {"name": "Enable Music"},
       "plotEnabled": {"name": "Enable Game Plot"},
       "pauseOnLoad": {"name": "Pause on Load"},
       "pauseOnRecursion": {"name": "Pause on Recursion"},
+      "contactOnMaxFans": {"name": "Only contact planets when having max fans"},
       "autoReleaseThreshold": {
         "name": "Auto Release Threshold",
         "desc": "At which quality/expectation ratio a game should be automatically released if Auto Release is unlocked and enabled. (in percent)"
+      },
+      "autoDeleteSelect": {
+        "name": "Auto Delete Preference",
+        "selections": {
+          "oldest": "Oldest",
+          "lowestRetention": "Lowest Retention",
+          "lowestRevenue": "Lowest Revenue",
+          "lowestPlayers": "Lowest Current Players"
+        }
       }
     },
 
@@ -568,7 +593,7 @@
       },
       "inspiration": {
         "name": "Inspiration",
-        "desc": "Employees working on the same task as you get their power multiplied %3 per level"
+        "desc": "Employees working on the same task as you get a %3 boost to their power (additive)"
       },
       "bandWidthDiscount": {
         "name": "Server Architecture",
@@ -960,7 +985,7 @@
       },
       "competition":{
         "name": "Competition",
-        "desc": "You are not the only one to make games. Fan Expectation will increase by 0.1% very hour. Contact a planet to end the challenge.",
+        "desc": "You are not the only one to make games. Fan Expectation will increase by 0.1% every hour. Contact a planet to end the challenge.",
         "reward": "Unlocks Planet Expectation Skill"
       },
       "adBlocker":{
