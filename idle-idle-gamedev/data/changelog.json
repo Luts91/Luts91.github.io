@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.0.20",
+      "log": [
+          "fixed: unlocked achievements not showing after 10"
+        ]
+    },
+    {
       "version": "1.0.19",
       "log": [
           "added: step-forward button",
