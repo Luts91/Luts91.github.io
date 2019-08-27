@@ -1,6 +1,28 @@
 {
   "logs":[
     {
+      "version": "1.3.94",
+      "log": [
+        "changed: disabled portrait for now",
+        "changed: loading ad before it is requested",
+        "changed: removed donate and playstore reward",
+        "changed: moved tooltips on mobile to make them more visible",
+        "changed: hid statusbar"
+      ]
+    },
+    {
+      "version": "1.3.92",
+      "log": [
+        "fixed: some button issues on mobile"
+      ]
+    },
+    {
+      "version": "1.3.88",
+      "log": [
+        "added: portrait mode on mobile"
+      ]
+    },
+    {
       "version": "1.3.86",
       "log": [
         "added: playstore link",
