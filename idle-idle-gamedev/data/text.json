@@ -327,6 +327,18 @@
         "name": "Marketing Optimizing",
         "desc": "Increases CPM by %3 x publicity"
       },
+      "r_betterTelescope": {
+        "name": "Better Telescope",
+        "desc": "Search Planets %3 times faster"
+      },
+      "r_betterAnalyzing": {
+        "name": "Better Analyzing",
+        "desc": "Analyze Planets %3 times faster"
+      },
+      "r_betterSpaceship": {
+        "name": "Better Spaceship",
+        "desc": "Contact Planets %3 times faster"
+      },
       "i_cent": {
         "name": "Cent decoration",
         "desc": "Hang the first cent you ever earned on the wall to get more Motivation and work %2 faster"
@@ -454,6 +466,14 @@
       "i_betterHaircut": {
         "name": "Better Haircut",
         "desc": "Market %3 times faster"
+      },
+      "i_betterOffice": {
+        "name": "Better Office",
+        "desc": "Structure Code %3 times faster"
+      },
+      "i_betterResearch": {
+        "name": "Better Research Bench",
+        "desc": "Research %3 times faster"
       },
       "serverSize": {
         "name": "Server Size",

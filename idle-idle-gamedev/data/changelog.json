@@ -1,6 +1,18 @@
 {
   "logs":[
     {
+      "version": "1.0.22",
+      "log": [
+          "improved performance"
+        ]
+    },
+    {
+      "version": "1.0.21",
+      "log": [
+          "added: new researches and shop items"
+        ]
+    },
+    {
       "version": "1.0.20",
       "log": [
           "fixed: unlocked achievements not showing after 10"
