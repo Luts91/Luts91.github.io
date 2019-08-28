@@ -1,6 +1,12 @@
 {
   "logs":[
     {
+      "version": "1.0.23",
+      "log": [
+          "fixed: wrong buy amount displayed"
+        ]
+    },
+    {
       "version": "1.0.22",
       "log": [
           "improved performance"
