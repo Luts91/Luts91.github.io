@@ -1,6 +1,15 @@
 {
   "logs":[
     {
+      "version": "1.0.46",
+      "log": [
+          "added: made it more obvious where BPs can be spent",
+          "renamed: shop -> bp shop",
+          "fixed: import not working",
+          "fixed: typos"
+        ]
+    },
+    {
       "version": "1.0.23",
       "log": [
           "fixed: wrong buy amount displayed"

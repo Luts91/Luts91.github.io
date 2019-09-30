@@ -58,6 +58,9 @@
         opacity: 0.5;
     }
 }
+.gold-color{
+    color: #e4ee50 !important;
+}
 .line-through{
     text-decoration: line-through;
 }
