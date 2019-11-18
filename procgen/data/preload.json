@@ -1,0 +1,110 @@
+{
+  "json":[
+    {
+      "name": "text",
+      "url": "text.json"
+    }
+  ],
+  "image":[
+    {
+      "name": "whiteSquare",
+      "url":  "whiteSquare.png"
+    },
+    {
+      "name": "button",
+      "url":  "button.png"
+    },
+    {
+      "name": "buttonSmall",
+      "url":  "buttonSmall.png"
+    },
+    {
+      "name": "buttonSmallActive",
+      "url":  "buttonSmallActive.png"
+    },
+    {
+      "name": "knob",
+      "url":  "knob.png"
+    },
+    {
+      "name": "sliderBar",
+      "url":  "sliderBar.png"
+    },
+    {
+      "name": "settingsButton",
+      "url":  "settingsButton.png"
+    },
+    {
+      "name": "buttonMin",
+      "url":  "buttonMin.png"
+    },
+    {
+      "name": "buttonClose",
+      "url":  "buttonClose.png"
+    },
+    {
+      "name": "labelSmall",
+      "url":  "labelSmall.png"
+    },
+    {
+      "name": "labelTop",
+      "url":  "labelTop.png"
+    },
+    {
+      "name": "wvCivilizations",
+      "url":  "wvCivilizations.png"
+    },
+    {
+      "name": "wvHeight",
+      "url":  "wvHeight.png"
+    },
+    {
+      "name": "wvMoisture",
+      "url":  "wvMoisture.png"
+    },
+    {
+      "name": "wvPlanet",
+      "url":  "wvPlanet.png"
+    },
+    {
+      "name": "wvTemperature",
+      "url":  "wvTemperature.png"
+    },
+    {
+      "name": "wvWorth",
+      "url":  "wvWorth.png"
+    },
+    {
+      "name": "labelBig",
+      "url":  "labelBig.png"
+    },
+    {
+      "name": "buttonPause",
+      "url":  "buttonPause.png"
+    },
+    {
+      "name": "buttonSpeedSlow",
+      "url":  "buttonSpeedSlow.png"
+    },
+    {
+      "name": "buttonSpeedNormal",
+      "url":  "buttonSpeedNormal.png"
+    },
+    {
+      "name": "buttonSpeedFast",
+      "url":  "buttonSpeedFast.png"
+    },
+    {
+      "name": "nomadIcon",
+      "url":  "nomadIcon.png"
+    },
+    {
+      "name": "tileable",
+      "url":  "bg/tileable.jpg"
+    },
+    {
+      "name": "bg",
+      "url":  "bg/world.png"
+    }
+  ]
+}
