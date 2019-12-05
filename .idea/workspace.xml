@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="699537b8-6ac1-4402-b342-5cf8f0553060" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaDisclaimer.html" beforeDir="false" afterPath="$PROJECT_DIR$/gaDisclaimer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +100,10 @@
       <workItem from="1563607213005" duration="669000" />
       <workItem from="1569458452806" duration="4398000" />
       <workItem from="1569873355657" duration="632000" />
-      <workItem from="1574074249235" duration="704000" />
+      <workItem from="1574074249235" duration="1833000" />
+      <workItem from="1574267052806" duration="578000" />
+      <workItem from="1574323029477" duration="37000" />
+      <workItem from="1575573237313" duration="2379000" />
     </task>
     <task id="LOCAL-00001" summary="added adsense">
       <created>1541401240333</created>
@@ -168,7 +172,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
