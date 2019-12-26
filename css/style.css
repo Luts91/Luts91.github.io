@@ -8,3 +8,7 @@
     animation-name: example;
     animation-duration: 0.5s;
 }
+.game{
+    object-fit: contain;
+    width: 100%;
+}
