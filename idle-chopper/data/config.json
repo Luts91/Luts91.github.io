@@ -63,7 +63,7 @@
                     "start": true,
                     "interval_min": 60,
                     "interval_max": 61
-                },
+111111                },
                 {
                     "name": "monkey1",
                     "interval_min": 10,
@@ -75,7 +75,7 @@
                     "interval_max": 50
                 }
             ]
-        },
+999999999999999        },
         {
             "name": "desert",
             "sounds": [
@@ -106,8 +106,8 @@
             "earth": "earth",
             "grass": "grass",
             "grasshalms": "grasshalms",
-            "def": 1,
-            "xp": 1,
+            "def": 111111,
+            "xp": 1111,
             "neededLevel": 0
         },
         {
