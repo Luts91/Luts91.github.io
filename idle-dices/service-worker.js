@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["./assets/fonts/cousine-regular-webfont.ttf","45251aecab170d09eeb51facc68d7b94"],["./assets/fonts/cousine-regular-webfont.woff","8f2753a6d0880767d70e7578ddef4d19"],["./assets/fonts/cousine-regular-webfont.woff2","10f1d0b599acb63350e2406166878b47"],["./assets/fonts/roboto-medium-webfont.woff","7c0abcf67c732f31a0abc2733333dba2"],["./assets/fonts/roboto-medium-webfont.woff2","21a82010b67e225a39c31c6fb39f79a4"],["./assets/fonts/roboto-thin-webfont.woff","4b768a761cc65765f865a4eace3a8754"],["./assets/fonts/roboto-thin-webfont.woff2","2299785c916064c824aa8f87fcba856e"],["./assets/fonts/robotomono-thin-webfont.ttf","a0421704f93fee6f97bd7d4ab1e4655e"],["./assets/fonts/robotomono-thin-webfont.woff","78f7bd146a74033b563be25bce2e205e"],["./assets/fonts/robotomono-thin-webfont.woff2","c5a9bc82a4a756bb5da7f5f8592bb082"],["./assets/img/bg/backgroun2.png","23b9b879dbc32b9201648c51be495d16"],["./assets/img/bg/background.png","4b9052faeb57068cfb12d57fff7e5ede"],["./assets/img/bg/tileable.jpg","236c4426c7b9626731df4cffcd0ceb09"],["./assets/img/font/font.png","c87459ee6256717b0b017a44f426b132"],["./assets/img/font/outline_0.png","26d1c6f03b242bdb14445378b77e718a"],["./assets/img/font/regular_0.png","1f4b06ba51de955e03e60e5ece40b02b"],["./assets/img/icon/icon128.png","ef240587b8fc886fe543e4aec59ebc41"],["./assets/img/icon/icon168.png","37fa4531eb100711d438a5e1926518a8"],["./assets/img/icon/icon192.png","66803463fd4296a6cdf2fcfdfba30c6e"],["./assets/img/icon/icon256.png","6faf2b4f2190ada5bb49b2cbc0dbd24d"],["./assets/img/icon/icon32.png","07215b057aa64d500c2b659e7bb2b658"],["./assets/img/icon/icon512.png","e48ecf1831f2b1c6bd225b7156c2e4ad"],["./assets/img/icon/icon64.png","321c6518c9ed1781033f6133340bfc9e"],["./assets/img/icon/icon96.png","93d574c236112a1c30fceda800247a0c"],["./assets/img/ingame.json","b140e20a7d19810ffb316ce665266599"],["./assets/img/ingame.png","41dee41a50de08a50f6389dca33cca64"],["./assets/img/ui.json","772b6fa0e33275fa829bb7cf29cf55a9"],["./assets/img/ui.png","ea66fcc50f039a02c1613fb6c289714c"],["./assets/img/whiteSquare.png","0a38338cb3758359b78ab9f36f1696a5"],["./data/changelog.json","6c0228c11d93f87a9e83f74534178e1b"],["./data/config.json","cf7dbb85be25f2fe774738a49b49551c"],["./data/preload.json","82df1af36322351c4925128ca031e61c"],["./data/text.json","8ebeb9d8bcbb46895fe72c688a2d5c5b"],["./index.html","5b92a5a41a66d792cd0779806c958d66"],["./js/app.js","ab58cfbe4fbf0f9e4b142962ca1a72a6"],["./manifest.json","18b297e5c6280fc987f6fdaef1ead151"]];
+var precacheConfig = [["./assets/fonts/cousine-regular-webfont.ttf","45251aecab170d09eeb51facc68d7b94"],["./assets/fonts/cousine-regular-webfont.woff","8f2753a6d0880767d70e7578ddef4d19"],["./assets/fonts/cousine-regular-webfont.woff2","10f1d0b599acb63350e2406166878b47"],["./assets/fonts/roboto-medium-webfont.woff","7c0abcf67c732f31a0abc2733333dba2"],["./assets/fonts/roboto-medium-webfont.woff2","21a82010b67e225a39c31c6fb39f79a4"],["./assets/fonts/roboto-thin-webfont.woff","4b768a761cc65765f865a4eace3a8754"],["./assets/fonts/roboto-thin-webfont.woff2","2299785c916064c824aa8f87fcba856e"],["./assets/fonts/robotomono-thin-webfont.ttf","a0421704f93fee6f97bd7d4ab1e4655e"],["./assets/fonts/robotomono-thin-webfont.woff","78f7bd146a74033b563be25bce2e205e"],["./assets/fonts/robotomono-thin-webfont.woff2","c5a9bc82a4a756bb5da7f5f8592bb082"],["./assets/img/bg/backgroun2.png","7f27afe44beae06934b798601e22b80b"],["./assets/img/bg/background.png","4b9052faeb57068cfb12d57fff7e5ede"],["./assets/img/bg/tileable.jpg","236c4426c7b9626731df4cffcd0ceb09"],["./assets/img/font/font.png","c87459ee6256717b0b017a44f426b132"],["./assets/img/font/outline_0.png","26d1c6f03b242bdb14445378b77e718a"],["./assets/img/font/regular_0.png","1f4b06ba51de955e03e60e5ece40b02b"],["./assets/img/icon/icon128.png","13a28356df166411093984100e34517b"],["./assets/img/icon/icon168.png","046992ced6082f62187655c4d2a0971e"],["./assets/img/icon/icon192.png","0c4ec3819253d169cde06e20866523f2"],["./assets/img/icon/icon256.png","d9996c6a56b2e8d998c832704aaf04ea"],["./assets/img/icon/icon32.png","5686718477e6155681f9da0eefc0647d"],["./assets/img/icon/icon512.png","bda522b90666041d9d8736efffef05e4"],["./assets/img/icon/icon64.png","d2183b8a1e81a9d681b28972948696ca"],["./assets/img/icon/icon96.png","82cde9061a116577b4ab0a4477188715"],["./assets/img/ingame.json","3753622f695c83fcd34516b856438634"],["./assets/img/ingame.png","1a29d3d81a229bb1f673529bc2c5b59a"],["./assets/img/screen.png","141178f5b5ed9275068313fb4aeeface"],["./assets/img/smallicon/Element 424.png","ad83ac74b5bd035c01abe99b07ecb5b2"],["./assets/img/smallicon/smallIcon24.png","7fc1efe5fb99c65850a9c47d67eac497"],["./assets/img/smallicon/smallIcon36.png","cc610a61285fd955e942acc7708ce8c2"],["./assets/img/smallicon/smallIcon48.png","8b31c792633a1ad536cf8d3fc0c1f59c"],["./assets/img/smallicon/smallIcon72.png","de46f234a49261b22d39d0eb220cb879"],["./assets/img/smallicon/smallIcon96.png","111c480639a76dbe3c4d9e015137b661"],["./assets/img/ui.json","772b6fa0e33275fa829bb7cf29cf55a9"],["./assets/img/ui.png","ea66fcc50f039a02c1613fb6c289714c"],["./assets/img/whiteSquare.png","0a38338cb3758359b78ab9f36f1696a5"],["./data/changelog.json","09a236a15ff5d558186e9468190c813c"],["./data/config.json","ee655a669f9815d0b1d8a58c487a5cee"],["./data/preload.json","82df1af36322351c4925128ca031e61c"],["./data/text.json","8ebeb9d8bcbb46895fe72c688a2d5c5b"],["./index.html","4a62f555ff51f0e422207f43f57348c3"],["./manifest.json","eee2ef8df498bbcd0b3c7527f48a1149"]];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');
 
 
@@ -45,7 +45,7 @@ var ignoreUrlParametersMatching = [/^utm_/];
 
 
 
-var addDirectoryIndex = function (originalUrl, index) {
+var addDirectoryIndex = function(originalUrl, index) {
     var url = new URL(originalUrl);
     if (url.pathname.slice(-1) === '/') {
       url.pathname += index;
@@ -53,7 +53,7 @@ var addDirectoryIndex = function (originalUrl, index) {
     return url.toString();
   };
 
-var cleanResponse = function (originalResponse) {
+var cleanResponse = function(originalResponse) {
     // If this is not a redirected response, then we don't have to do anything.
     if (!originalResponse.redirected) {
       return Promise.resolve(originalResponse);
@@ -75,7 +75,7 @@ var cleanResponse = function (originalResponse) {
     });
   };
 
-var createCacheKey = function (originalUrl, paramName, paramValue,
+var createCacheKey = function(originalUrl, paramName, paramValue,
                            dontCacheBustUrlsMatching) {
     // Create a new URL object to avoid modifying originalUrl.
     var url = new URL(originalUrl);
@@ -91,7 +91,7 @@ var createCacheKey = function (originalUrl, paramName, paramValue,
     return url.toString();
   };
 
-var isPathWhitelisted = function (whitelist, absoluteUrlString) {
+var isPathWhitelisted = function(whitelist, absoluteUrlString) {
     // If the whitelist is empty, then consider all URLs to be whitelisted.
     if (whitelist.length === 0) {
       return true;
@@ -104,7 +104,7 @@ var isPathWhitelisted = function (whitelist, absoluteUrlString) {
     });
   };
 
-var stripIgnoredUrlParameters = function (originalUrl,
+var stripIgnoredUrlParameters = function(originalUrl,
     ignoreUrlParametersMatching) {
     var url = new URL(originalUrl);
     // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290
